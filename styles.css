@@ -586,3 +586,238 @@ body {
   .dashboard-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
   .view-header h2 { font-size: 1.2rem; }
 }
+
+
+/* AGGIUNGI QUESTE NUOVE REGOLE CSS */
+
+/* Fantallenatori nella sidebar */
+.fantallenatori-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fantallenatori-list li {
+  margin: 0;
+}
+
+.fantallenatori-list li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  color: var(--sidebar-text);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.15s;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+}
+
+.fantallenatori-list li a:hover {
+  background: var(--sidebar-hover);
+  color: #fff;
+  border-left-color: var(--accent2);
+}
+
+.fantallenatori-list li a.active {
+  background: var(--sidebar-hover);
+  color: #fff;
+  border-left-color: var(--accent1);
+}
+
+/* Modal migliorato per i fantallenatori */
+.modal-box {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+  border-radius: 24px;
+  padding: 0;
+  max-width: 480px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.35);
+  overflow: hidden;
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4a 100%);
+  padding: 24px 28px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-header .modal-nome {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.modal-header .modal-anni {
+  display: inline-block;
+  background: var(--accent1);
+  color: #fff;
+  border-radius: 40px;
+  padding: 5px 18px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+.modal-body {
+  padding: 24px 28px 32px;
+}
+
+.modal-section {
+  margin-bottom: 24px;
+}
+
+.modal-section-title {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-section-title span {
+  font-size: 1rem;
+}
+
+.modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.modal-tag {
+  background: #f0f2f8;
+  border-radius: 30px;
+  padding: 6px 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent2);
+  transition: all 0.2s;
+}
+
+.modal-tag.torneo {
+  background: linear-gradient(135deg, #fff8e1, #fff3e0);
+  color: #e65100;
+}
+
+.modal-tag.nazione {
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.modal-tag.stagione {
+  background: linear-gradient(135deg, #e3f2fd, #bbdef5);
+  color: #1565c0;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: rgba(255,255,255,0.2);
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.modal-close-btn:hover {
+  background: var(--accent1);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Avatar per fantallenatori */
+.modal-avatar {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, var(--accent1), #ff6b6b);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -35px auto 0;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 8px 20px rgba(230,57,70,0.3);
+}
+
+.modal-avatar span {
+  font-size: 2.5rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stat-label {
+  font-size: 0.65rem;
+  color: #888;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Rimuovi fanta-nav dalla topbar */
+.fanta-nav {
+  display: none;
+}
+
+/* Ottimizzazioni mobile */
+@media (max-width: 768px) {
+  .modal-box {
+    margin: 20px;
+    max-width: calc(100% - 40px);
+  }
+  
+  .modal-header .modal-nome {
+    font-size: 1.5rem;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .stats-grid {
+    gap: 8px;
+  }
+  
+  .stat-value {
+    font-size: 1.2rem;
+  }
+}

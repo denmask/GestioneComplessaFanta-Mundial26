@@ -18,21 +18,9 @@ async function loadData() {
 }
 
 function init() {
-  buildFantaNav();
   buildSidebar();
+  buildFantallenatoriSidebar();
   showHome();
-}
-
-function buildFantaNav() {
-  const nav = document.getElementById('fanta-nav');
-  nav.innerHTML = '';
-  DATA.fantallenatori.forEach(f => {
-    const btn = document.createElement('button');
-    btn.className = 'fanta-btn';
-    btn.textContent = f.nome;
-    btn.onclick = () => openFantaModal(f, btn);
-    nav.appendChild(btn);
-  });
 }
 
 function buildSidebar() {
@@ -49,6 +37,32 @@ function buildSidebar() {
       a.classList.add('active');
       activeSidebarLink = a;
       showCalendario(n.nome);
+      if (window.innerWidth <= 768) toggleSidebar(false);
+    };
+    li.appendChild(a);
+    ul.appendChild(li);
+  });
+}
+
+function buildFantallenatoriSidebar() {
+  const ul = document.getElementById('fantallenatori-list');
+  ul.innerHTML = '';
+  
+  // Ordina alfabeticamente
+  const sorted = [...DATA.fantallenatori].sort((a,b) => a.nome.localeCompare(b.nome));
+  
+  sorted.forEach(f => {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.innerHTML = '👤 ' + f.nome;
+    a.onclick = (e) => {
+      e.preventDefault();
+      // Rimuovi active da tutti i link
+      document.querySelectorAll('#fantallenatori-list li a').forEach(link => {
+        link.classList.remove('active');
+      });
+      a.classList.add('active');
+      openFantaModal(f, a);
       if (window.innerWidth <= 768) toggleSidebar(false);
     };
     li.appendChild(a);
@@ -269,7 +283,7 @@ function showClassificaReale() {
   const content = document.getElementById('classifica-reale-content');
   const classifica = DATA.classifica_reale;
 
-  let html = '<div class="classifica-table"><table><thead><tr><th>Pos</th><th>Squadra</th><th>Gr</th><th>Pti</th><th>G</th><th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th><th>DR</th></tr></thead><tbody>';
+  let html = '<div class="classifica-table">\n<table>\n<thead>\n<tr><th>Pos</th><th>Squadra</th><th>Gr</th><th>Pti</th><th>G</th><th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th><th>DR</th></tr>\n</thead>\n<tbody>';
   classifica.sort((a,b) => b.punti - a.punti).forEach((c, idx) => {
     const flag = c.iso ? flagImg(c.iso, 20) : '';
     html += `<tr>
@@ -281,7 +295,7 @@ function showClassificaReale() {
       <td>${c.gf}</td><td>${c.gs}</td><td>${c.dr}</td>
     </tr>`;
   });
-  html += '</tbody></table></div>';
+  html += '</tbody>\n</table>\n</div>';
   content.innerHTML = html;
 }
 
@@ -355,10 +369,12 @@ function showEliminazione() {
   });
 }
 
-function openFantaModal(f, btn) {
-  if (activeFantaBtn) activeFantaBtn.classList.remove('active');
-  btn.classList.add('active');
-  activeFantaBtn = btn;
+function openFantaModal(f, element) {
+  // Rimuovi active da tutti i bottoni fantallenatori nella sidebar
+  document.querySelectorAll('#fantallenatori-list li a').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  if (element) element.classList.add('active');
 
   const nazioniHtml = f.nazionali && f.nazionali.length
     ? f.nazionali.map(n => {
@@ -368,32 +384,61 @@ function openFantaModal(f, btn) {
       }).join('')
     : '<span style="color:#aaa;">—</span>';
 
-  const stagHtml = f.stagioni.map(s => '<span class="modal-tag">' + s + '</span>').join('');
+  const stagHtml = f.stagioni.map(s => '<span class="modal-tag stagione">' + s + '</span>').join('');
   const tornHtml = f.tornei.length
     ? f.tornei.map(t => '<span class="modal-tag torneo">🏆 ' + t + '</span>').join('')
     : '<span style="color:#aaa;">—</span>';
 
   const totalLabel = f.anni === 1 ? '1 stagione' : f.anni + ' stagioni';
+  
+  // Calcola statistiche aggiuntive
+  const numTornei = f.tornei.length;
+  const numNazionali = f.nazionali.length;
 
-  document.getElementById('modal-content').innerHTML =
-    '<div class="modal-nome">' + f.nome + '</div>' +
-    '<div class="modal-anni">⚽ ' + totalLabel + '</div>' +
-    '<div class="modal-section-title">Stagioni</div>' +
-    '<div class="modal-tags">' + stagHtml + '</div>' +
-    '<div class="modal-section-title">Tornei</div>' +
-    '<div class="modal-tags">' + tornHtml + '</div>' +
-    '<div class="modal-section-title">Nazionali</div>' +
-    '<div class="modal-tags">' + nazioniHtml + '</div>';
+  document.getElementById('modal-content').innerHTML = `
+    <div class="modal-header">
+      <div class="modal-nome">${f.nome}</div>
+      <div class="modal-anni">⚽ ${totalLabel}</div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-title"><span>📅</span> STAGIONI</div>
+        <div class="modal-tags">${stagHtml}</div>
+      </div>
+      
+      <div class="modal-section">
+        <div class="modal-section-title"><span>🏆</span> TORNEI SPECIALI</div>
+        <div class="modal-tags">${tornHtml}</div>
+      </div>
+      
+      <div class="modal-section">
+        <div class="modal-section-title"><span>🌍</span> NAZIONALI AFFIDATE</div>
+        <div class="modal-tags">${nazioniHtml}</div>
+      </div>
+      
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-value">${f.anni}</div>
+          <div class="stat-label">STAGIONI</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">${numTornei}</div>
+          <div class="stat-label">TORNEI</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">${numNazionali}</div>
+          <div class="stat-label">NAZIONALI</div>
+        </div>
+      </div>
+    </div>
+  `;
 
   document.getElementById('modal-overlay').classList.remove('hidden');
 }
 
 function closeModal() {
   document.getElementById('modal-overlay').classList.add('hidden');
-  if (activeFantaBtn) {
-    activeFantaBtn.classList.remove('active');
-    activeFantaBtn = null;
-  }
+  // Non rimuoviamo active qui perché potrebbe essere stato chiuso con click fuori
 }
 
 function toggleSidebar(force) {
@@ -415,11 +460,19 @@ function toggleSidebar(force) {
   }
 }
 
+// Chiudi modali cliccando fuori
 document.getElementById('modal-overlay').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
 document.getElementById('formazione-modal').addEventListener('click', function(e) {
   if (e.target === this) closeFormazioneModal();
+});
+
+// Chiudi sidebar su resize se diventa desktop
+window.addEventListener('resize', function() {
+  if (window.innerWidth > 768 && sidebarOpen) {
+    toggleSidebar(false);
+  }
 });
 
 loadData();

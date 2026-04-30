@@ -11,7 +11,7 @@
 
 <div id="modal-overlay" class="modal-overlay hidden">
   <div id="modal-box" class="modal-box">
-    <button id="modal-close" onclick="closeModal()">✕</button>
+    <button class="modal-close-btn" onclick="closeModal()">✕</button>
     <div id="modal-content"></div>
   </div>
 </div>
@@ -25,15 +25,21 @@
 
 <header class="top-bar">
   <div class="logo">🏆 FantaMundial <span>'26</span></div>
-  <nav class="fanta-nav" id="fanta-nav"></nav>
   <button class="hamburger" id="hamburger" onclick="toggleSidebar()">☰</button>
 </header>
 
 <div class="layout">
   <aside class="sidebar" id="sidebar">
-    <div class="sidebar-title">NAZIONALI</div>
+    <div class="sidebar-title">🌍 NAZIONALI</div>
     <ul id="sidebar-list"></ul>
+    
     <div class="sidebar-divider"></div>
+    
+    <div class="sidebar-title">👤 FANTALLENATORI</div>
+    <ul id="fantallenatori-list" class="fantallenatori-list"></ul>
+    
+    <div class="sidebar-divider"></div>
+    
     <div class="sidebar-menu-buttons">
       <button class="sidebar-menu-btn" onclick="showCalendarioReale()">📅 Calendario Reale</button>
       <button class="sidebar-menu-btn" onclick="showClassificaFanta()">🏆 Classifica Fanta</button>
