@@ -2,10 +2,10 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <title>FantaMundial '26 🏆</title>
 <link rel="stylesheet" href="styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,6 +13,13 @@
   <div id="modal-box" class="modal-box">
     <button id="modal-close" onclick="closeModal()">✕</button>
     <div id="modal-content"></div>
+  </div>
+</div>
+
+<div id="formazione-modal" class="modal-overlay hidden">
+  <div class="modal-box formazione-box">
+    <button class="modal-close-btn" onclick="closeFormazioneModal()">✕</button>
+    <div id="formazione-content"></div>
   </div>
 </div>
 
@@ -26,6 +33,14 @@
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-title">NAZIONALI</div>
     <ul id="sidebar-list"></ul>
+    <div class="sidebar-divider"></div>
+    <div class="sidebar-menu-buttons">
+      <button class="sidebar-menu-btn" onclick="showCalendarioReale()">📅 Calendario Reale</button>
+      <button class="sidebar-menu-btn" onclick="showClassificaFanta()">🏆 Classifica Fanta</button>
+      <button class="sidebar-menu-btn" onclick="showClassificaReale()">🌍 Classifica Reale</button>
+      <button class="sidebar-menu-btn" onclick="showCalendario(null)">📋 Calendario Fanta</button>
+      <button class="sidebar-menu-btn" onclick="showEliminazione()">🏆 Eliminazione</button>
+    </div>
   </aside>
 
   <main class="content" id="content">
@@ -42,7 +57,31 @@
         <h2 id="cal-title">📅 Calendario Completo</h2>
         <button class="btn-back" onclick="showHome()">← Torna alla Home</button>
       </div>
-      <div id="calendario-content"></div>
+      <div id="calendario-content" class="calendario-grid-3"></div>
+    </div>
+
+    <div id="calendario-reale-view" class="hidden">
+      <div class="view-header">
+        <h2>📅 Calendario Reale - Mondiale 2026</h2>
+        <button class="btn-back" onclick="showHome()">← Torna alla Home</button>
+      </div>
+      <div id="calendario-reale-content"></div>
+    </div>
+
+    <div id="classifica-fanta-view" class="hidden">
+      <div class="view-header">
+        <h2>🏆 Classifica FantaMundial</h2>
+        <button class="btn-back" onclick="showHome()">← Torna alla Home</button>
+      </div>
+      <div id="classifica-fanta-content"></div>
+    </div>
+
+    <div id="classifica-reale-view" class="hidden">
+      <div class="view-header">
+        <h2>🌍 Classifica Reale - Mondiale 2026</h2>
+        <button class="btn-back" onclick="showHome()">← Torna alla Home</button>
+      </div>
+      <div id="classifica-reale-content"></div>
     </div>
 
     <div id="eliminazione-view" class="hidden">

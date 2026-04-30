@@ -8,7 +8,7 @@ function flagImg(iso, size) {
   if (!iso) return '';
   const s = size || 24;
   const h = Math.round(s * 0.75);
-  return `<img src="https://flagcdn.com/${s}x${h}/${iso}.png" alt="${iso}" style="width:${s}px;height:${h}px;object-fit:cover;border-radius:3px;vertical-align:middle;display:inline-block;">`;
+  return `<img src="https://flagcdn.com/${s}x${h}/${iso}.png" alt="${iso}" style="width:${s}px;height:${h}px;object-fit:cover;border-radius:4px;vertical-align:middle;display:inline-block;">`;
 }
 
 async function loadData() {
@@ -33,19 +33,6 @@ function buildFantaNav() {
     btn.onclick = () => openFantaModal(f, btn);
     nav.appendChild(btn);
   });
-  const extraDiv = document.createElement('div');
-  extraDiv.className = 'nav-extra';
-  const btnCal = document.createElement('button');
-  btnCal.className = 'nav-extra-btn';
-  btnCal.textContent = '📅 Calendario';
-  btnCal.onclick = () => showCalendario(null);
-  const btnElim = document.createElement('button');
-  btnElim.className = 'nav-extra-btn';
-  btnElim.textContent = '🏆 Eliminazione';
-  btnElim.onclick = () => showEliminazione();
-  extraDiv.appendChild(btnCal);
-  extraDiv.appendChild(btnElim);
-  nav.appendChild(extraDiv);
 }
 
 function buildSidebar() {
@@ -86,14 +73,21 @@ function buildDashboard() {
 function showHome() {
   document.getElementById('home-view').classList.remove('hidden');
   document.getElementById('calendario-view').classList.add('hidden');
+  document.getElementById('calendario-reale-view').classList.add('hidden');
+  document.getElementById('classifica-fanta-view').classList.add('hidden');
+  document.getElementById('classifica-reale-view').classList.add('hidden');
   document.getElementById('eliminazione-view').classList.add('hidden');
   if (activeSidebarLink) activeSidebarLink.classList.remove('active');
   activeSidebarLink = null;
+  if (window.innerWidth <= 768) toggleSidebar(false);
   buildDashboard();
 }
 
 function showCalendario(nazioneFiltro) {
   document.getElementById('home-view').classList.add('hidden');
+  document.getElementById('calendario-reale-view').classList.add('hidden');
+  document.getElementById('classifica-fanta-view').classList.add('hidden');
+  document.getElementById('classifica-reale-view').classList.add('hidden');
   document.getElementById('eliminazione-view').classList.add('hidden');
   document.getElementById('calendario-view').classList.remove('hidden');
 
@@ -101,10 +95,10 @@ function showCalendario(nazioneFiltro) {
   if (nazioneFiltro) {
     const n = DATA.nazionali.find(x => x.nome === nazioneFiltro);
     const fimg = n ? flagImg(n.iso, 28) : '';
-    title.innerHTML = fimg + ' Calendario &mdash; ' + nazioneFiltro;
+    title.innerHTML = fimg + ' Calendario — ' + nazioneFiltro;
     currentNazione = nazioneFiltro;
   } else {
-    title.textContent = '📅 Calendario Completo';
+    title.innerHTML = '📋 Calendario FantaMundial';
     currentNazione = null;
   }
 
@@ -133,9 +127,6 @@ function showCalendario(nazioneFiltro) {
     label.style.background = g.color;
     block.appendChild(label);
 
-    const grid2 = document.createElement('div');
-    grid2.className = 'partite-grid';
-
     partite.forEach(p => {
       const casaN = DATA.nazionali.find(x => x.nome === p.casa);
       const trasfN = DATA.nazionali.find(x => x.nome === p.trasferta);
@@ -145,34 +136,170 @@ function showCalendario(nazioneFiltro) {
 
       const card = document.createElement('div');
       card.className = 'match-card';
+      card.onclick = () => openFormazioneModal(p);
       card.innerHTML =
         '<div class="match-teams"><span class="team-label">' + flagC + ' ' + p.casa + '</span><span class="vs">VS</span><span class="team-label">' + p.trasferta + ' ' + flagT + '</span></div>' +
         '<div class="match-score">' + score + '</div>' +
         '<div class="match-fanta"><span>👤 ' + p.fanta_casa + '</span><span>👤 ' + p.fanta_trasferta + '</span></div>';
-      grid2.appendChild(card);
+      block.appendChild(card);
     });
 
-    block.appendChild(grid2);
     content.appendChild(block);
   });
 
   if (content.innerHTML === '') {
-    content.innerHTML = '<p style="color:#888;font-weight:700;">Nessuna partita trovata per questa nazione.</p>';
+    content.innerHTML = '<p style="color:#888;font-weight:600;">Nessuna partita trovata per questa nazione.</p>';
   }
+}
+
+function openFormazioneModal(partita) {
+  const modal = document.getElementById('formazione-modal');
+  const content = document.getElementById('formazione-content');
+
+  const formCasa = partita.formazione_casa;
+  const formTrasf = partita.formazione_trasferta;
+
+  const casaGiocatori = formCasa.titolari.map(g => `<span class="giocatore">${g}</span>`).join('');
+  const trasfGiocatori = formTrasf.titolari.map(g => `<span class="giocatore">${g}</span>`).join('');
+
+  content.innerHTML = `
+    <div class="formazione-header">📋 Probabili Formazioni</div>
+    <div class="formazione-squadra">
+      <h4>${partita.casa} 🏠</h4>
+      <div class="formazione-modulo">Modulo: ${formCasa.modulo}</div>
+      <div class="formazione-giocatori">${casaGiocatori}</div>
+    </div>
+    <div class="formazione-squadra">
+      <h4>${partita.trasferta} ✈️</h4>
+      <div class="formazione-modulo">Modulo: ${formTrasf.modulo}</div>
+      <div class="formazione-giocatori">${trasfGiocatori}</div>
+    </div>
+  `;
+
+  modal.classList.remove('hidden');
+}
+
+function closeFormazioneModal() {
+  document.getElementById('formazione-modal').classList.add('hidden');
+}
+
+function showCalendarioReale() {
+  document.getElementById('home-view').classList.add('hidden');
+  document.getElementById('calendario-view').classList.add('hidden');
+  document.getElementById('classifica-fanta-view').classList.add('hidden');
+  document.getElementById('classifica-reale-view').classList.add('hidden');
+  document.getElementById('eliminazione-view').classList.add('hidden');
+  document.getElementById('calendario-reale-view').classList.remove('hidden');
+
+  const content = document.getElementById('calendario-reale-content');
+  content.innerHTML = '';
+
+  const giornate = ['giornata_1', 'giornata_2', 'giornata_3'];
+  const nomiGiornate = ['1ª Giornata', '2ª Giornata', '3ª Giornata'];
+
+  giornate.forEach((g, idx) => {
+    const partite = DATA.calendario_reale[g];
+    if (!partite || partite.length === 0) return;
+
+    const section = document.createElement('div');
+    section.className = 'reale-giornata';
+
+    const title = document.createElement('div');
+    title.className = 'reale-giornata-title';
+    title.textContent = nomiGiornate[idx];
+    section.appendChild(title);
+
+    partite.forEach(p => {
+      const flagCasa = p.iso_casa ? flagImg(p.iso_casa, 20) : '';
+      const flagTrasf = p.iso_trasferta ? flagImg(p.iso_trasferta, 20) : '';
+      const score = (p.gol_casa !== null && p.gol_trasferta !== null) ? `${p.gol_casa} - ${p.gol_trasferta}` : '? - ?';
+
+      const card = document.createElement('div');
+      card.className = 'reale-match-card';
+      card.innerHTML = `
+        <div class="reale-match-info">
+          <div class="reale-match-data">${p.data}</div>
+          <div class="reale-match-teams">${flagCasa} ${p.casa} vs ${p.trasferta} ${flagTrasf}</div>
+          <div class="reale-match-sede">📍 ${p.sede}</div>
+          <div class="reale-match-sede">Gruppo ${p.gruppo}</div>
+        </div>
+        <div class="reale-match-score">${score}</div>
+      `;
+      section.appendChild(card);
+    });
+
+    content.appendChild(section);
+  });
+}
+
+function showClassificaFanta() {
+  document.getElementById('home-view').classList.add('hidden');
+  document.getElementById('calendario-view').classList.add('hidden');
+  document.getElementById('calendario-reale-view').classList.add('hidden');
+  document.getElementById('classifica-reale-view').classList.add('hidden');
+  document.getElementById('eliminazione-view').classList.add('hidden');
+  document.getElementById('classifica-fanta-view').classList.remove('hidden');
+
+  const content = document.getElementById('classifica-fanta-content');
+  const classifica = DATA.classifica_fanta;
+
+  let html = '<div class="classifica-table"><table><thead><tr><th>Pos</th><th>Fantallenatore</th><th>Pti</th><th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th></tr></thead><tbody>';
+  classifica.forEach(c => {
+    const isTop = c.posizione === 1;
+    html += `<tr class="${isTop ? 'posizione-1' : ''}">
+      <td><strong>${c.posizione}</strong></td>
+      <td style="text-align:left; font-weight:600;">${c.fantallenatore}</td>
+      <td><strong>${c.punti}</strong></td>
+      <td>${c.vittorie}</td><td>${c.pareggi}</td><td>${c.sconfitte}</td>
+      <td>${c.gf}</td><td>${c.gs}</td>
+    </tr>`;
+  });
+  html += '</tbody></table></div>';
+  content.innerHTML = html;
+}
+
+function showClassificaReale() {
+  document.getElementById('home-view').classList.add('hidden');
+  document.getElementById('calendario-view').classList.add('hidden');
+  document.getElementById('calendario-reale-view').classList.add('hidden');
+  document.getElementById('classifica-fanta-view').classList.add('hidden');
+  document.getElementById('eliminazione-view').classList.add('hidden');
+  document.getElementById('classifica-reale-view').classList.remove('hidden');
+
+  const content = document.getElementById('classifica-reale-content');
+  const classifica = DATA.classifica_reale;
+
+  let html = '<div class="classifica-table"><table><thead><tr><th>Pos</th><th>Squadra</th><th>Gr</th><th>Pti</th><th>G</th><th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th><th>DR</th></tr></thead><tbody>';
+  classifica.sort((a,b) => b.punti - a.punti).forEach((c, idx) => {
+    const flag = c.iso ? flagImg(c.iso, 20) : '';
+    html += `<tr>
+      <td><strong>${idx+1}</strong></td>
+      <td style="text-align:left;">${flag} ${c.squadra}</td>
+      <td>${c.gruppo}</td>
+      <td><strong>${c.punti}</strong></td>
+      <td>${c.g}</td><td>${c.v}</td><td>${c.n}</td><td>${c.p}</td>
+      <td>${c.gf}</td><td>${c.gs}</td><td>${c.dr}</td>
+    </tr>`;
+  });
+  html += '</tbody></table></div>';
+  content.innerHTML = html;
 }
 
 function showEliminazione() {
   document.getElementById('home-view').classList.add('hidden');
   document.getElementById('calendario-view').classList.add('hidden');
+  document.getElementById('calendario-reale-view').classList.add('hidden');
+  document.getElementById('classifica-fanta-view').classList.add('hidden');
+  document.getElementById('classifica-reale-view').classList.add('hidden');
   document.getElementById('eliminazione-view').classList.remove('hidden');
 
   const content = document.getElementById('eliminazione-content');
   content.innerHTML = '';
 
   const fasi = [
-    { label: '⚔️ Sedicesimi di Finale', key: 'sedicesimi', color: '#607d8b' },
-    { label: '🥊 Ottavi di Finale', key: 'ottavi', color: '#9c27b0' },
-    { label: '⚡ Quarti di Finale', key: 'quarti', color: '#ff9800' },
+    { label: '⚔️ Sedicesimi', key: 'sedicesimi', color: '#607d8b' },
+    { label: '🥊 Ottavi', key: 'ottavi', color: '#9c27b0' },
+    { label: '⚡ Quarti', key: 'quarti', color: '#ff9800' },
     { label: '🔥 Semifinali', key: 'semifinali', color: '#e63946' },
     { label: '🥉 Terzo Posto', key: 'terzo_posto', color: '#795548' },
     { label: '🏆 FINALE', key: 'finale', color: '#0d0d0d' }
@@ -203,8 +330,8 @@ function showEliminazione() {
       if (p.casa) {
         const cn = DATA.nazionali.find(x => x.nome === p.casa);
         const tn = DATA.nazionali.find(x => x.nome === p.trasferta);
-        const fc = cn ? flagImg(cn.iso, 22) : '';
-        const ft = tn ? flagImg(tn.iso, 22) : '';
+        const fc = cn ? flagImg(cn.iso, 20) : '';
+        const ft = tn ? flagImg(tn.iso, 20) : '';
         const casaClass = p.vincitore === p.casa ? 'team-qualified' : (p.vincitore && p.vincitore !== p.casa ? 'team-eliminated' : '');
         const trasfClass = p.vincitore === p.trasferta ? 'team-qualified' : (p.vincitore && p.vincitore !== p.trasferta ? 'team-eliminated' : '');
         casaHtml = '<span class="' + casaClass + '">' + fc + ' ' + p.casa + '</span>';
@@ -239,23 +366,23 @@ function openFantaModal(f, btn) {
         const fi = nd ? flagImg(nd.iso, 20) : '';
         return '<span class="modal-tag nazione">' + fi + ' ' + n + '</span>';
       }).join('')
-    : '<span style="color:#aaa;font-size:0.8rem">—</span>';
+    : '<span style="color:#aaa;">—</span>';
 
   const stagHtml = f.stagioni.map(s => '<span class="modal-tag">' + s + '</span>').join('');
   const tornHtml = f.tornei.length
     ? f.tornei.map(t => '<span class="modal-tag torneo">🏆 ' + t + '</span>').join('')
-    : '<span style="color:#aaa;font-size:0.8rem">—</span>';
+    : '<span style="color:#aaa;">—</span>';
 
   const totalLabel = f.anni === 1 ? '1 stagione' : f.anni + ' stagioni';
 
   document.getElementById('modal-content').innerHTML =
     '<div class="modal-nome">' + f.nome + '</div>' +
-    '<div class="modal-anni">⚽ ' + totalLabel + ' nel Fanta</div>' +
+    '<div class="modal-anni">⚽ ' + totalLabel + '</div>' +
     '<div class="modal-section-title">Stagioni</div>' +
     '<div class="modal-tags">' + stagHtml + '</div>' +
-    '<div class="modal-section-title">Tornei Speciali</div>' +
+    '<div class="modal-section-title">Tornei</div>' +
     '<div class="modal-tags">' + tornHtml + '</div>' +
-    '<div class="modal-section-title">Nazionali Affidate</div>' +
+    '<div class="modal-section-title">Nazionali</div>' +
     '<div class="modal-tags">' + nazioniHtml + '</div>';
 
   document.getElementById('modal-overlay').classList.remove('hidden');
@@ -290,6 +417,9 @@ function toggleSidebar(force) {
 
 document.getElementById('modal-overlay').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
+});
+document.getElementById('formazione-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeFormazioneModal();
 });
 
 loadData();
