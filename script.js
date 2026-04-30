@@ -2,6 +2,14 @@ let DATA = null;
 let currentNazione = null;
 let activeFantaBtn = null;
 let activeSidebarLink = null;
+let sidebarOpen = false;
+
+function flagImg(iso, size) {
+  if (!iso) return '';
+  const s = size || 24;
+  const h = Math.round(s * 0.75);
+  return `<img src="https://flagcdn.com/${s}x${h}/${iso}.png" alt="${iso}" style="width:${s}px;height:${h}px;object-fit:cover;border-radius:3px;vertical-align:middle;display:inline-block;">`;
+}
 
 async function loadData() {
   const res = await fetch('data.json');
@@ -47,7 +55,7 @@ function buildSidebar() {
     const li = document.createElement('li');
     const a = document.createElement('a');
     a.href = '#';
-    a.innerHTML = `<span class="flag">${n.bandiera}</span><span class="nation-name">${n.nome}</span>`;
+    a.innerHTML = '<span class="flag">' + flagImg(n.iso, 28) + '</span><span class="nation-name">' + n.nome + '</span>';
     a.onclick = (e) => {
       e.preventDefault();
       if (activeSidebarLink) activeSidebarLink.classList.remove('active');
@@ -69,7 +77,7 @@ function buildDashboard() {
     const card = document.createElement('div');
     card.className = 'nation-card';
     card.style.borderTopColor = colors[i % colors.length];
-    card.innerHTML = `<div class="flag">${n.bandiera}</div><div class="nome">${n.nome}</div><div class="fanta">👤 ${n.fantallenatore}</div>`;
+    card.innerHTML = '<div class="flag-big">' + flagImg(n.iso, 56) + '</div><div class="nome">' + n.nome + '</div><div class="fanta">👤 ' + n.fantallenatore + '</div>';
     card.onclick = () => showCalendario(n.nome);
     grid.appendChild(card);
   });
@@ -92,8 +100,8 @@ function showCalendario(nazioneFiltro) {
   const title = document.getElementById('cal-title');
   if (nazioneFiltro) {
     const n = DATA.nazionali.find(x => x.nome === nazioneFiltro);
-    const flag = n ? n.bandiera : '';
-    title.textContent = `${flag} Calendario — ${nazioneFiltro}`;
+    const fimg = n ? flagImg(n.iso, 28) : '';
+    title.innerHTML = fimg + ' Calendario &mdash; ' + nazioneFiltro;
     currentNazione = nazioneFiltro;
   } else {
     title.textContent = '📅 Calendario Completo';
@@ -125,37 +133,26 @@ function showCalendario(nazioneFiltro) {
     label.style.background = g.color;
     block.appendChild(label);
 
-    const grid = document.createElement('div');
-    grid.className = 'partite-grid';
+    const grid2 = document.createElement('div');
+    grid2.className = 'partite-grid';
 
     partite.forEach(p => {
       const casaN = DATA.nazionali.find(x => x.nome === p.casa);
       const trasfN = DATA.nazionali.find(x => x.nome === p.trasferta);
-      const flagC = casaN ? casaN.bandiera : '';
-      const flagT = trasfN ? trasfN.bandiera : '';
-
-      const score = (p.gol_casa !== null && p.gol_trasferta !== null)
-        ? `${p.gol_casa} - ${p.gol_trasferta}`
-        : '? - ?';
+      const flagC = casaN ? flagImg(casaN.iso, 24) : '';
+      const flagT = trasfN ? flagImg(trasfN.iso, 24) : '';
+      const score = (p.gol_casa !== null && p.gol_trasferta !== null) ? p.gol_casa + ' - ' + p.gol_trasferta : '? - ?';
 
       const card = document.createElement('div');
       card.className = 'match-card';
-      card.innerHTML = `
-        <div class="match-teams">
-          <span>${flagC} ${p.casa}</span>
-          <span class="vs">VS</span>
-          <span>${p.trasferta} ${flagT}</span>
-        </div>
-        <div class="match-score">${score}</div>
-        <div class="match-fanta">
-          <span>👤 ${p.fanta_casa}</span>
-          <span>👤 ${p.fanta_trasferta}</span>
-        </div>
-      `;
-      grid.appendChild(card);
+      card.innerHTML =
+        '<div class="match-teams"><span class="team-label">' + flagC + ' ' + p.casa + '</span><span class="vs">VS</span><span class="team-label">' + p.trasferta + ' ' + flagT + '</span></div>' +
+        '<div class="match-score">' + score + '</div>' +
+        '<div class="match-fanta"><span>👤 ' + p.fanta_casa + '</span><span>👤 ' + p.fanta_trasferta + '</span></div>';
+      grid2.appendChild(card);
     });
 
-    block.appendChild(grid);
+    block.appendChild(grid2);
     content.appendChild(block);
   });
 
@@ -194,50 +191,39 @@ function showEliminazione() {
     label.style.background = fase.color;
     section.appendChild(label);
 
-    const grid = document.createElement('div');
-    grid.className = 'elim-grid';
+    const grid3 = document.createElement('div');
+    grid3.className = 'elim-grid';
 
-    partite.forEach((p, idx) => {
+    partite.forEach(p => {
       const card = document.createElement('div');
       card.className = 'elim-card' + (!p.casa ? ' tbd' : '');
 
-      let casaHtml = '';
-      let trasfHtml = '';
-      let scoreHtml = '';
+      let casaHtml, trasfHtml, scoreHtml;
 
       if (p.casa) {
         const cn = DATA.nazionali.find(x => x.nome === p.casa);
         const tn = DATA.nazionali.find(x => x.nome === p.trasferta);
-        const fc = cn ? cn.bandiera : '';
-        const ft = tn ? tn.bandiera : '';
-
+        const fc = cn ? flagImg(cn.iso, 22) : '';
+        const ft = tn ? flagImg(tn.iso, 22) : '';
         const casaClass = p.vincitore === p.casa ? 'team-qualified' : (p.vincitore && p.vincitore !== p.casa ? 'team-eliminated' : '');
         const trasfClass = p.vincitore === p.trasferta ? 'team-qualified' : (p.vincitore && p.vincitore !== p.trasferta ? 'team-eliminated' : '');
-
-        casaHtml = `<span class="${casaClass}">${fc} ${p.casa}</span>`;
-        trasfHtml = `<span class="${trasfClass}">${p.trasferta} ${ft}</span>`;
-        scoreHtml = (p.gol_casa !== null && p.gol_trasferta !== null)
-          ? `${p.gol_casa} - ${p.gol_trasferta}`
-          : '? - ?';
+        casaHtml = '<span class="' + casaClass + '">' + fc + ' ' + p.casa + '</span>';
+        trasfHtml = '<span class="' + trasfClass + '">' + p.trasferta + ' ' + ft + '</span>';
+        scoreHtml = (p.gol_casa !== null && p.gol_trasferta !== null) ? p.gol_casa + ' - ' + p.gol_trasferta : '? - ?';
       } else {
-        casaHtml = `<span class="team-tbd">TBD</span>`;
-        trasfHtml = `<span class="team-tbd">TBD</span>`;
+        casaHtml = '<span class="team-tbd">TBD</span>';
+        trasfHtml = '<span class="team-tbd">TBD</span>';
         scoreHtml = '- - -';
       }
 
-      card.innerHTML = `
-        <div class="elim-match">
-          ${casaHtml}
-          <span class="vs">VS</span>
-          ${trasfHtml}
-        </div>
-        <div class="elim-score">${scoreHtml}</div>
-      `;
+      card.innerHTML =
+        '<div class="elim-match">' + casaHtml + '<span class="vs">VS</span>' + trasfHtml + '</div>' +
+        '<div class="elim-score">' + scoreHtml + '</div>';
 
-      grid.appendChild(card);
+      grid3.appendChild(card);
     });
 
-    section.appendChild(grid);
+    section.appendChild(grid3);
     content.appendChild(section);
   });
 }
@@ -250,27 +236,27 @@ function openFantaModal(f, btn) {
   const nazioniHtml = f.nazionali && f.nazionali.length
     ? f.nazionali.map(n => {
         const nd = DATA.nazionali.find(x => x.nome === n);
-        return `<span class="modal-tag nazione">${nd ? nd.bandiera : ''} ${n}</span>`;
+        const fi = nd ? flagImg(nd.iso, 20) : '';
+        return '<span class="modal-tag nazione">' + fi + ' ' + n + '</span>';
       }).join('')
     : '<span style="color:#aaa;font-size:0.8rem">—</span>';
 
-  const stagHtml = f.stagioni.map(s => `<span class="modal-tag">${s}</span>`).join('');
+  const stagHtml = f.stagioni.map(s => '<span class="modal-tag">' + s + '</span>').join('');
   const tornHtml = f.tornei.length
-    ? f.tornei.map(t => `<span class="modal-tag torneo">🏆 ${t}</span>`).join('')
+    ? f.tornei.map(t => '<span class="modal-tag torneo">🏆 ' + t + '</span>').join('')
     : '<span style="color:#aaa;font-size:0.8rem">—</span>';
 
-  const totalLabel = f.anni === 1 ? '1 stagione' : `${f.anni} stagioni`;
+  const totalLabel = f.anni === 1 ? '1 stagione' : f.anni + ' stagioni';
 
-  document.getElementById('modal-content').innerHTML = `
-    <div class="modal-nome">${f.nome}</div>
-    <div class="modal-anni">⚽ ${totalLabel} nel Fanta</div>
-    <div class="modal-section-title">Stagioni</div>
-    <div class="modal-tags">${stagHtml}</div>
-    <div class="modal-section-title">Tornei Speciali</div>
-    <div class="modal-tags">${tornHtml}</div>
-    <div class="modal-section-title">Nazionali Affidate</div>
-    <div class="modal-tags">${nazioniHtml}</div>
-  `;
+  document.getElementById('modal-content').innerHTML =
+    '<div class="modal-nome">' + f.nome + '</div>' +
+    '<div class="modal-anni">⚽ ' + totalLabel + ' nel Fanta</div>' +
+    '<div class="modal-section-title">Stagioni</div>' +
+    '<div class="modal-tags">' + stagHtml + '</div>' +
+    '<div class="modal-section-title">Tornei Speciali</div>' +
+    '<div class="modal-tags">' + tornHtml + '</div>' +
+    '<div class="modal-section-title">Nazionali Affidate</div>' +
+    '<div class="modal-tags">' + nazioniHtml + '</div>';
 
   document.getElementById('modal-overlay').classList.remove('hidden');
 }
@@ -285,10 +271,20 @@ function closeModal() {
 
 function toggleSidebar(force) {
   const sidebar = document.getElementById('sidebar');
+  const hamburger = document.getElementById('hamburger');
   if (force === false) {
+    sidebarOpen = false;
     sidebar.classList.remove('open');
+    hamburger.textContent = '☰';
   } else {
-    sidebar.classList.toggle('open');
+    sidebarOpen = !sidebarOpen;
+    if (sidebarOpen) {
+      sidebar.classList.add('open');
+      hamburger.textContent = '✕';
+    } else {
+      sidebar.classList.remove('open');
+      hamburger.textContent = '☰';
+    }
   }
 }
 

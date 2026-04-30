@@ -134,7 +134,8 @@ body {
   border-left-color: var(--accent1);
 }
 
-.sidebar ul li a .flag { font-size: 1.2rem; }
+.sidebar ul li a .flag { display:flex; align-items:center; }
+.sidebar ul li a .flag img { border-radius: 3px; }
 .sidebar ul li a .nation-name { font-size: 0.78rem; }
 
 .content {
@@ -186,7 +187,8 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(0,0,0,0.13);
 }
-.nation-card .flag { font-size: 2.4rem; margin-bottom: 8px; }
+.nation-card .flag-big { margin-bottom: 10px; display:flex; justify-content:center; }
+.nation-card .flag-big img { width:56px; height:42px; object-fit:cover; border-radius:5px; box-shadow:0 2px 6px rgba(0,0,0,0.15); }
 .nation-card .nome { font-size: 0.9rem; font-weight: 800; color: var(--text); }
 .nation-card .fanta { font-size: 0.75rem; color: var(--text-light); margin-top: 4px; }
 

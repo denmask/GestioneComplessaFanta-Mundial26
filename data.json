@@ -90,18 +90,18 @@
     }
   ],
   "nazionali": [
-    { "id": "argentina", "nome": "ARGENTINA", "bandiera": "🇦🇷", "fantallenatore": "Mattia Beltrame" },
-    { "id": "belgio", "nome": "BELGIO", "bandiera": "🇧🇪", "fantallenatore": "Lorenzo Moro" },
-    { "id": "brasile", "nome": "BRASILE", "bandiera": "🇧🇷", "fantallenatore": "Federico Burello" },
-    { "id": "croazia", "nome": "CROAZIA", "bandiera": "🇭🇷", "fantallenatore": "Cristian Tartaro" },
-    { "id": "inghilterra", "nome": "INGHILTERRA", "bandiera": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "fantallenatore": "Denis Mascherin" },
-    { "id": "francia", "nome": "FRANCIA", "bandiera": "🇫🇷", "fantallenatore": "Kevin Sandri" },
-    { "id": "germania", "nome": "GERMANIA", "bandiera": "🇩🇪", "fantallenatore": "Nicola Marano / Alex Beltrame" },
-    { "id": "marocco", "nome": "MAROCCO", "bandiera": "🇲🇦", "fantallenatore": "Aidan Conti" },
-    { "id": "norvegia", "nome": "NORVEGIA", "bandiera": "🇳🇴", "fantallenatore": "Kevin DB" },
-    { "id": "olanda", "nome": "OLANDA", "bandiera": "🇳🇱", "fantallenatore": "Valentina Pozzi / Lorenzo Moro" },
-    { "id": "portogallo", "nome": "PORTOGALLO", "bandiera": "🇵🇹", "fantallenatore": "Alex Beltrame" },
-    { "id": "spagna", "nome": "SPAGNA", "bandiera": "🇪🇸", "fantallenatore": "Andrea Campagnolo" }
+    { "id": "argentina", "nome": "ARGENTINA", "iso": "ar", "fantallenatore": "Mattia Beltrame" },
+    { "id": "belgio", "nome": "BELGIO", "iso": "be", "fantallenatore": "Lorenzo Moro" },
+    { "id": "brasile", "nome": "BRASILE", "iso": "br", "fantallenatore": "Federico Burello" },
+    { "id": "croazia", "nome": "CROAZIA", "iso": "hr", "fantallenatore": "Cristian Tartaro" },
+    { "id": "inghilterra", "nome": "INGHILTERRA", "iso": "gb-eng", "fantallenatore": "Denis Mascherin" },
+    { "id": "francia", "nome": "FRANCIA", "iso": "fr", "fantallenatore": "Kevin Sandri" },
+    { "id": "germania", "nome": "GERMANIA", "iso": "de", "fantallenatore": "Nicola Marano / Alex Beltrame" },
+    { "id": "marocco", "nome": "MAROCCO", "iso": "ma", "fantallenatore": "Aidan Conti" },
+    { "id": "norvegia", "nome": "NORVEGIA", "iso": "no", "fantallenatore": "Kevin DB" },
+    { "id": "olanda", "nome": "OLANDA", "iso": "nl", "fantallenatore": "Valentina Pozzi / Lorenzo Moro" },
+    { "id": "portogallo", "nome": "PORTOGALLO", "iso": "pt", "fantallenatore": "Alex Beltrame" },
+    { "id": "spagna", "nome": "SPAGNA", "iso": "es", "fantallenatore": "Andrea Campagnolo" }
   ],
   "calendario_fanta": {
     "prima_giornata": [
