@@ -1,0 +1,178 @@
+{
+  "fantallenatori": [
+    {
+      "id": "alex",
+      "nome": "Alex Beltrame",
+      "anni": 2,
+      "stagioni": ["24/25", "25/26"],
+      "tornei": [],
+      "nazionali": ["GERMANIA", "PORTOGALLO"]
+    },
+    {
+      "id": "mattia",
+      "nome": "Mattia Beltrame",
+      "anni": 5,
+      "stagioni": ["21/22", "22/23", "23/24", "24/25", "25/26"],
+      "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"],
+      "nazionali": ["ARGENTINA"]
+    },
+    {
+      "id": "fede",
+      "nome": "Federico Burello",
+      "anni": 3,
+      "stagioni": ["23/24", "24/25", "25/26"],
+      "tornei": ["Euro 24", "Mondiale 26"],
+      "nazionali": ["BRASILE"]
+    },
+    {
+      "id": "aidan",
+      "nome": "Aidan Conti",
+      "anni": 1,
+      "stagioni": ["26/27"],
+      "tornei": ["Mondiale 26"],
+      "nazionali": ["MAROCCO"]
+    },
+    {
+      "id": "kdb",
+      "nome": "Kevin DB",
+      "anni": 3,
+      "stagioni": ["23/24", "24/25", "25/26"],
+      "tornei": ["Euro 24", "Mondiale 26"],
+      "nazionali": ["NORVEGIA"]
+    },
+    {
+      "id": "lorenzo",
+      "nome": "Lorenzo Moro",
+      "anni": 1,
+      "stagioni": ["25/26"],
+      "tornei": ["Mondiale 26"],
+      "nazionali": ["OLANDA", "BELGIO"]
+    },
+    {
+      "id": "denis",
+      "nome": "Denis Mascherin",
+      "anni": 5,
+      "stagioni": ["21/22", "22/23", "23/24", "24/25", "25/26"],
+      "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"],
+      "nazionali": ["INGHILTERRA"]
+    },
+    {
+      "id": "nicola",
+      "nome": "Nicola Marano",
+      "anni": 1,
+      "stagioni": ["25/26"],
+      "tornei": ["Mondiale 26"],
+      "nazionali": ["GERMANIA"]
+    },
+    {
+      "id": "valentina",
+      "nome": "Valentina Pozzi",
+      "anni": 1,
+      "stagioni": ["25/26"],
+      "tornei": ["Mondiale 26"],
+      "nazionali": ["OLANDA"]
+    },
+    {
+      "id": "kevins",
+      "nome": "Kevin Sandri",
+      "anni": 4,
+      "stagioni": ["21/22", "22/23", "23/24", "24/25"],
+      "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"],
+      "nazionali": ["FRANCIA"]
+    },
+    {
+      "id": "cristian",
+      "nome": "Cristian Tartaro",
+      "anni": 3,
+      "stagioni": ["23/24", "24/25", "25/26"],
+      "tornei": ["Euro 24", "Mondiale 26"],
+      "nazionali": ["CROAZIA"]
+    }
+  ],
+  "nazionali": [
+    { "id": "argentina", "nome": "ARGENTINA", "bandiera": "🇦🇷", "fantallenatore": "Mattia Beltrame" },
+    { "id": "belgio", "nome": "BELGIO", "bandiera": "🇧🇪", "fantallenatore": "Lorenzo Moro" },
+    { "id": "brasile", "nome": "BRASILE", "bandiera": "🇧🇷", "fantallenatore": "Federico Burello" },
+    { "id": "croazia", "nome": "CROAZIA", "bandiera": "🇭🇷", "fantallenatore": "Cristian Tartaro" },
+    { "id": "inghilterra", "nome": "INGHILTERRA", "bandiera": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "fantallenatore": "Denis Mascherin" },
+    { "id": "francia", "nome": "FRANCIA", "bandiera": "🇫🇷", "fantallenatore": "Kevin Sandri" },
+    { "id": "germania", "nome": "GERMANIA", "bandiera": "🇩🇪", "fantallenatore": "Nicola Marano / Alex Beltrame" },
+    { "id": "marocco", "nome": "MAROCCO", "bandiera": "🇲🇦", "fantallenatore": "Aidan Conti" },
+    { "id": "norvegia", "nome": "NORVEGIA", "bandiera": "🇳🇴", "fantallenatore": "Kevin DB" },
+    { "id": "olanda", "nome": "OLANDA", "bandiera": "🇳🇱", "fantallenatore": "Valentina Pozzi / Lorenzo Moro" },
+    { "id": "portogallo", "nome": "PORTOGALLO", "bandiera": "🇵🇹", "fantallenatore": "Alex Beltrame" },
+    { "id": "spagna", "nome": "SPAGNA", "bandiera": "🇪🇸", "fantallenatore": "Andrea Campagnolo" }
+  ],
+  "calendario_fanta": {
+    "prima_giornata": [
+      { "casa": "BRASILE", "trasferta": "MAROCCO", "fanta_casa": "Federico Burello", "fanta_trasferta": "Aidan Conti", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "GERMANIA", "trasferta": "PORTOGALLO", "fanta_casa": "Nicola Marano", "fanta_trasferta": "Alex Beltrame", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "OLANDA", "trasferta": "BELGIO", "fanta_casa": "Valentina Pozzi", "fanta_trasferta": "Lorenzo Moro", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "SPAGNA", "trasferta": "NORVEGIA", "fanta_casa": "Andrea Campagnolo", "fanta_trasferta": "Kevin DB", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "INGHILTERRA", "trasferta": "CROAZIA", "fanta_casa": "Denis Mascherin", "fanta_trasferta": "Cristian Tartaro", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "ARGENTINA", "trasferta": "FRANCIA", "fanta_casa": "Mattia Beltrame", "fanta_trasferta": "Kevin Sandri", "gol_casa": null, "gol_trasferta": null }
+    ],
+    "seconda_giornata": [
+      { "casa": "BRASILE", "trasferta": "SPAGNA", "fanta_casa": "Federico Burello", "fanta_trasferta": "Andrea Campagnolo", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "INGHILTERRA", "trasferta": "MAROCCO", "fanta_casa": "Denis Mascherin", "fanta_trasferta": "Aidan Conti", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "GERMANIA", "trasferta": "OLANDA", "fanta_casa": "Nicola Marano", "fanta_trasferta": "Valentina Pozzi", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "BELGIO", "trasferta": "CROAZIA", "fanta_casa": "Lorenzo Moro", "fanta_trasferta": "Cristian Tartaro", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "NORVEGIA", "trasferta": "ARGENTINA", "fanta_casa": "Kevin DB", "fanta_trasferta": "Mattia Beltrame", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "FRANCIA", "trasferta": "PORTOGALLO", "fanta_casa": "Kevin Sandri", "fanta_trasferta": "Alex Beltrame", "gol_casa": null, "gol_trasferta": null }
+    ],
+    "terza_giornata": [
+      { "casa": "GERMANIA", "trasferta": "BRASILE", "fanta_casa": "Nicola Marano", "fanta_trasferta": "Federico Burello", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "MAROCCO", "trasferta": "CROAZIA", "fanta_casa": "Aidan Conti", "fanta_trasferta": "Cristian Tartaro", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "ARGENTINA", "trasferta": "INGHILTERRA", "fanta_casa": "Mattia Beltrame", "fanta_trasferta": "Denis Mascherin", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "OLANDA", "trasferta": "SPAGNA", "fanta_casa": "Valentina Pozzi", "fanta_trasferta": "Andrea Campagnolo", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "NORVEGIA", "trasferta": "FRANCIA", "fanta_casa": "Kevin DB", "fanta_trasferta": "Kevin Sandri", "gol_casa": null, "gol_trasferta": null },
+      { "casa": "PORTOGALLO", "trasferta": "BELGIO", "fanta_casa": "Alex Beltrame", "fanta_trasferta": "Lorenzo Moro", "gol_casa": null, "gol_trasferta": null }
+    ]
+  },
+  "fase_eliminazione": {
+    "sedicesimi": [
+      { "id": "S1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S2", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S3", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S4", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S5", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S6", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S7", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S8", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S9", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S10", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S11", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S12", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S13", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S14", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S15", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S16", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+    ],
+    "ottavi": [
+      { "id": "O1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "O2", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "O3", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "O4", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "O5", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "O6", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "O7", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "O8", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+    ],
+    "quarti": [
+      { "id": "Q1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "Q2", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "Q3", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "Q4", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+    ],
+    "semifinali": [
+      { "id": "SF1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "SF2", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+    ],
+    "finale": [
+      { "id": "F1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+    ],
+    "terzo_posto": [
+      { "id": "T1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+    ]
+  }
+}

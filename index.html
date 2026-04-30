@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FantaMundial '26 🏆</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="modal-overlay" class="modal-overlay hidden">
+  <div id="modal-box" class="modal-box">
+    <button id="modal-close" onclick="closeModal()">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<header class="top-bar">
+  <div class="logo">🏆 FantaMundial <span>'26</span></div>
+  <nav class="fanta-nav" id="fanta-nav"></nav>
+  <button class="hamburger" id="hamburger" onclick="toggleSidebar()">☰</button>
+</header>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-title">NAZIONALI</div>
+    <ul id="sidebar-list"></ul>
+  </aside>
+
+  <main class="content" id="content">
+    <div id="home-view">
+      <div class="hero-card">
+        <div class="hero-title">🌍 FantaMundial 2026</div>
+        <div class="hero-sub">Il torneo dei fantallenatori — Segui ogni partita, ogni turno, ogni gloria!</div>
+      </div>
+      <div class="dashboard-grid" id="dashboard-grid"></div>
+    </div>
+
+    <div id="calendario-view" class="hidden">
+      <div class="view-header">
+        <h2 id="cal-title">📅 Calendario Completo</h2>
+        <button class="btn-back" onclick="showHome()">← Torna alla Home</button>
+      </div>
+      <div id="calendario-content"></div>
+    </div>
+
+    <div id="eliminazione-view" class="hidden">
+      <div class="view-header">
+        <h2>🏆 Fase ad Eliminazione</h2>
+        <button class="btn-back" onclick="showHome()">← Torna alla Home</button>
+      </div>
+      <div id="eliminazione-content"></div>
+    </div>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
