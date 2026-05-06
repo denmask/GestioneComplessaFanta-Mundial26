@@ -475,8 +475,6 @@
             "Vinicius Junior",
             "Rodrygo"
           ]
-          
- 
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
@@ -491,8 +489,7 @@
             "Ezzalzouli",
             "Brahim Diaz",
             "El Khannouss",
-            "El Kaabi" 
-
+            "El Kaabi"
           ]
         }
       },
@@ -518,7 +515,6 @@
             "Havertz",
             "Wirtz"
           ]
-          
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
@@ -557,8 +553,7 @@
             "Malen",
             "Depay",
             "Gakpo",
-            "Lang" 
-
+            "Lang"
           ]
         },
         "formazione_trasferta": {
@@ -574,8 +569,7 @@
             "Doku",
             "De bruyne",
             "De Ketelaere",
-            "Lukebakio" 
-
+            "Lukebakio"
           ]
         }
       },
@@ -599,8 +593,7 @@
             "Gavi",
             "Yamal",
             "Olmo",
-            "Oyarzabal" 
-
+            "Oyarzabal"
           ]
         },
         "formazione_trasferta": {
@@ -617,7 +610,6 @@
             "Nusa",
             "Haaland",
             "Sorloth"
-
           ]
         }
       },
@@ -642,23 +634,22 @@
             "Foden",
             "Rashford",
             "Kane"
-
           ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "livakovic",
-            "juranovic",
-            "lovren",
-            "gvardiol",
-            "sosa",
-            "brozovic",
-            "modric",
-            "kovacic",
-            "pasalic",
-            "kramaric",
-            "perisic"
+            "Livakovic",
+            "Pongracic",
+            "Stanisic",
+            "Gvardiol",
+            "Modric",
+            "Baturina",
+            "Pasalic",
+            "Vlasic",
+            "Brozovic",
+            "Kramaric",
+            "Budimir"
           ]
         }
       },
@@ -682,9 +673,7 @@
             "Enzo Fernandez",
             "Lautaro Martinez",
             "Julian Alvarez",
-            "Messi" 
-
-          ],
+            "Messi"
           ]
         },
         "formazione_trasferta": {
@@ -716,36 +705,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "ederson",
-            "militao",
-            "silva",
-            "alves",
-            "danilo",
-            "casemiro",
-            "lucas",
-            "paqueta",
-            "raphinha",
-            "vinicius",
-            "rodrygo"
-          ],
-          "panchina": []
+            "Ederson",
+            "Bremer",
+            "Ibanez",
+            "Marquinhos",
+            "Danilo",
+            "Casemiro",
+            "Martinelli G.",
+            "Fabinho",
+            "Raphinha",
+            "Vinicius Junior",
+            "Rodrygo"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "unai simon",
-            "carvajal",
-            "laporte",
-            "le normand",
-            "grimaldo",
-            "pedri",
-            "rodri",
-            "gavi",
-            "yamal",
-            "morata",
-            "olmo"
-          ],
-          "panchina": []
+            "Unai simon",
+            "Cubarsi",
+            "Laporte",
+            "Cucurella",
+            "Merino",
+            "Zubimendi",
+            "Rodri",
+            "Gavi",
+            "Yamal",
+            "Olmo",
+            "Oyarzabal"
+          ]
         }
       },
       {
@@ -758,36 +745,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "pickford",
-            "alexander-arnold",
-            "stones",
-            "maguire",
-            "trippier",
-            "bellingham",
-            "rice",
-            "saka",
-            "foden",
-            "rashford",
-            "kane"
-          ],
-          "panchina": []
+            "Pickford",
+            "Alexander-arnold",
+            "Stones",
+            "Maguire",
+            "O'Reilly",
+            "Bellingham",
+            "Rice",
+            "Saka",
+            "Foden",
+            "Rashford",
+            "Kane"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "bounou",
-            "hakimi",
-            "aguerd",
-            "saiss",
-            "masina",
-            "amrabat",
-            "ounahi",
-            "benoun",
-            "ziyech",
-            "en-nesyri",
-            "boufal"
-          ],
-          "panchina": []
+            "Bounou",
+            "Hakimi",
+            "Aguerd",
+            "Mazraoui",
+            "Masina",
+            "El Aynaoui",
+            "Saibari",
+            "Ezzalzouli",
+            "Brahim Diaz",
+            "El Khannouss",
+            "El Kaabi"
+          ]
         }
       },
       {
@@ -800,36 +785,34 @@
         "formazione_casa": {
           "modulo": "4-2-3-1",
           "titolari": [
-            "neuer",
-            "kimmich",
-            "rudiger",
-            "tah",
-            "raum",
-            "kroos",
-            "gundogan",
-            "sane",
-            "muller",
-            "musiala",
-            "havertz"
-          ],
-          "panchina": []
+            "Neuer",
+            "Kimmich",
+            "Rudiger",
+            "Tah",
+            "Anton",
+            "Kimmich",
+            "Goretka",
+            "Sane",
+            "Musiala",
+            "Havertz",
+            "Wirtz"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "flekken",
-            "dumfries",
-            "de vrij",
-            "van dijk",
-            "blind",
+            "Verbruggen",
+            "De Ligt",
+            "Dumfries",
+            "Van dijk",
+            "Reijnders",
             "de jong",
-            "koopmeiners",
-            "schouten",
-            "simons",
-            "gakpo",
-            "depay"
-          ],
-          "panchina": []
+            "Simons",
+            "Malen",
+            "Depay",
+            "Gakpo",
+            "Lang"
+          ]
         }
       },
       {
@@ -842,36 +825,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "casteels",
-            "castagne",
-            "vertonghen",
-            "faes",
-            "theate",
-            "onana",
-            "tielemans",
-            "doku",
-            "de bruyne",
-            "lukaku",
-            "mertens"
-          ],
-          "panchina": []
+            "Lammens",
+            "Castagne",
+            "De Cuyper",
+            "De Winter",
+            "Witsel",
+            "Saelemakers",
+            "Tielemans",
+            "Doku",
+            "De bruyne",
+            "De Ketelaere",
+            "Lukebakio"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "livakovic",
-            "juranovic",
-            "lovren",
-            "gvardiol",
-            "sosa",
-            "brozovic",
-            "modric",
-            "kovacic",
-            "pasalic",
-            "kramaric",
-            "perisic"
-          ],
-          "panchina": []
+            "Livakovic",
+            "Pongracic",
+            "Stanisic",
+            "Gvardiol",
+            "Modric",
+            "Baturina",
+            "Pasalic",
+            "Vlasic",
+            "Brozovic",
+            "Kramaric",
+            "Budimir"
+          ]
         }
       },
       {
@@ -884,36 +865,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "nyland",
-            "pedersen",
-            "hanche-olsen",
-            "strandberg",
-            "meling",
-            "odegaard",
-            "berge",
-            "normann",
-            "elyounoussi",
-            "haaland",
-            "sorloth"
-          ],
-          "panchina": []
+            "Nyland",
+            "Ayer",
+            "Heggem",
+            "Wolfe",
+            "Ryerson",
+            "Thorstvedt",
+            "Berg",
+            "Berge",
+            "Nusa",
+            "Haaland",
+            "Sorloth"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "martinez",
-            "molina",
-            "romero",
-            "otamendi",
-            "acuna",
-            "de paul",
-            "mac allister",
-            "enzo",
-            "di maria",
-            "lautaro",
-            "messi"
-          ],
-          "panchina": []
+            "Musso",
+            "Molina",
+            "Martinez Quarta",
+            "Otamendi",
+            "Tagliafico",
+            "De paul",
+            "Mac allister",
+            "Enzo Fernandez",
+            "Lautaro Martinez",
+            "Julian Alvarez",
+            "Messi"
+          ]
         }
       },
       {
@@ -926,36 +905,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "maignan",
-            "pavard",
-            "varane",
-            "upamecano",
-            "theo",
-            "tchouameni",
-            "camavinga",
-            "griezmann",
-            "dembele",
-            "mbappe",
-            "giroud"
-          ],
-          "panchina": []
+            "Maignan",
+            "Kounde",
+            "saliba",
+            "Upamecano",
+            "Digne",
+            "Kantè",
+            "Olise",
+            "Cherki",
+            "Dembele",
+            "Mbappe",
+            "Douè"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "diogo costa",
-            "cancelo",
-            "pepe",
-            "dias",
-            "mendes",
-            "vitinha",
-            "neves",
-            "palhinha",
-            "b.silva",
-            "ronaldo",
-            "leao"
-          ],
-          "panchina": []
+            "Diogo Costa",
+            "Ruben Dias",
+            "Goncalo Inacio",
+            "Diogo Dalot",
+            "Joao Neves",
+            "Vitinha",
+            "Ruben Neves",
+            "Bernardo Silva",
+            "Ronaldo C.",
+            "Leao",
+            "Joao Felix"
+          ]
         }
       }
     ],
@@ -970,36 +947,34 @@
         "formazione_casa": {
           "modulo": "4-2-3-1",
           "titolari": [
-            "neuer",
-            "kimmich",
-            "rudiger",
-            "tah",
-            "raum",
-            "kroos",
-            "gundogan",
-            "sane",
-            "muller",
-            "musiala",
-            "havertz"
-          ],
-          "panchina": []
+            "Neuer",
+            "Kimmich",
+            "Rudiger",
+            "Tah",
+            "Anton",
+            "Kimmich",
+            "Goretka",
+            "Sane",
+            "Musiala",
+            "Havertz",
+            "Wirtz"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "ederson",
-            "militao",
-            "silva",
-            "alves",
-            "danilo",
-            "casemiro",
-            "lucas",
-            "paqueta",
-            "raphinha",
-            "vinicius",
-            "rodrygo"
-          ],
-          "panchina": []
+            "Ederson",
+            "Bremer",
+            "Ibanez",
+            "Marquinhos",
+            "Danilo",
+            "Casemiro",
+            "Martinelli G.",
+            "Fabinho",
+            "Raphinha",
+            "Vinicius Junior",
+            "Rodrygo"
+          ]
         }
       },
       {
@@ -1012,36 +987,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "bounou",
-            "hakimi",
-            "aguerd",
-            "saiss",
-            "masina",
-            "amrabat",
-            "ounahi",
-            "benoun",
-            "ziyech",
-            "en-nesyri",
-            "boufal"
-          ],
-          "panchina": []
+            "Bounou",
+            "Hakimi",
+            "Aguerd",
+            "Mazraoui",
+            "Masina",
+            "El Aynaoui",
+            "Saibari",
+            "Ezzalzouli",
+            "Brahim Diaz",
+            "El Khannouss",
+            "El Kaabi"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "livakovic",
-            "juranovic",
-            "lovren",
-            "gvardiol",
-            "sosa",
-            "brozovic",
-            "modric",
-            "kovacic",
-            "pasalic",
-            "kramaric",
-            "perisic"
-          ],
-          "panchina": []
+            "Livakovic",
+            "Pongracic",
+            "Stanisic",
+            "Gvardiol",
+            "Modric",
+            "Baturina",
+            "Pasalic",
+            "Vlasic",
+            "Brozovic",
+            "Kramaric",
+            "Budimir"
+          ]
         }
       },
       {
@@ -1054,36 +1027,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "martinez",
-            "molina",
-            "romero",
-            "otamendi",
-            "acuna",
-            "de paul",
-            "mac allister",
-            "enzo",
-            "di maria",
-            "lautaro",
-            "messi"
-          ],
-          "panchina": []
+            "Musso",
+            "Molina",
+            "Martinez Quarta",
+            "Otamendi",
+            "Tagliafico",
+            "De paul",
+            "Mac allister",
+            "Enzo Fernandez",
+            "Lautaro Martinez",
+            "Julian Alvarez",
+            "Messi"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "pickford",
-            "alexander-arnold",
-            "stones",
-            "maguire",
-            "trippier",
-            "bellingham",
-            "rice",
-            "saka",
-            "foden",
-            "rashford",
-            "kane"
-          ],
-          "panchina": []
+            "Pickford",
+            "Alexander-arnold",
+            "Stones",
+            "Maguire",
+            "O'Reilly",
+            "Bellingham",
+            "Rice",
+            "Saka",
+            "Foden",
+            "Rashford",
+            "Kane"
+          ]
         }
       },
       {
@@ -1096,36 +1067,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "flekken",
-            "dumfries",
-            "de vrij",
-            "van dijk",
-            "blind",
+            "Verbruggen",
+            "De Ligt",
+            "Dumfries",
+            "Van dijk",
+            "Reijnders",
             "de jong",
-            "koopmeiners",
-            "schouten",
-            "simons",
-            "gakpo",
-            "depay"
-          ],
-          "panchina": []
+            "Simons",
+            "Malen",
+            "Depay",
+            "Gakpo",
+            "Lang"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "unai simon",
-            "carvajal",
-            "laporte",
-            "le normand",
-            "grimaldo",
-            "pedri",
-            "rodri",
-            "gavi",
-            "yamal",
-            "morata",
-            "olmo"
-          ],
-          "panchina": []
+            "Unai simon",
+            "Cubarsi",
+            "Laporte",
+            "Cucurella",
+            "Merino",
+            "Zubimendi",
+            "Rodri",
+            "Gavi",
+            "Yamal",
+            "Olmo",
+            "Oyarzabal"
+          ]
         }
       },
       {
@@ -1138,36 +1107,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "nyland",
-            "pedersen",
-            "hanche-olsen",
-            "strandberg",
-            "meling",
-            "odegaard",
-            "berge",
-            "normann",
-            "elyounoussi",
-            "haaland",
-            "sorloth"
-          ],
-          "panchina": []
+            "Nyland",
+            "Ayer",
+            "Heggem",
+            "Wolfe",
+            "Ryerson",
+            "Thorstvedt",
+            "Berg",
+            "Berge",
+            "Nusa",
+            "Haaland",
+            "Sorloth"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "maignan",
-            "pavard",
-            "varane",
-            "upamecano",
-            "theo",
-            "tchouameni",
-            "camavinga",
-            "griezmann",
-            "dembele",
-            "mbappe",
-            "giroud"
-          ],
-          "panchina": []
+            "Maignan",
+            "Kounde",
+            "saliba",
+            "Upamecano",
+            "Digne",
+            "Kantè",
+            "Olise",
+            "Cherki",
+            "Dembele",
+            "Mbappe",
+            "Douè"
+          ]
         }
       },
       {
@@ -1180,36 +1147,34 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "diogo costa",
-            "cancelo",
-            "pepe",
-            "dias",
-            "mendes",
-            "vitinha",
-            "neves",
-            "palhinha",
-            "b.silva",
-            "ronaldo",
-            "leao"
-          ],
-          "panchina": []
+            "Diogo Costa",
+            "Ruben Dias",
+            "Goncalo Inacio",
+            "Diogo Dalot",
+            "Joao Neves",
+            "Vitinha",
+            "Ruben Neves",
+            "Bernardo Silva",
+            "Ronaldo C.",
+            "Leao",
+            "Joao Felix"
+          ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "casteels",
-            "castagne",
-            "vertonghen",
-            "faes",
-            "theate",
-            "onana",
-            "tielemans",
-            "doku",
-            "de bruyne",
-            "lukaku",
-            "mertens"
-          ],
-          "panchina": []
+            "Lammens",
+            "Castagne",
+            "De Cuyper",
+            "De Winter",
+            "Witsel",
+            "Saelemakers",
+            "Tielemans",
+            "Doku",
+            "De bruyne",
+            "De Ketelaere",
+            "Lukebakio"
+          ]
         }
       }
     ]
