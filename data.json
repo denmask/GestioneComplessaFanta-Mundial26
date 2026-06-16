@@ -2,56 +2,6 @@
   "classifica_fanta": [
     {
       "posizione": 1,
-      "fantallenatore": "Mattia Beltrame",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 0,
-      "gs": 0
-    },
-    {
-      "posizione": 2,
-      "fantallenatore": "Federico Burello",
-      "punti": 1,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 0,
-      "gf": 1,
-      "gs": 1
-    },
-    {
-      "posizione": 3,
-      "fantallenatore": "Denis Mascherin",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 0,
-      "gs": 0
-    },
-    {
-      "posizione": 4,
-      "fantallenatore": "Kevin Sandri",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 0,
-      "gs": 0
-    },
-    {
-      "posizione": 5,
-      "fantallenatore": "Alex Beltrame",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 1,
-      "gf": 0,
-      "gs": 7
-    },
-    {
-      "posizione": 6,
       "fantallenatore": "Nicola Marano",
       "punti": 3,
       "vittorie": 1,
@@ -61,7 +11,7 @@
       "gs": 0
     },
     {
-      "posizione": 7,
+      "posizione": 2,
       "fantallenatore": "Valentina Pozzi",
       "punti": 3,
       "vittorie": 1,
@@ -69,6 +19,57 @@
       "sconfitte": 0,
       "gf": 2,
       "gs": 1
+    },
+    {
+      "posizione": 3,
+      "fantallenatore": "Federico Burello",
+      "punti": 1,
+      "vittorie": 0,
+      "pareggi": 1,
+      "sconfitte": 0,
+      "gf": 1,
+      "gs": 1
+    },
+    {
+      "posizione": 4,
+      "fantallenatore": "Aidan Conti",
+      "punti": 1,
+      "vittorie": 0,
+      "pareggi": 1,
+      "sconfitte": 0,
+      "gf": 1,
+      "gs": 1
+    },
+    {
+      "posizione": 5,
+      "fantallenatore": "Mattia Beltrame",
+      "punti": 0,
+      "vittorie": 0,
+      "pareggi": 0,
+      "sconfitte": 0,
+      "gf": 0,
+      "gs": 0
+    },
+    {
+      "posizione": 6,
+      "fantallenatore": "Kevin Sandri",
+      "punti": 0,
+      "vittorie": 0,
+      "pareggi": 0,
+      "sconfitte": 0,
+      "gf": 0,
+      "gs": 0
+    },
+    
+    {
+      "posizione": 7,
+      "fantallenatore": "Denis Mascherin",
+      "punti": 0,
+      "vittorie": 0,
+      "pareggi": 0,
+      "sconfitte": 0,
+      "gf": 0,
+      "gs": 0
     },
     {
       "posizione": 8,
@@ -82,16 +83,6 @@
     },
     {
       "posizione": 9,
-      "fantallenatore": "Lorenzo Moro",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 1,
-      "gf": 1,
-      "gs": 2
-    },
-    {
-      "posizione": 10,
       "fantallenatore": "Kevin DB",
       "punti": 0,
       "vittorie": 0,
@@ -101,17 +92,7 @@
       "gs": 0
     },
     {
-      "posizione": 11,
-      "fantallenatore": "Aidan Conti",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 0,
-      "gf": 1,
-      "gs": 1
-    },
-    {
-      "posizione": 12,
+      "posizione": 10,
       "fantallenatore": "Andrea Campagnolo",
       "punti": 0,
       "vittorie": 0,
@@ -119,7 +100,29 @@
       "sconfitte": 0,
       "gf": 0,
       "gs": 0
+    },
+     
+    {
+      "posizione": 11,
+      "fantallenatore": "Lorenzo Moro",
+      "punti": 0,
+      "vittorie": 0,
+      "pareggi": 0,
+      "sconfitte": 1,
+      "gf": 1,
+      "gs": 2
+    },
+    {
+      "posizione": 12,
+      "fantallenatore": "Alex Beltrame",
+      "punti": 0,
+      "vittorie": 0,
+      "pareggi": 0,
+      "sconfitte": 1,
+      "gf": 0,
+      "gs": 7
     }
+     
   ],
   "classifica_reale": [
     {
@@ -538,8 +541,8 @@
         "trasferta": "BELGIO",
         "fanta_casa": "Valentina Pozzi",
         "fanta_trasferta": "Lorenzo Moro",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 1,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
