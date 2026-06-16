@@ -60,7 +60,6 @@
       "gf": 0,
       "gs": 0
     },
-    
     {
       "posizione": 7,
       "fantallenatore": "Denis Mascherin",
@@ -101,7 +100,6 @@
       "gf": 0,
       "gs": 0
     },
-     
     {
       "posizione": 11,
       "fantallenatore": "Lorenzo Moro",
@@ -122,7 +120,6 @@
       "gf": 0,
       "gs": 7
     }
-     
   ],
   "classifica_reale": [
     {
@@ -287,97 +284,196 @@
       "id": "alex",
       "nome": "Alex Beltrame",
       "anni": 2,
-      "stagioni": ["24/25", "25/26"],
+      "stagioni": [
+        "24/25",
+        "25/26"
+      ],
       "tornei": [],
-      "nazionali": ["PORTOGALLO"]
+      "nazionali": [
+        "PORTOGALLO"
+      ]
     },
     {
       "id": "mattia",
       "nome": "Mattia Beltrame",
       "anni": 5,
-      "stagioni": ["21/22", "22/23", "23/24", "24/25", "25/26"],
-      "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"],
-      "nazionali": ["ARGENTINA"]
+      "stagioni": [
+        "21/22",
+        "22/23",
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 22",
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "ARGENTINA"
+      ]
     },
     {
       "id": "fede",
       "nome": "Federico Burello",
       "anni": 3,
-      "stagioni": ["23/24", "24/25", "25/26"],
-      "tornei": ["Euro 24", "Mondiale 26"],
-      "nazionali": ["BRASILE"]
+      "stagioni": [
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "BRASILE"
+      ]
     },
     {
       "id": "aidan",
       "nome": "Aidan Conti",
       "anni": 1,
-      "stagioni": ["26/27"],
-      "tornei": ["Mondiale 26"],
-      "nazionali": ["MAROCCO"]
+      "stagioni": [
+        "26/27"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "MAROCCO"
+      ]
     },
     {
       "id": "kdb",
       "nome": "Kevin DB",
       "anni": 3,
-      "stagioni": ["23/24", "24/25", "25/26"],
-      "tornei": ["Euro 24", "Mondiale 26"],
-      "nazionali": ["NORVEGIA"]
+      "stagioni": [
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "NORVEGIA"
+      ]
     },
     {
       "id": "lorenzo",
       "nome": "Lorenzo Moro",
       "anni": 1,
-      "stagioni": ["25/26"],
-      "tornei": ["Mondiale 26"],
-      "nazionali": ["BELGIO"]
+      "stagioni": [
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "BELGIO"
+      ]
     },
     {
       "id": "denis",
       "nome": "Denis Mascherin",
       "anni": 5,
-      "stagioni": ["21/22", "22/23", "23/24", "24/25", "25/26"],
-      "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"],
-      "nazionali": ["INGHILTERRA"]
+      "stagioni": [
+        "21/22",
+        "22/23",
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 22",
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "INGHILTERRA"
+      ]
     },
     {
       "id": "nicola",
       "nome": "Nicola Marano",
       "anni": 1,
-      "stagioni": ["25/26"],
-      "tornei": ["Mondiale 26"],
-      "nazionali": ["GERMANIA"]
+      "stagioni": [
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "GERMANIA"
+      ]
     },
     {
       "id": "valentina",
       "nome": "Valentina Pozzi",
       "anni": 1,
-      "stagioni": ["25/26"],
-      "tornei": ["Mondiale 26"],
-      "nazionali": ["OLANDA"]
+      "stagioni": [
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "OLANDA"
+      ]
     },
     {
       "id": "kevins",
       "nome": "Kevin Sandri",
       "anni": 4,
-      "stagioni": ["21/22", "22/23", "23/24", "24/25"],
-      "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"],
-      "nazionali": ["FRANCIA"]
+      "stagioni": [
+        "21/22",
+        "22/23",
+        "23/24",
+        "24/25"
+      ],
+      "tornei": [
+        "Mondiale 22",
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "FRANCIA"
+      ]
     },
     {
       "id": "cristian",
       "nome": "Cristian Tartaro",
       "anni": 3,
-      "stagioni": ["23/24", "24/25", "25/26"],
-      "tornei": ["Euro 24", "Mondiale 26"],
-      "nazionali": ["CROAZIA"]
+      "stagioni": [
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "CROAZIA"
+      ]
     },
     {
       "id": "andrea",
       "nome": "Andrea Campagnolo",
       "anni": 3,
-      "stagioni": ["22/23", "23/24", "24/25"],
-      "tornei": ["Mondiale 26"],
-      "nazionali": ["SPAGNA"]
+      "stagioni": [
+        "22/23",
+        "23/24",
+        "24/25"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "SPAGNA"
+      ]
     }
   ],
   "nazionali": [
@@ -708,17 +804,17 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "Ederson",
-            "Bremer",
-            "Ibanez",
-            "Marquinhos",
+            "Alisson",
             "Danilo",
+            "Gabriel M.",
+            "Marquinhos",
+            "Paqueta",
             "Casemiro",
-            "Martinelli G.",
-            "Fabinho",
+            "Guimaraes.",
+            "Rayan",
             "Raphinha",
             "Vinicius Junior",
-            "Rodrygo"
+            "Endrick"
           ]
         },
         "formazione_trasferta": {
@@ -728,13 +824,13 @@
             "Cubarsi",
             "Laporte",
             "Cucurella",
-            "Merino",
+            "Porro",
             "Zubimendi",
-            "Rodri",
-            "Gavi",
+            "Pedri",
+            "Nico Williams",
             "Yamal",
             "Olmo",
-            "Oyarzabal"
+            "Ferran Torres"
           ]
         }
       },
@@ -749,15 +845,15 @@
           "modulo": "4-3-3",
           "titolari": [
             "Pickford",
-            "Alexander-arnold",
+            "James",
             "Stones",
-            "Maguire",
+            "Guehi",
             "O'Reilly",
             "Bellingham",
             "Rice",
             "Saka",
-            "Foden",
-            "Rashford",
+            "Mainoo",
+            "Gordon",
             "Kane"
           ]
         },
@@ -766,14 +862,14 @@
           "titolari": [
             "Bounou",
             "Hakimi",
-            "Aguerd",
+            "Diop",
             "Mazraoui",
-            "Masina",
+            "Riad",
             "El Aynaoui",
-            "Saibari",
-            "Ezzalzouli",
+            "Ounahi",
+            "Amrabat",
             "Brahim Diaz",
-            "El Khannouss",
+            "Rahimi",
             "El Kaabi"
           ]
         }
@@ -792,10 +888,10 @@
             "Kimmich",
             "Rudiger",
             "Tah",
-            "Anton",
-            "Kimmich",
-            "Goretka",
-            "Sane",
+            "Brown",
+            "Pavlovic A.",
+            "Nmecha",
+            "Woltemade",
             "Musiala",
             "Havertz",
             "Wirtz"
@@ -805,16 +901,16 @@
           "modulo": "4-3-3",
           "titolari": [
             "Verbruggen",
-            "De Ligt",
+            "Akè",
             "Dumfries",
             "Van dijk",
             "Reijnders",
             "de jong",
-            "Simons",
-            "Malen",
+            "Gravenberch",
+            "Koopmeiners",
             "Depay",
             "Gakpo",
-            "Lang"
+            "Malen"
           ]
         }
       },
@@ -828,16 +924,16 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "Lammens",
+            "Courtois",
             "Castagne",
             "De Cuyper",
-            "De Winter",
-            "Witsel",
-            "Saelemakers",
+            "Debast",
+            "De bruyne",
+            "Onana Am.",
             "Tielemans",
             "Doku",
-            "De bruyne",
-            "De Ketelaere",
+            "Lukaku",
+            "Fernandez Pardo",
             "Lukebakio"
           ]
         },
@@ -845,16 +941,16 @@
           "modulo": "4-3-3",
           "titolari": [
             "Livakovic",
-            "Pongracic",
+            "Vuskosic",
             "Stanisic",
             "Gvardiol",
             "Modric",
-            "Baturina",
+            "Sutalo",
             "Pasalic",
-            "Vlasic",
-            "Brozovic",
-            "Kramaric",
-            "Budimir"
+            "Sucic",
+            "Kovacic",
+            "Perisic",
+            "Matanovic"
           ]
         }
       },
@@ -870,10 +966,10 @@
           "titolari": [
             "Nyland",
             "Ayer",
-            "Heggem",
+            "Ostigard",
             "Wolfe",
             "Ryerson",
-            "Thorstvedt",
+            "Odegaard",
             "Berg",
             "Berge",
             "Nusa",
@@ -884,10 +980,10 @@
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "Musso",
+            "Martinez E.",
             "Molina",
-            "Martinez Quarta",
-            "Otamendi",
+            "Romero",
+            "Martinez Li",
             "Tagliafico",
             "De paul",
             "Mac allister",
@@ -912,13 +1008,13 @@
             "Kounde",
             "saliba",
             "Upamecano",
-            "Digne",
+            "Hernandez T",
             "Kantè",
-            "Olise",
-            "Cherki",
+            "Rabiot",
+            "Tchouameni",
             "Dembele",
             "Mbappe",
-            "Douè"
+            "Olise"
           ]
         },
         "formazione_trasferta": {
@@ -927,13 +1023,13 @@
             "Diogo Costa",
             "Ruben Dias",
             "Goncalo Inacio",
-            "Diogo Dalot",
-            "Joao Neves",
+            "Nuno Mendes",
+            "Cancelo",
             "Vitinha",
-            "Ruben Neves",
+            "Bruno Fernandes",
             "Bernardo Silva",
             "Ronaldo C.",
-            "Leao",
+            "Trincao",
             "Joao Felix"
           ]
         }
@@ -954,10 +1050,10 @@
             "Kimmich",
             "Rudiger",
             "Tah",
-            "Anton",
-            "Kimmich",
-            "Goretka",
-            "Sane",
+            "Brown",
+            "Pavlovic A.",
+            "Nmecha",
+            "Woltemade",
             "Musiala",
             "Havertz",
             "Wirtz"
@@ -966,17 +1062,17 @@
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "Ederson",
-            "Bremer",
-            "Ibanez",
-            "Marquinhos",
+            "Alisson",
             "Danilo",
+            "Gabriel M.",
+            "Marquinhos",
+            "Paqueta",
             "Casemiro",
-            "Martinelli G.",
-            "Fabinho",
+            "Guimaraes.",
+            "Rayan",
             "Raphinha",
             "Vinicius Junior",
-            "Rodrygo"
+            "Endrick"
           ]
         }
       },
@@ -992,14 +1088,14 @@
           "titolari": [
             "Bounou",
             "Hakimi",
-            "Aguerd",
+            "Diop",
             "Mazraoui",
-            "Masina",
+            "Riad",
             "El Aynaoui",
-            "Saibari",
-            "Ezzalzouli",
+            "Ounahi",
+            "Amrabat",
             "Brahim Diaz",
-            "El Khannouss",
+            "Rahimi",
             "El Kaabi"
           ]
         },
@@ -1007,16 +1103,16 @@
           "modulo": "4-3-3",
           "titolari": [
             "Livakovic",
-            "Pongracic",
+            "Vuskosic",
             "Stanisic",
             "Gvardiol",
             "Modric",
-            "Baturina",
+            "Sutalo",
             "Pasalic",
-            "Vlasic",
-            "Brozovic",
-            "Kramaric",
-            "Budimir"
+            "Sucic",
+            "Kovacic",
+            "Perisic",
+            "Matanovic"
           ]
         }
       },
@@ -1030,10 +1126,10 @@
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
-            "Musso",
+            "Martinez E.",
             "Molina",
-            "Martinez Quarta",
-            "Otamendi",
+            "Romero",
+            "Martinez Li",
             "Tagliafico",
             "De paul",
             "Mac allister",
@@ -1047,15 +1143,15 @@
           "modulo": "4-3-3",
           "titolari": [
             "Pickford",
-            "Alexander-arnold",
+            "James",
             "Stones",
-            "Maguire",
+            "Guehi",
             "O'Reilly",
             "Bellingham",
             "Rice",
             "Saka",
-            "Foden",
-            "Rashford",
+            "Mainoo",
+            "Gordon",
             "Kane"
           ]
         }
@@ -1071,16 +1167,16 @@
           "modulo": "4-3-3",
           "titolari": [
             "Verbruggen",
-            "De Ligt",
+            "Akè",
             "Dumfries",
             "Van dijk",
             "Reijnders",
             "de jong",
-            "Simons",
-            "Malen",
+            "Gravenberch",
+            "Koopmeiners",
             "Depay",
             "Gakpo",
-            "Lang"
+            "Malen"
           ]
         },
         "formazione_trasferta": {
@@ -1090,13 +1186,13 @@
             "Cubarsi",
             "Laporte",
             "Cucurella",
-            "Merino",
+            "Porro",
             "Zubimendi",
-            "Rodri",
-            "Gavi",
+            "Pedri",
+            "Nico Williams",
             "Yamal",
             "Olmo",
-            "Oyarzabal"
+            "Ferran Torres"
           ]
         }
       },
@@ -1112,10 +1208,10 @@
           "titolari": [
             "Nyland",
             "Ayer",
-            "Heggem",
+            "Ostigard",
             "Wolfe",
             "Ryerson",
-            "Thorstvedt",
+            "Odegaard",
             "Berg",
             "Berge",
             "Nusa",
@@ -1130,13 +1226,13 @@
             "Kounde",
             "saliba",
             "Upamecano",
-            "Digne",
+            "Hernandez T",
             "Kantè",
-            "Olise",
-            "Cherki",
+            "Rabiot",
+            "Tchouameni",
             "Dembele",
             "Mbappe",
-            "Douè"
+            "Olise"
           ]
         }
       },
@@ -1153,29 +1249,29 @@
             "Diogo Costa",
             "Ruben Dias",
             "Goncalo Inacio",
-            "Diogo Dalot",
-            "Joao Neves",
+            "Nuno Mendes",
+            "Cancelo",
             "Vitinha",
-            "Ruben Neves",
+            "Bruno Fernandes",
             "Bernardo Silva",
             "Ronaldo C.",
-            "Leao",
+            "Trincao",
             "Joao Felix"
           ]
         },
         "formazione_trasferta": {
           "modulo": "4-3-3",
           "titolari": [
-            "Lammens",
+            "Courtois",
             "Castagne",
             "De Cuyper",
-            "De Winter",
-            "Witsel",
-            "Saelemakers",
+            "Debast",
+            "De bruyne",
+            "Onana Am.",
             "Tielemans",
             "Doku",
-            "De bruyne",
-            "De Ketelaere",
+            "Lukaku",
+            "Fernandez Pardo",
             "Lukebakio"
           ]
         }
