@@ -1246,8 +1246,8 @@
         "iso_casa": "fr",
         "trasferta": "SENEGAL",
         "iso_trasferta": "sn",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 1,
         "gruppo": "I",
         "sede": "East Rutherford, NJ"
       },
@@ -1257,8 +1257,8 @@
         "iso_casa": "iq",
         "trasferta": "NORVEGIA",
         "iso_trasferta": "no",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 1,
+        "gol_trasferta": 4,
         "gruppo": "I",
         "sede": "Foxborough, MA"
       },
@@ -1268,8 +1268,8 @@
         "iso_casa": "ar",
         "trasferta": "ALGERIA",
         "iso_trasferta": "dz",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 1,
         "gruppo": "J",
         "sede": "Kansas City, MO"
       },
