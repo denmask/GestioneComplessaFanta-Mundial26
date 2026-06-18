@@ -97,9 +97,9 @@
       "punti": 0,
       "vittorie": 0,
       "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 0,
-      "gs": 0
+      "sconfitte": 1,
+      "gf": 2,
+      "gs": 4
     },
     
     {
