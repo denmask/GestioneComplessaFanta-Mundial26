@@ -8,7 +8,7 @@
       "pareggi": 0,
       "sconfitte": 0,
       "gf": 7,
-      "gs": 0
+      "gs": 1
     },
     {
       "posizione": 2,
@@ -22,6 +22,16 @@
     },
     {
       "posizione": 3,
+      "fantallenatore": "Denis Mascherin",
+      "punti": 3,
+      "vittorie": 1,
+      "pareggi": 0,
+      "sconfitte": 0,
+      "gf": 4,
+      "gs": 2
+    },
+    {
+      "posizione": 4,
       "fantallenatore": "Valentina Pozzi",
       "punti": 3,
       "vittorie": 1,
@@ -31,7 +41,7 @@
       "gs": 1
     },
     {
-      "posizione": 4,
+      "posizione": 5,
       "fantallenatore": "Mattia Beltrame",
       "punti": 1,
       "vittorie": 0,
@@ -41,7 +51,7 @@
       "gs": 3
     },
     {
-      "posizione": 5,
+      "posizione": 6,
       "fantallenatore": "Kevin Sandri",
       "punti": 1,
       "vittorie": 0,
@@ -50,16 +60,7 @@
       "gf": 3,
       "gs": 3
     },
-    {
-      "posizione": 6,
-      "fantallenatore": "Federico Burello",
-      "punti": 1,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 0,
-      "gf": 1,
-      "gs": 1
-    },
+    
     {
       "posizione": 7,
       "fantallenatore": "Aidan Conti",
@@ -70,30 +71,18 @@
       "gf": 1,
       "gs": 1
     },
-    
     {
       "posizione": 8,
-      "fantallenatore": "Denis Mascherin",
-      "punti": 0,
+      "fantallenatore": "Federico Burello",
+      "punti": 1,
       "vittorie": 0,
-      "pareggi": 0,
+      "pareggi": 1,
       "sconfitte": 0,
-      "gf": 0,
-      "gs": 0
+      "gf": 1,
+      "gs": 1
     },
     {
       "posizione": 9,
-      "fantallenatore": "Cristian Tartaro",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 0,
-      "gs": 0
-    },
-      
-    {
-      "posizione": 10,
       "fantallenatore": "Lorenzo Moro",
       "punti": 0,
       "vittorie": 0,
@@ -102,6 +91,17 @@
       "gf": 1,
       "gs": 2
     },
+    {
+      "posizione": 10,
+      "fantallenatore": "Cristian Tartaro",
+      "punti": 0,
+      "vittorie": 0,
+      "pareggi": 0,
+      "sconfitte": 0,
+      "gf": 0,
+      "gs": 0
+    },
+    
     {
       "posizione": 11,
       "fantallenatore": "Andrea Campagnolo",
@@ -119,7 +119,7 @@
       "vittorie": 0,
       "pareggi": 0,
       "sconfitte": 1,
-      "gf": 0,
+      "gf": 1,
       "gs": 7
     }
      
@@ -207,13 +207,13 @@
       "gruppo": "K",
       "squadra": "PORTOGALLO",
       "iso": "pt",
-      "punti": 0,
-      "g": 0,
+      "punti": 1,
+      "g": 1,
       "v": 0,
-      "n": 0,
+      "n": 1,
       "p": 0,
-      "gf": 0,
-      "gs": 0,
+      "gf": 1,
+      "gs": 1,
       "dr": 0
     },
     {
@@ -259,27 +259,27 @@
       "gruppo": "L",
       "squadra": "INGHILTERRA",
       "iso": "gb-eng",
-      "punti": 0,
-      "g": 0,
-      "v": 0,
+      "punti": 3,
+      "g": 1,
+      "v": 1,
       "n": 0,
       "p": 0,
-      "gf": 0,
-      "gs": 0,
-      "dr": 0
+      "gf": 4,
+      "gs": 2,
+      "dr": 2
     },
     {
       "gruppo": "L",
       "squadra": "CROAZIA",
       "iso": "hr",
       "punti": 0,
-      "g": 0,
+      "g": 1,
       "v": 0,
       "n": 0,
-      "p": 0,
-      "gf": 0,
-      "gs": 0,
-      "dr": 0
+      "p": 1,
+      "gf": 2,
+      "gs": 4,
+      "dr": -2
     }
   ],
   "fantallenatori": [
@@ -1279,8 +1279,8 @@
         "iso_casa": "pt",
         "trasferta": "REP.DEM.CONGO",
         "iso_trasferta": "cd",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 1,
+        "gol_trasferta": 1,
         "gruppo": "K",
         "sede": "Houston"
       },
@@ -1290,8 +1290,8 @@
         "iso_casa": "gb-eng",
         "trasferta": "CROAZIA",
         "iso_trasferta": "hr",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 4,
+        "gol_trasferta": 2,
         "gruppo": "L",
         "sede": "Arlington, TX"
       }
