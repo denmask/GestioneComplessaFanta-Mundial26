@@ -502,7 +502,7 @@
         "fanta_casa": "Nicola Marano",
         "fanta_trasferta": "Alex Beltrame",
         "gol_casa": 7,
-        "gol_trasferta": 0,
+        "gol_trasferta": 1,
         "formazione_casa": {
           "modulo": "4-2-3-1",
           "titolari": [
@@ -621,8 +621,8 @@
         "trasferta": "CROAZIA",
         "fanta_casa": "Denis Mascherin",
         "fanta_trasferta": "Cristian Tartaro",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 4,
+        "gol_trasferta": 2,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
