@@ -129,25 +129,25 @@
       "gruppo": "C",
       "squadra": "BRASILE",
       "iso": "br",
-      "punti": 1,
-      "g": 1,
-      "v": 0,
+      "punti": 4,
+      "g": 2,
+      "v": 1,
       "n": 1,
       "p": 0,
-      "gf": 1,
+      "gf": 4,
       "gs": 1,
-      "dr": 0
+      "dr": 3
     },
     {
       "gruppo": "C",
       "squadra": "MAROCCO",
       "iso": "ma",
-      "punti": 1,
-      "g": 1,
-      "v": 0,
+      "punti": 4,
+      "g": 2,
+      "v": 1,
       "n": 1,
       "p": 0,
-      "gf": 1,
+      "gf": 2,
       "gs": 1,
       "dr": 0
     },
@@ -704,8 +704,8 @@
         "trasferta": "SPAGNA",
         "fanta_casa": "Federico Burello",
         "fanta_trasferta": "Andrea Campagnolo",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 0,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -744,8 +744,8 @@
         "trasferta": "MAROCCO",
         "fanta_casa": "Denis Mascherin",
         "fanta_trasferta": "Aidan Conti",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 1,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1299,12 +1299,12 @@
     "giornata_2": [
       {
         "data": "19 Giu",
-        "casa": "MAROCCO",
-        "iso_casa": "ma",
-        "trasferta": "SCOZIA",
-        "iso_trasferta": "gb-sct",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "casa": "SCOZIA",
+        "iso_casa": "gb-sct",
+        "trasferta": "MAROCCO",
+        "iso_trasferta": "ma",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
         "gruppo": "C",
         "sede": "Foxborough, MA"
       },
@@ -1314,8 +1314,8 @@
         "iso_casa": "br",
         "trasferta": "HAITI",
         "iso_trasferta": "ht",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 0,
         "gruppo": "C",
         "sede": "Philadelphia"
       },
