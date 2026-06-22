@@ -2,16 +2,26 @@
   "classifica_fanta": [
     {
       "posizione": 1,
+      "fantallenatore": "Valentina Pozzi",
+      "punti": 3,
+      "vittorie": 2,
+      "pareggi": 0,
+      "sconfitte": 0,
+      "gf": 7,
+      "gs": 3
+    },
+    {
+      "posizione": 2,
       "fantallenatore": "Nicola Marano",
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 7,
-      "gs": 1
+      "sconfitte": 1,
+      "gf": 9,
+      "gs": 6
     },
     {
-      "posizione": 2,
+      "posizione": 3,
       "fantallenatore": "Kevin DB",
       "punti": 3,
       "vittorie": 1,
@@ -21,7 +31,7 @@
       "gs": 0
     },
     {
-      "posizione": 3,
+      "posizione": 4,
       "fantallenatore": "Denis Mascherin",
       "punti": 3,
       "vittorie": 1,
@@ -31,17 +41,17 @@
       "gs": 2
     },
     {
-      "posizione": 4,
-      "fantallenatore": "Valentina Pozzi",
+      "posizione": 5,
+      "fantallenatore": "Andrea Campagnolo",
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 2,
-      "gs": 1
+      "sconfitte": 1,
+      "gf": 4,
+      "gs": 6
     },
     {
-      "posizione": 5,
+      "posizione": 6,
       "fantallenatore": "Mattia Beltrame",
       "punti": 1,
       "vittorie": 0,
@@ -51,7 +61,7 @@
       "gs": 3
     },
     {
-      "posizione": 6,
+      "posizione": 7,
       "fantallenatore": "Kevin Sandri",
       "punti": 1,
       "vittorie": 0,
@@ -62,27 +72,27 @@
     },
     
     {
-      "posizione": 7,
+      "posizione": 8,
       "fantallenatore": "Aidan Conti",
       "punti": 1,
       "vittorie": 0,
       "pareggi": 1,
       "sconfitte": 0,
-      "gf": 1,
-      "gs": 1
-    },
-    {
-      "posizione": 8,
-      "fantallenatore": "Federico Burello",
-      "punti": 1,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 0,
-      "gf": 1,
+      "gf": 2,
       "gs": 1
     },
     {
       "posizione": 9,
+      "fantallenatore": "Federico Burello",
+      "punti": 1,
+      "vittorie": 0,
+      "pareggi": 1,
+      "sconfitte": 1,
+      "gf": 4,
+      "gs": 5
+    },
+    {
+      "posizione": 10,
       "fantallenatore": "Lorenzo Moro",
       "punti": 0,
       "vittorie": 0,
@@ -92,7 +102,7 @@
       "gs": 2
     },
     {
-      "posizione": 10,
+      "posizione": 11,
       "fantallenatore": "Cristian Tartaro",
       "punti": 0,
       "vittorie": 0,
@@ -102,16 +112,7 @@
       "gs": 4
     },
     
-    {
-      "posizione": 11,
-      "fantallenatore": "Andrea Campagnolo",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 1,
-      "gf": 0,
-      "gs": 3
-    },
+    
     {
       "posizione": 12,
       "fantallenatore": "Alex Beltrame",
@@ -155,49 +156,49 @@
       "gruppo": "E",
       "squadra": "GERMANIA",
       "iso": "de",
-      "punti": 3,
-      "g": 1,
-      "v": 0,
-      "n": 1,
+      "punti": 6,
+      "g": 2,
+      "v": 2,
+      "n": 0,
       "p": 0,
-      "gf": 7,
-      "gs": 1,
-      "dr": 6
+      "gf": 9,
+      "gs": 2,
+      "dr": 7
     },
     {
       "gruppo": "F",
       "squadra": "OLANDA",
       "iso": "nl",
-      "punti": 1,
-      "g": 1,
-      "v": 0,
+      "punti": 4,
+      "g": 2,
+      "v": 1,
       "n": 1,
       "p": 0,
-      "gf": 2,
-      "gs": 2,
-      "dr": 0
+      "gf": 7,
+      "gs": 3,
+      "dr": 4
     },
     {
       "gruppo": "H",
       "squadra": "SPAGNA",
       "iso": "es",
-      "punti": 1,
-      "g": 1,
-      "v": 0,
+      "punti": 4,
+      "g": 2,
+      "v": 1,
       "n": 1,
       "p": 0,
-      "gf": 0,
+      "gf": 4,
       "gs": 0,
-      "dr": 0
+      "dr": 4
     },
     {
       "gruppo": "G",
       "squadra": "BELGIO",
       "iso": "be",
-      "punti": 1,
-      "g": 1,
+      "punti": 2,
+      "g": 2,
       "v": 0,
-      "n": 1,
+      "n": 2,
       "p": 0,
       "gf": 1,
       "gs": 1,
@@ -705,7 +706,7 @@
         "fanta_casa": "Federico Burello",
         "fanta_trasferta": "Andrea Campagnolo",
         "gol_casa": 3,
-        "gol_trasferta": 0,
+        "gol_trasferta": 4,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -784,8 +785,8 @@
         "trasferta": "OLANDA",
         "fanta_casa": "Nicola Marano",
         "fanta_trasferta": "Valentina Pozzi",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 5,
         "formazione_casa": {
           "modulo": "4-2-3-1",
           "titolari": [
@@ -824,7 +825,7 @@
         "trasferta": "CROAZIA",
         "fanta_casa": "Lorenzo Moro",
         "fanta_trasferta": "Cristian Tartaro",
-        "gol_casa": null,
+        "gol_casa": 0,
         "gol_trasferta": null,
         "formazione_casa": {
           "modulo": "4-3-3",
@@ -1325,8 +1326,8 @@
         "iso_casa": "de",
         "trasferta": "COSTA D'AVORIO",
         "iso_trasferta": "ci",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 1,
         "gruppo": "E",
         "sede": "Toronto"
       },
@@ -1336,8 +1337,8 @@
         "iso_casa": "nl",
         "trasferta": "SVEZIA",
         "iso_trasferta": "se",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 5,
+        "gol_trasferta": 1,
         "gruppo": "F",
         "sede": "Houston"
       },
@@ -1347,8 +1348,8 @@
         "iso_casa": "es",
         "trasferta": "ARABIA SAUDITA",
         "iso_trasferta": "sa",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 4,
+        "gol_trasferta": 0,
         "gruppo": "H",
         "sede": "Atlanta"
       },
@@ -1358,22 +1359,12 @@
         "iso_casa": "be",
         "trasferta": "IRAN",
         "iso_trasferta": "ir",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 0,
         "gruppo": "G",
         "sede": "Inglewood, CA"
       },
-      {
-        "data": "22 Giu",
-        "casa": "NORVEGIA",
-        "iso_casa": "no",
-        "trasferta": "SENEGAL",
-        "iso_trasferta": "sn",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "gruppo": "I",
-        "sede": "East Rutherford, NJ"
-      },
+      
       {
         "data": "22 Giu",
         "casa": "ARGENTINA",
@@ -1395,6 +1386,17 @@
         "gol_trasferta": null,
         "gruppo": "I",
         "sede": "Philadelphia"
+      },
+      {
+        "data": "22 Giu",
+        "casa": "NORVEGIA",
+        "iso_casa": "no",
+        "trasferta": "SENEGAL",
+        "iso_trasferta": "sn",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "gruppo": "I",
+        "sede": "East Rutherford, NJ"
       },
       {
         "data": "23 Giu",
