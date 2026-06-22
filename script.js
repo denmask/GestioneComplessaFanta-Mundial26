@@ -342,10 +342,22 @@ function showEliminazione() {
       let casaHtml, trasfHtml, scoreHtml;
 
       if (p.casa) {
-        const cn = DATA.nazionali.find(x => x.nome === p.casa);
-        const tn = DATA.nazionali.find(x => x.nome === p.trasferta);
-        const fc = cn ? flagImg(cn.iso, 20) : '';
-        const ft = tn ? flagImg(tn.iso, 20) : '';
+        // Usa iso_casa e iso_trasferta se disponibili, altrimenti cerca nei dati nazionali
+        let isoCasa = p.iso_casa;
+        let isoTrasf = p.iso_trasferta;
+        
+        if (!isoCasa) {
+          const cn = DATA.nazionali.find(x => x.nome === p.casa);
+          isoCasa = cn ? cn.iso : '';
+        }
+        if (!isoTrasf) {
+          const tn = DATA.nazionali.find(x => x.nome === p.trasferta);
+          isoTrasf = tn ? tn.iso : '';
+        }
+        
+        const fc = isoCasa ? flagImg(isoCasa, 20) : '';
+        const ft = isoTrasf ? flagImg(isoTrasf, 20) : '';
+        
         const casaClass = p.vincitore === p.casa ? 'team-qualified' : (p.vincitore && p.vincitore !== p.casa ? 'team-eliminated' : '');
         const trasfClass = p.vincitore === p.trasferta ? 'team-qualified' : (p.vincitore && p.vincitore !== p.trasferta ? 'team-eliminated' : '');
         casaHtml = '<span class="' + casaClass + '">' + fc + ' ' + p.casa + '</span>';

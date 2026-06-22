@@ -1566,7 +1566,9 @@
       {
         "id": "S1",
         "casa": "GERMANIA",
-        "trasferta": "CROAZIA",
+        "trasferta": "SCOZIA",
+        "iso_casa": "de",
+        "iso_trasferta": "gb-sct",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
