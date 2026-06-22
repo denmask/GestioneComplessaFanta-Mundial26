@@ -70,7 +70,6 @@
       "gf": 3,
       "gs": 3
     },
-    
     {
       "posizione": 8,
       "fantallenatore": "Aidan Conti",
@@ -111,8 +110,6 @@
       "gf": 2,
       "gs": 4
     },
-    
-    
     {
       "posizione": 12,
       "fantallenatore": "Alex Beltrame",
@@ -123,7 +120,6 @@
       "gf": 1,
       "gs": 7
     }
-     
   ],
   "classifica_reale": [
     {
@@ -698,7 +694,6 @@
         }
       }
     ],
-    
     "seconda_giornata": [
       {
         "casa": "BRASILE",
@@ -1364,7 +1359,6 @@
         "gruppo": "G",
         "sede": "Inglewood, CA"
       },
-      
       {
         "data": "22 Giu",
         "casa": "ARGENTINA",
@@ -1571,48 +1565,48 @@
     "sedicesimi": [
       {
         "id": "S1",
-        "casa": null,
-        "trasferta": null,
+        "casa": "GERMANIA",
+        "trasferta": "CROAZIA",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
       },
       {
         "id": "S2",
-        "casa": null,
-        "trasferta": null,
+        "casa": "SPAGNA",
+        "trasferta": "MAROCCO",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
       },
       {
         "id": "S3",
-        "casa": null,
-        "trasferta": null,
+        "casa": "OLANDA",
+        "trasferta": "BELGIO",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
       },
       {
         "id": "S4",
-        "casa": null,
-        "trasferta": null,
+        "casa": "ARGENTINA",
+        "trasferta": "PORTOGALLO",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
       },
       {
         "id": "S5",
-        "casa": null,
-        "trasferta": null,
+        "casa": "BRASILE",
+        "trasferta": "NORVEGIA",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
       },
       {
         "id": "S6",
-        "casa": null,
-        "trasferta": null,
+        "casa": "INGHILTERRA",
+        "trasferta": "FRANCIA",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
@@ -1627,70 +1621,6 @@
       },
       {
         "id": "S8",
-        "casa": null,
-        "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S9",
-        "casa": null,
-        "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S10",
-        "casa": null,
-        "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S11",
-        "casa": null,
-        "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S12",
-        "casa": null,
-        "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S13",
-        "casa": null,
-        "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S14",
-        "casa": null,
-        "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S15",
-        "casa": null,
-        "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S16",
         "casa": null,
         "trasferta": null,
         "gol_casa": null,
