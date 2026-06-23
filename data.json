@@ -3,7 +3,7 @@
     {
       "posizione": 1,
       "fantallenatore": "Valentina Pozzi",
-      "punti": 3,
+      "punti": 6,
       "vittorie": 2,
       "pareggi": 0,
       "sconfitte": 0,
@@ -12,6 +12,26 @@
     },
     {
       "posizione": 2,
+      "fantallenatore": "Kevin DB",
+      "punti": 6,
+      "vittorie": 2,
+      "pareggi": 0,
+      "sconfitte": 0,
+      "gf": 6,
+      "gs": 2
+    },
+    {
+      "posizione": 3,
+      "fantallenatore": "Kevin Sandri",
+      "punti": 4,
+      "vittorie": 1,
+      "pareggi": 1,
+      "sconfitte": 0,
+      "gf": 6,
+      "gs": 3
+    },
+    {
+      "posizione": 4,
       "fantallenatore": "Nicola Marano",
       "punti": 3,
       "vittorie": 1,
@@ -20,18 +40,9 @@
       "gf": 9,
       "gs": 6
     },
+    
     {
-      "posizione": 3,
-      "fantallenatore": "Kevin DB",
-      "punti": 3,
-      "vittorie": 1,
-      "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 3,
-      "gs": 0
-    },
-    {
-      "posizione": 4,
+      "posizione": 5,
       "fantallenatore": "Denis Mascherin",
       "punti": 3,
       "vittorie": 1,
@@ -41,7 +52,7 @@
       "gs": 2
     },
     {
-      "posizione": 5,
+      "posizione": 6,
       "fantallenatore": "Andrea Campagnolo",
       "punti": 3,
       "vittorie": 1,
@@ -51,25 +62,16 @@
       "gs": 6
     },
     {
-      "posizione": 6,
+      "posizione": 7,
       "fantallenatore": "Mattia Beltrame",
       "punti": 1,
       "vittorie": 0,
       "pareggi": 1,
-      "sconfitte": 0,
-      "gf": 3,
-      "gs": 3
+      "sconfitte": 1,
+      "gf": 5,
+      "gs": 6
     },
-    {
-      "posizione": 7,
-      "fantallenatore": "Kevin Sandri",
-      "punti": 1,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 0,
-      "gf": 3,
-      "gs": 3
-    },
+    
     {
       "posizione": 8,
       "fantallenatore": "Aidan Conti",
@@ -116,9 +118,9 @@
       "punti": 0,
       "vittorie": 0,
       "pareggi": 0,
-      "sconfitte": 1,
+      "sconfitte": 2,
       "gf": 1,
-      "gs": 7
+      "gs": 10
     }
   ],
   "classifica_reale": [
@@ -217,40 +219,40 @@
       "gruppo": "I",
       "squadra": "NORVEGIA",
       "iso": "no",
-      "punti": 3,
-      "g": 1,
-      "v": 1,
+      "punti": 6,
+      "g": 2,
+      "v": 2,
       "n": 0,
       "p": 0,
-      "gf": 4,
-      "gs": 1,
-      "dr": 3
+      "gf": 7,
+      "gs": 3,
+      "dr": 4
     },
     {
       "gruppo": "J",
       "squadra": "ARGENTINA",
       "iso": "ar",
-      "punti": 3,
-      "g": 1,
-      "v": 1,
+      "punti": 6,
+      "g": 2,
+      "v": 2,
       "n": 0,
       "p": 0,
-      "gf": 3,
+      "gf": 5,
       "gs": 0,
-      "dr": 3
+      "dr": 5
     },
     {
       "gruppo": "I",
       "squadra": "FRANCIA",
       "iso": "fr",
-      "punti": 3,
-      "g": 1,
-      "v": 1,
+      "punti": 6,
+      "g": 2,
+      "v": 2,
       "n": 0,
       "p": 0,
-      "gf": 3,
+      "gf": 6,
       "gs": 1,
-      "dr": 2
+      "dr": 5
     },
     {
       "gruppo": "L",
@@ -821,7 +823,7 @@
         "fanta_casa": "Lorenzo Moro",
         "fanta_trasferta": "Cristian Tartaro",
         "gol_casa": 0,
-        "gol_trasferta": null,
+        "gol_trasferta": 0,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -860,8 +862,8 @@
         "trasferta": "ARGENTINA",
         "fanta_casa": "Kevin DB",
         "fanta_trasferta": "Mattia Beltrame",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 2,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -900,8 +902,8 @@
         "trasferta": "PORTOGALLO",
         "fanta_casa": "Kevin Sandri",
         "fanta_trasferta": "Alex Beltrame",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 0,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1365,8 +1367,8 @@
         "iso_casa": "ar",
         "trasferta": "AUSTRIA",
         "iso_trasferta": "at",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 0,
         "gruppo": "J",
         "sede": "Arlington, TX"
       },
@@ -1376,8 +1378,8 @@
         "iso_casa": "fr",
         "trasferta": "IRAQ",
         "iso_trasferta": "iq",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 0,
         "gruppo": "I",
         "sede": "Philadelphia"
       },
@@ -1387,8 +1389,8 @@
         "iso_casa": "no",
         "trasferta": "SENEGAL",
         "iso_trasferta": "sn",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 2,
         "gruppo": "I",
         "sede": "East Rutherford, NJ"
       },
