@@ -1587,36 +1587,16 @@
       },
       {
         "id": "S3",
-        "casa": "COSTA D'AVORIO",
-        "trasferta": "FRANCIA",
-        "iso_casa": "ci",
-        "iso_trasferta": "fr",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S4",
-        "casa": "NORVEGIA",
+        "casa": "FRANCIA",
         "trasferta": "SVEZIA",
-        "iso_casa": "no",
+        "iso_casa": "fr",
         "iso_trasferta": "se",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
       },
       {
-        "id": "S5",
-        "casa": "INGHILTERRA",
-        "trasferta": "ECUADOR",
-        "iso_casa": "gb-eng",
-        "iso_trasferta": "ec",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S6",
+        "id": "S4",
         "casa": "SPAGNA",
         "trasferta": "AUSTRIA",
         "iso_casa": "es",
@@ -1626,11 +1606,31 @@
         "vincitore": null
       },
       {
+        "id": "S5",
+        "casa": "BRASILE",
+        "trasferta": "GIAPPONE",
+        "iso_casa": "br",
+        "iso_trasferta": "jp",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "S6",
+        "casa": "COSTA D'AVORIO",
+        "trasferta": "NORVEGIA",
+        "iso_casa": "ci",
+        "iso_trasferta": "no",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
         "id": "S7",
-        "casa": "CANADA",
-        "trasferta": "BELGIO",
-        "iso_casa": "ca",
-        "iso_trasferta": "be",
+        "casa": "INGHILTERRA",
+        "trasferta": "PORTOGALLO",
+        "iso_casa": "gb-eng",
+        "iso_trasferta": "pt",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
@@ -1647,20 +1647,10 @@
       },
       {
         "id": "S9",
-        "casa": "BRASILE",
-        "trasferta": "GIAPPONE",
-        "iso_casa": "br",
-        "iso_trasferta": "jp",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S10",
-        "casa": "PORTOGALLO",
-        "trasferta": "CROAZIA",
-        "iso_casa": "pt",
-        "iso_trasferta": "hr",
+        "casa": "CANADA",
+        "trasferta": "BELGIO",
+        "iso_casa": "ca",
+        "iso_trasferta": "be",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
