@@ -1654,7 +1654,18 @@
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
+      },
+      {
+        "id": "S10",
+        "casa": "COLOMBIA",
+        "trasferta": "CROAZIA",
+        "iso_casa": "co",
+        "iso_trasferta": "hr",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
       }
+
     ],
     "ottavi": [
       {
