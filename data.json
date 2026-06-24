@@ -1464,7 +1464,7 @@
         "sede": "East Rutherford, NJ"
       },
       {
-        "data": "25 Giu",
+        "data": "26 Giu",
         "casa": "TUNISIA",
         "iso_casa": "tn",
         "trasferta": "OLANDA",
@@ -1473,28 +1473,6 @@
         "gol_trasferta": null,
         "gruppo": "F",
         "sede": "Kansas City, MO"
-      },
-      {
-        "data": "26 Giu",
-        "casa": "URUGUAY",
-        "iso_casa": "uy",
-        "trasferta": "SPAGNA",
-        "iso_trasferta": "es",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "gruppo": "H",
-        "sede": "Zapopan, Mexico"
-      },
-      {
-        "data": "26 Giu",
-        "casa": "NUOVA ZELANDA",
-        "iso_casa": "nz",
-        "trasferta": "BELGIO",
-        "iso_trasferta": "be",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "gruppo": "G",
-        "sede": "Vancouver, Canada"
       },
       {
         "data": "26 Giu",
@@ -1508,37 +1486,26 @@
         "sede": "Foxborough, MA"
       },
       {
-        "data": "26 Giu",
-        "casa": "SENEGAL",
-        "iso_casa": "sn",
-        "trasferta": "IRAQ",
-        "iso_trasferta": "iq",
+        "data": "27 Giu",
+        "casa": "URUGUAY",
+        "iso_casa": "uy",
+        "trasferta": "SPAGNA",
+        "iso_trasferta": "es",
         "gol_casa": null,
         "gol_trasferta": null,
-        "gruppo": "I",
-        "sede": "Toronto"
+        "gruppo": "H",
+        "sede": "Zapopan, Mexico"
       },
       {
         "data": "27 Giu",
-        "casa": "GIORDANIA",
-        "iso_casa": "jo",
-        "trasferta": "ARGENTINA",
-        "iso_trasferta": "ar",
+        "casa": "NUOVA ZELANDA",
+        "iso_casa": "nz",
+        "trasferta": "BELGIO",
+        "iso_trasferta": "be",
         "gol_casa": null,
         "gol_trasferta": null,
-        "gruppo": "J",
-        "sede": "Arlington, TX"
-      },
-      {
-        "data": "27 Giu",
-        "casa": "COLOMBIA",
-        "iso_casa": "co",
-        "trasferta": "PORTOGALLO",
-        "iso_trasferta": "pt",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "gruppo": "K",
-        "sede": "Miami Gardens, FL"
+        "gruppo": "G",
+        "sede": "Vancouver, Canada"
       },
       {
         "data": "27 Giu",
@@ -1561,6 +1528,28 @@
         "gol_trasferta": null,
         "gruppo": "L",
         "sede": "Philadelphia"
+      },
+      {
+        "data": "28 Giu",
+        "casa": "COLOMBIA",
+        "iso_casa": "co",
+        "trasferta": "PORTOGALLO",
+        "iso_trasferta": "pt",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "gruppo": "K",
+        "sede": "Miami Gardens, FL"
+      },
+      {
+        "data": "28 Giu",
+        "casa": "GIORDANIA",
+        "iso_casa": "jo",
+        "trasferta": "ARGENTINA",
+        "iso_trasferta": "ar",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "gruppo": "J",
+        "sede": "Arlington, TX"
       }
     ]
   },
