@@ -22,13 +22,13 @@
     },
     {
       "posizione": 3,
-      "fantallenatore": "Kevin Sandri",
+      "fantallenatore": "Aidan Conti",
       "punti": 4,
       "vittorie": 1,
       "pareggi": 1,
       "sconfitte": 0,
-      "gf": 6,
-      "gs": 3
+      "gf": 2,
+      "gs": 1
     },
     {
       "posizione": 4,
@@ -49,20 +49,52 @@
       "pareggi": 0,
       "sconfitte": 0,
       "gf": 4,
-      "gs": 2
+      "gs": 3
     },
     {
       "posizione": 6,
-      "fantallenatore": "Andrea Campagnolo",
+      "fantallenatore": "Cristian Tartaro",
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
       "sconfitte": 1,
-      "gf": 4,
-      "gs": 6
+      "gf": 3,
+      "gs": 4
     },
     {
       "posizione": 7,
+      "fantallenatore": "Alex Beltrame",
+      "punti": 3,
+      "vittorie": 1,
+      "pareggi": 0,
+      "sconfitte": 1,
+      "gf": 5,
+      "gs": 10
+    },
+    {
+      "posizione": 8,
+      "fantallenatore": "Federico Burello",
+      "punti": 2,
+      "vittorie": 0,
+      "pareggi": 2,
+      "sconfitte": 0,
+      "gf": 4,
+      "gs": 4
+    },
+    
+    
+    {
+      "posizione": 9,
+      "fantallenatore": "Kevin Sandri",
+      "punti": 1,
+      "vittorie": 0,
+      "pareggi": 1,
+      "sconfitte": 1,
+      "gf": 6,
+      "gs": 7
+    },
+    {
+      "posizione": 10,
       "fantallenatore": "Mattia Beltrame",
       "punti": 1,
       "vittorie": 0,
@@ -71,56 +103,25 @@
       "gf": 5,
       "gs": 6
     },
-    
-    {
-      "posizione": 8,
-      "fantallenatore": "Aidan Conti",
-      "punti": 1,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 0,
-      "gf": 2,
-      "gs": 1
-    },
-    {
-      "posizione": 9,
-      "fantallenatore": "Federico Burello",
-      "punti": 1,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 1,
-      "gf": 4,
-      "gs": 5
-    },
-    {
-      "posizione": 10,
-      "fantallenatore": "Lorenzo Moro",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 1,
-      "gf": 1,
-      "gs": 2
-    },
     {
       "posizione": 11,
-      "fantallenatore": "Cristian Tartaro",
-      "punti": 0,
+      "fantallenatore": "Andrea Campagnolo",
+      "punti": 1,
       "vittorie": 0,
-      "pareggi": 0,
+      "pareggi": 1,
       "sconfitte": 1,
-      "gf": 2,
-      "gs": 4
+      "gf": 3,
+      "gs": 6
     },
     {
       "posizione": 12,
-      "fantallenatore": "Alex Beltrame",
+      "fantallenatore": "Lorenzo Moro",
       "punti": 0,
       "vittorie": 0,
-      "pareggi": 0,
-      "sconfitte": 2,
+      "pareggi": 1,
+      "sconfitte": 1,
       "gf": 1,
-      "gs": 10
+      "gs": 3
     }
   ],
   "classifica_reale": [
@@ -206,14 +207,14 @@
       "gruppo": "K",
       "squadra": "PORTOGALLO",
       "iso": "pt",
-      "punti": 1,
-      "g": 1,
-      "v": 0,
+      "punti": 4,
+      "g": 2,
+      "v": 1,
       "n": 1,
       "p": 0,
-      "gf": 1,
+      "gf": 6,
       "gs": 1,
-      "dr": 0
+      "dr": 5
     },
     {
       "gruppo": "I",
@@ -258,10 +259,10 @@
       "gruppo": "L",
       "squadra": "INGHILTERRA",
       "iso": "gb-eng",
-      "punti": 3,
-      "g": 1,
+      "punti": 4,
+      "g": 2,
       "v": 1,
-      "n": 0,
+      "n": 1,
       "p": 0,
       "gf": 4,
       "gs": 2,
@@ -271,14 +272,14 @@
       "gruppo": "L",
       "squadra": "CROAZIA",
       "iso": "hr",
-      "punti": 0,
-      "g": 1,
-      "v": 0,
+      "punti": 3,
+      "g": 2,
+      "v": 1,
       "n": 0,
       "p": 1,
-      "gf": 2,
+      "gf": 3,
       "gs": 4,
-      "dr": -2
+      "dr": -1
     }
   ],
   "fantallenatori": [
@@ -703,7 +704,7 @@
         "fanta_casa": "Federico Burello",
         "fanta_trasferta": "Andrea Campagnolo",
         "gol_casa": 3,
-        "gol_trasferta": 4,
+        "gol_trasferta": 3,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -823,7 +824,7 @@
         "fanta_casa": "Lorenzo Moro",
         "fanta_trasferta": "Cristian Tartaro",
         "gol_casa": 0,
-        "gol_trasferta": 0,
+        "gol_trasferta": 1,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -903,7 +904,7 @@
         "fanta_casa": "Kevin Sandri",
         "fanta_trasferta": "Alex Beltrame",
         "gol_casa": 3,
-        "gol_trasferta": 0,
+        "gol_trasferta": 4,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1400,8 +1401,8 @@
         "iso_casa": "pt",
         "trasferta": "UZBEKISTAN",
         "iso_trasferta": "uz",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 5,
+        "gol_trasferta": 0,
         "gruppo": "K",
         "sede": "Houston"
       },
@@ -1411,8 +1412,8 @@
         "iso_casa": "gb-eng",
         "trasferta": "GHANA",
         "iso_trasferta": "gh",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 0,
         "gruppo": "L",
         "sede": "Foxborough, MA"
       },
@@ -1422,8 +1423,8 @@
         "iso_casa": "pa",
         "trasferta": "CROAZIA",
         "iso_trasferta": "hr",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 1,
         "gruppo": "L",
         "sede": "Toronto"
       }
