@@ -1557,46 +1557,6 @@
     "sedicesimi": [
       {
         "id": "S1",
-        "casa": "GERMANIA",
-        "trasferta": "SCOZIA",
-        "iso_casa": "de",
-        "iso_trasferta": "gb-sct",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S2",
-        "casa": "OLANDA",
-        "trasferta": "MAROCCO",
-        "iso_casa": "nl",
-        "iso_trasferta": "ma",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S3",
-        "casa": "FRANCIA",
-        "trasferta": "SVEZIA",
-        "iso_casa": "fr",
-        "iso_trasferta": "se",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S4",
-        "casa": "SPAGNA",
-        "trasferta": "AUSTRIA",
-        "iso_casa": "es",
-        "iso_trasferta": "at",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
-      },
-      {
-        "id": "S5",
         "casa": "BRASILE",
         "trasferta": "GIAPPONE",
         "iso_casa": "br",
@@ -1606,7 +1566,27 @@
         "vincitore": null
       },
       {
-        "id": "S6",
+        "id": "S2",
+        "casa": "GERMANIA",
+        "trasferta": "PARAGUAY",
+        "iso_casa": "de",
+        "iso_trasferta": "py",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "S3",
+        "casa": "OLANDA",
+        "trasferta": "MAROCCO",
+        "iso_casa": "nl",
+        "iso_trasferta": "ma",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "S4",
         "casa": "COSTA D'AVORIO",
         "trasferta": "NORVEGIA",
         "iso_casa": "ci",
@@ -1616,21 +1596,41 @@
         "vincitore": null
       },
       {
-        "id": "S7",
+        "id": "S5",
+        "casa": "FRANCIA",
+        "trasferta": "SVEZIA",
+        "iso_casa": "fr",
+        "iso_trasferta": "se",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "S6",
         "casa": "INGHILTERRA",
-        "trasferta": "PORTOGALLO",
+        "trasferta": "CAPO VERDE",
         "iso_casa": "gb-eng",
-        "iso_trasferta": "pt",
+        "iso_trasferta": "cv",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "S7",
+        "casa": "SPAGNA",
+        "trasferta": "AUSTRIA",
+        "iso_casa": "es",
+        "iso_trasferta": "at",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
       },
       {
         "id": "S8",
-        "casa": "ARGENTINA",
-        "trasferta": "URUGUAY",
-        "iso_casa": "ar",
-        "iso_trasferta": "uy",
+        "casa": "PORTOGALLO",
+        "trasferta": "GHANA",
+        "iso_casa": "pt",
+        "iso_trasferta": "gh",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
@@ -1647,6 +1647,16 @@
       },
       {
         "id": "S10",
+        "casa": "ARGENTINA",
+        "trasferta": "URUGUAY",
+        "iso_casa": "ar",
+        "iso_trasferta": "uy",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "S11",
         "casa": "COLOMBIA",
         "trasferta": "CROAZIA",
         "iso_casa": "co",
@@ -1655,7 +1665,6 @@
         "gol_trasferta": null,
         "vincitore": null
       }
-
     ],
     "ottavi": [
       {
