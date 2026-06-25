@@ -126,27 +126,27 @@
       "gruppo": "C",
       "squadra": "BRASILE",
       "iso": "br",
-      "punti": 4,
-      "g": 2,
-      "v": 1,
+      "punti": 7,
+      "g": 3,
+      "v": 2,
       "n": 1,
       "p": 0,
-      "gf": 4,
+      "gf": 7,
       "gs": 1,
-      "dr": 3
+      "dr": 6
     },
     {
       "gruppo": "C",
       "squadra": "MAROCCO",
       "iso": "ma",
-      "punti": 4,
-      "g": 2,
-      "v": 1,
+      "punti": 7,
+      "g": 3,
+      "v": 2,
       "n": 1,
       "p": 0,
-      "gf": 2,
-      "gs": 1,
-      "dr": 0
+      "gf": 6,
+      "gs": 3,
+      "dr": 3
     },
     {
       "gruppo": "E",
@@ -942,8 +942,8 @@
         "trasferta": "BRASILE",
         "fanta_casa": "Nicola Marano",
         "fanta_trasferta": "Federico Burello",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 3,
         "formazione_casa": {
           "modulo": "4-2-3-1",
           "titolari": [
@@ -982,8 +982,8 @@
         "trasferta": "CROAZIA",
         "fanta_casa": "Aidan Conti",
         "fanta_trasferta": "Cristian Tartaro",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 4,
+        "gol_trasferta": 0,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1433,8 +1433,8 @@
         "iso_casa": "gb-sct",
         "trasferta": "BRASILE",
         "iso_trasferta": "br",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 3,
         "gruppo": "C",
         "sede": "Miami Gardens, FL"
       },
@@ -1444,8 +1444,8 @@
         "iso_casa": "ma",
         "trasferta": "HAITI",
         "iso_trasferta": "ht",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 4,
+        "gol_trasferta": 2,
         "gruppo": "C",
         "sede": "Atlanta"
       },
