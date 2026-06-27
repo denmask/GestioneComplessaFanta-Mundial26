@@ -3,45 +3,76 @@
     {
       "posizione": 1,
       "fantallenatore": "Valentina Pozzi",
-      "punti": 6,
-      "vittorie": 2,
+      "punti": 9,
+      "vittorie": 3,
       "pareggi": 0,
       "sconfitte": 0,
-      "gf": 7,
-      "gs": 3
+      "gf": 9,
+      "gs": 4
     },
+    
     {
       "posizione": 2,
+      "fantallenatore": "Aidan Conti",
+      "punti": 7,
+      "vittorie": 2,
+      "pareggi": 1,
+      "sconfitte": 0,
+      "gf": 6,
+      "gs": 1
+    },
+    {
+      "posizione": 3,
       "fantallenatore": "Kevin DB",
       "punti": 6,
       "vittorie": 2,
       "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 6,
-      "gs": 2
-    },
-    {
-      "posizione": 3,
-      "fantallenatore": "Aidan Conti",
-      "punti": 4,
-      "vittorie": 1,
-      "pareggi": 1,
-      "sconfitte": 0,
-      "gf": 2,
-      "gs": 1
+      "sconfitte": 1,
+      "gf": 7,
+      "gs": 6
     },
     {
       "posizione": 4,
+      "fantallenatore": "Federico Burello",
+      "punti": 5,
+      "vittorie": 1,
+      "pareggi": 2,
+      "sconfitte": 0,
+      "gf": 7,
+      "gs": 5
+    },
+    {
+      "posizione": 5,
+      "fantallenatore": "Kevin Sandri",
+      "punti": 4,
+      "vittorie": 1,
+      "pareggi": 1,
+      "sconfitte": 1,
+      "gf": 10,
+      "gs": 8
+    },
+    {
+      "posizione": 6,
       "fantallenatore": "Nicola Marano",
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
-      "sconfitte": 1,
-      "gf": 9,
-      "gs": 6
+      "sconfitte": 2,
+      "gf": 10,
+      "gs": 9
     },
     {
-      "posizione": 5,
+      "posizione": 7,
+      "fantallenatore": "Lorenzo Moro",
+      "punti": 3,
+      "vittorie": 1,
+      "pareggi": 0,
+      "sconfitte": 2,
+      "gf": 6,
+      "gs": 3
+    },
+    {
+      "posizione": 8,
       "fantallenatore": "Denis Mascherin",
       "punti": 3,
       "vittorie": 1,
@@ -51,47 +82,29 @@
       "gs": 3
     },
     {
-      "posizione": 6,
+      "posizione": 9,
       "fantallenatore": "Cristian Tartaro",
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
-      "sconfitte": 1,
+      "sconfitte": 2,
       "gf": 3,
-      "gs": 4
+      "gs": 8
     },
     {
-      "posizione": 7,
+      "posizione": 10,
       "fantallenatore": "Alex Beltrame",
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
-      "sconfitte": 1,
+      "sconfitte": 2,
       "gf": 5,
-      "gs": 10
+      "gs": 15
     },
+    
+    
     {
-      "posizione": 8,
-      "fantallenatore": "Federico Burello",
-      "punti": 2,
-      "vittorie": 0,
-      "pareggi": 2,
-      "sconfitte": 0,
-      "gf": 4,
-      "gs": 4
-    },
-    {
-      "posizione": 9,
-      "fantallenatore": "Kevin Sandri",
-      "punti": 1,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 1,
-      "gf": 6,
-      "gs": 7
-    },
-    {
-      "posizione": 10,
+      "posizione": 11,
       "fantallenatore": "Mattia Beltrame",
       "punti": 1,
       "vittorie": 0,
@@ -101,24 +114,14 @@
       "gs": 6
     },
     {
-      "posizione": 11,
+      "posizione": 12,
       "fantallenatore": "Andrea Campagnolo",
       "punti": 1,
       "vittorie": 0,
       "pareggi": 1,
-      "sconfitte": 1,
-      "gf": 3,
-      "gs": 6
-    },
-    {
-      "posizione": 12,
-      "fantallenatore": "Lorenzo Moro",
-      "punti": 0,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 1,
-      "gf": 1,
-      "gs": 3
+      "sconfitte": 2,
+      "gf": 4,
+      "gs": 8
     }
   ],
   "classifica_reale": [
@@ -153,52 +156,52 @@
       "squadra": "GERMANIA",
       "iso": "de",
       "punti": 6,
-      "g": 2,
+      "g": 3,
       "v": 2,
       "n": 0,
-      "p": 0,
-      "gf": 9,
-      "gs": 2,
-      "dr": 7
+      "p": 1,
+      "gf": 10,
+      "gs": 4,
+      "dr": 6
     },
     {
       "gruppo": "F",
       "squadra": "OLANDA",
       "iso": "nl",
-      "punti": 4,
-      "g": 2,
-      "v": 1,
+      "punti": 7,
+      "g": 3,
+      "v": 2,
       "n": 1,
       "p": 0,
-      "gf": 7,
-      "gs": 3,
-      "dr": 4
+      "gf": 10,
+      "gs": 4,
+      "dr": 6
     },
     {
       "gruppo": "H",
       "squadra": "SPAGNA",
       "iso": "es",
-      "punti": 4,
-      "g": 2,
-      "v": 1,
+      "punti": 7,
+      "g": 3,
+      "v": 2,
       "n": 1,
       "p": 0,
-      "gf": 4,
+      "gf": 5,
       "gs": 0,
-      "dr": 4
+      "dr": 5
     },
     {
       "gruppo": "G",
       "squadra": "BELGIO",
       "iso": "be",
-      "punti": 2,
-      "g": 2,
-      "v": 0,
+      "punti": 5,
+      "g": 3,
+      "v": 1,
       "n": 2,
       "p": 0,
-      "gf": 1,
-      "gs": 1,
-      "dr": 0
+      "gf": 6,
+      "gs": 2,
+      "dr": 4
     },
     {
       "gruppo": "K",
@@ -218,13 +221,13 @@
       "squadra": "NORVEGIA",
       "iso": "no",
       "punti": 6,
-      "g": 2,
+      "g": 3,
       "v": 2,
       "n": 0,
-      "p": 0,
-      "gf": 7,
-      "gs": 3,
-      "dr": 4
+      "p": 1,
+      "gf": 8,
+      "gs": 7,
+      "dr": 1
     },
     {
       "gruppo": "J",
@@ -243,14 +246,14 @@
       "gruppo": "I",
       "squadra": "FRANCIA",
       "iso": "fr",
-      "punti": 6,
-      "g": 2,
-      "v": 2,
+      "punti": 9,
+      "g": 3,
+      "v": 3,
       "n": 0,
       "p": 0,
-      "gf": 6,
-      "gs": 1,
-      "dr": 5
+      "gf": 10,
+      "gs": 2,
+      "dr": 8
     },
     {
       "gruppo": "L",
@@ -942,7 +945,7 @@
         "trasferta": "BRASILE",
         "fanta_casa": "Nicola Marano",
         "fanta_trasferta": "Federico Burello",
-        "gol_casa": 0,
+        "gol_casa": 1,
         "gol_trasferta": 3,
         "formazione_casa": {
           "modulo": "4-2-3-1",
@@ -1062,8 +1065,8 @@
         "trasferta": "SPAGNA",
         "fanta_casa": "Valentina Pozzi",
         "fanta_trasferta": "Andrea Campagnolo",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 1,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1102,8 +1105,8 @@
         "trasferta": "FRANCIA",
         "fanta_casa": "Kevin DB",
         "fanta_trasferta": "Kevin Sandri",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 1,
+        "gol_trasferta": 4,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1142,8 +1145,8 @@
         "trasferta": "BELGIO",
         "fanta_casa": "Alex Beltrame",
         "fanta_trasferta": "Lorenzo Moro",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 5,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1455,8 +1458,8 @@
         "iso_casa": "ec",
         "trasferta": "GERMANIA",
         "iso_trasferta": "de",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 1,
         "gruppo": "E",
         "sede": "East Rutherford, NJ"
       },
@@ -1466,8 +1469,8 @@
         "iso_casa": "tn",
         "trasferta": "OLANDA",
         "iso_trasferta": "nl",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 1,
+        "gol_trasferta": 3,
         "gruppo": "F",
         "sede": "Kansas City, MO"
       },
@@ -1477,8 +1480,8 @@
         "iso_casa": "no",
         "trasferta": "FRANCIA",
         "iso_trasferta": "fr",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 1,
+        "gol_trasferta": 4,
         "gruppo": "I",
         "sede": "Foxborough, MA"
       },
@@ -1488,8 +1491,8 @@
         "iso_casa": "uy",
         "trasferta": "SPAGNA",
         "iso_trasferta": "es",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 1,
         "gruppo": "H",
         "sede": "Zapopan, Mexico"
       },
@@ -1499,8 +1502,8 @@
         "iso_casa": "nz",
         "trasferta": "BELGIO",
         "iso_trasferta": "be",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 1,
+        "gol_trasferta": 5,
         "gruppo": "G",
         "sede": "Vancouver, Canada"
       },
