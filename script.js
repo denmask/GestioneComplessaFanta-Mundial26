@@ -47,17 +47,13 @@ function buildSidebar() {
 function buildFantallenatoriSidebar() {
   const ul = document.getElementById('fantallenatori-list');
   ul.innerHTML = '';
-  
-  // Ordina alfabeticamente
   const sorted = [...DATA.fantallenatori].sort((a,b) => a.nome.localeCompare(b.nome));
-  
   sorted.forEach(f => {
     const li = document.createElement('li');
     const a = document.createElement('a');
     a.innerHTML = '👤 ' + f.nome;
     a.onclick = (e) => {
       e.preventDefault();
-      // Rimuovi active da tutti i link
       document.querySelectorAll('#fantallenatori-list li a').forEach(link => {
         link.classList.remove('active');
       });
@@ -84,13 +80,18 @@ function buildDashboard() {
   });
 }
 
-function showHome() {
-  document.getElementById('home-view').classList.remove('hidden');
+function hideAllViews() {
+  document.getElementById('home-view').classList.add('hidden');
   document.getElementById('calendario-view').classList.add('hidden');
   document.getElementById('calendario-reale-view').classList.add('hidden');
   document.getElementById('classifica-fanta-view').classList.add('hidden');
   document.getElementById('classifica-reale-view').classList.add('hidden');
   document.getElementById('eliminazione-view').classList.add('hidden');
+}
+
+function showHome() {
+  hideAllViews();
+  document.getElementById('home-view').classList.remove('hidden');
   if (activeSidebarLink) activeSidebarLink.classList.remove('active');
   activeSidebarLink = null;
   if (window.innerWidth <= 768) toggleSidebar(false);
@@ -98,11 +99,7 @@ function showHome() {
 }
 
 function showCalendario(nazioneFiltro) {
-  document.getElementById('home-view').classList.add('hidden');
-  document.getElementById('calendario-reale-view').classList.add('hidden');
-  document.getElementById('classifica-fanta-view').classList.add('hidden');
-  document.getElementById('classifica-reale-view').classList.add('hidden');
-  document.getElementById('eliminazione-view').classList.add('hidden');
+  hideAllViews();
   document.getElementById('calendario-view').classList.remove('hidden');
 
   const title = document.getElementById('cal-title');
@@ -198,16 +195,19 @@ function closeFormazioneModal() {
 }
 
 function showCalendarioReale() {
-  document.getElementById('home-view').classList.add('hidden');
-  document.getElementById('calendario-view').classList.add('hidden');
-  document.getElementById('classifica-fanta-view').classList.add('hidden');
-  document.getElementById('classifica-reale-view').classList.add('hidden');
-  document.getElementById('eliminazione-view').classList.add('hidden');
+  hideAllViews();
   document.getElementById('calendario-reale-view').classList.remove('hidden');
 
   const content = document.getElementById('calendario-reale-content');
   content.innerHTML = '';
 
+  // Le 12 squadre del fanta
+  const nostreSquadre = new Set([
+    'BRASILE','GERMANIA','OLANDA','MAROCCO','SPAGNA','BELGIO',
+    'PORTOGALLO','NORVEGIA','ARGENTINA','FRANCIA','INGHILTERRA','CROAZIA'
+  ]);
+
+  // ── GIORNATE DEL GIRONE ──
   const giornate = ['giornata_1', 'giornata_2', 'giornata_3'];
   const nomiGiornate = ['1ª Giornata', '2ª Giornata', '3ª Giornata'];
 
@@ -244,14 +244,45 @@ function showCalendarioReale() {
 
     content.appendChild(section);
   });
+
+  // ── SEDICESIMI DI FINALE ──
+  const sedicesimi = DATA.calendario_reale.sedicesimi;
+  if (sedicesimi && sedicesimi.length > 0) {
+    const section = document.createElement('div');
+    section.className = 'reale-giornata';
+
+    const title = document.createElement('div');
+    title.className = 'reale-giornata-title reale-giornata-title--knockout';
+    title.innerHTML = '⚔️ Sedicesimi di Finale';
+    section.appendChild(title);
+
+    sedicesimi.forEach(p => {
+      const flagCasa = p.iso_casa ? flagImg(p.iso_casa, 20) : '';
+      const flagTrasf = p.iso_trasferta ? flagImg(p.iso_trasferta, 20) : '';
+      const score = (p.gol_casa !== null && p.gol_trasferta !== null) ? `${p.gol_casa} - ${p.gol_trasferta}` : '? - ?';
+
+      const hasNostra = nostreSquadre.has(p.casa) || nostreSquadre.has(p.trasferta);
+
+      const card = document.createElement('div');
+      card.className = 'reale-match-card reale-match-card--knockout' + (hasNostra ? ' reale-match-card--fanta' : '');
+      card.innerHTML = `
+        <div class="reale-match-info">
+          <div class="reale-match-data">${p.data} <span class="reale-match-ora">⏰ ${p.ora}</span></div>
+          <div class="reale-match-teams">${flagCasa} <strong>${p.casa}</strong> vs <strong>${p.trasferta}</strong> ${flagTrasf}</div>
+          <div class="reale-match-sede">📍 ${p.stadio}, ${p.sede}</div>
+          ${hasNostra ? '<div class="reale-fanta-badge">⭐ Nostra squadra</div>' : ''}
+        </div>
+        <div class="reale-match-score">${score}</div>
+      `;
+      section.appendChild(card);
+    });
+
+    content.appendChild(section);
+  }
 }
 
 function showClassificaFanta() {
-  document.getElementById('home-view').classList.add('hidden');
-  document.getElementById('calendario-view').classList.add('hidden');
-  document.getElementById('calendario-reale-view').classList.add('hidden');
-  document.getElementById('classifica-reale-view').classList.add('hidden');
-  document.getElementById('eliminazione-view').classList.add('hidden');
+  hideAllViews();
   document.getElementById('classifica-fanta-view').classList.remove('hidden');
 
   const content = document.getElementById('classifica-fanta-content');
@@ -273,11 +304,7 @@ function showClassificaFanta() {
 }
 
 function showClassificaReale() {
-  document.getElementById('home-view').classList.add('hidden');
-  document.getElementById('calendario-view').classList.add('hidden');
-  document.getElementById('calendario-reale-view').classList.add('hidden');
-  document.getElementById('classifica-fanta-view').classList.add('hidden');
-  document.getElementById('eliminazione-view').classList.add('hidden');
+  hideAllViews();
   document.getElementById('classifica-reale-view').classList.remove('hidden');
 
   const content = document.getElementById('classifica-reale-content');
@@ -300,11 +327,7 @@ function showClassificaReale() {
 }
 
 function showEliminazione() {
-  document.getElementById('home-view').classList.add('hidden');
-  document.getElementById('calendario-view').classList.add('hidden');
-  document.getElementById('calendario-reale-view').classList.add('hidden');
-  document.getElementById('classifica-fanta-view').classList.add('hidden');
-  document.getElementById('classifica-reale-view').classList.add('hidden');
+  hideAllViews();
   document.getElementById('eliminazione-view').classList.remove('hidden');
 
   const content = document.getElementById('eliminazione-content');
@@ -342,10 +365,9 @@ function showEliminazione() {
       let casaHtml, trasfHtml, scoreHtml;
 
       if (p.casa) {
-        // Usa iso_casa e iso_trasferta se disponibili, altrimenti cerca nei dati nazionali
         let isoCasa = p.iso_casa;
         let isoTrasf = p.iso_trasferta;
-        
+
         if (!isoCasa) {
           const cn = DATA.nazionali.find(x => x.nome === p.casa);
           isoCasa = cn ? cn.iso : '';
@@ -354,10 +376,10 @@ function showEliminazione() {
           const tn = DATA.nazionali.find(x => x.nome === p.trasferta);
           isoTrasf = tn ? tn.iso : '';
         }
-        
+
         const fc = isoCasa ? flagImg(isoCasa, 20) : '';
         const ft = isoTrasf ? flagImg(isoTrasf, 20) : '';
-        
+
         const casaClass = p.vincitore === p.casa ? 'team-qualified' : (p.vincitore && p.vincitore !== p.casa ? 'team-eliminated' : '');
         const trasfClass = p.vincitore === p.trasferta ? 'team-qualified' : (p.vincitore && p.vincitore !== p.trasferta ? 'team-eliminated' : '');
         casaHtml = '<span class="' + casaClass + '">' + fc + ' ' + p.casa + '</span>';
@@ -382,7 +404,6 @@ function showEliminazione() {
 }
 
 function openFantaModal(f, element) {
-  // Rimuovi active da tutti i bottoni fantallenatori nella sidebar
   document.querySelectorAll('#fantallenatori-list li a').forEach(btn => {
     btn.classList.remove('active');
   });
@@ -402,8 +423,6 @@ function openFantaModal(f, element) {
     : '<span style="color:#aaa;">—</span>';
 
   const totalLabel = f.anni === 1 ? '1 stagione' : f.anni + ' stagioni';
-  
-  // Calcola statistiche aggiuntive
   const numTornei = f.tornei.length;
   const numNazionali = f.nazionali.length;
 
@@ -417,17 +436,14 @@ function openFantaModal(f, element) {
         <div class="modal-section-title"><span>📅</span> STAGIONI</div>
         <div class="modal-tags">${stagHtml}</div>
       </div>
-      
       <div class="modal-section">
         <div class="modal-section-title"><span>🏆</span> TORNEI SPECIALI</div>
         <div class="modal-tags">${tornHtml}</div>
       </div>
-      
       <div class="modal-section">
         <div class="modal-section-title"><span>🌍</span> NAZIONALI AFFIDATE</div>
         <div class="modal-tags">${nazioniHtml}</div>
       </div>
-      
       <div class="stats-grid">
         <div class="stat-item">
           <div class="stat-value">${f.anni}</div>
@@ -450,7 +466,6 @@ function openFantaModal(f, element) {
 
 function closeModal() {
   document.getElementById('modal-overlay').classList.add('hidden');
-  // Non rimuoviamo active qui perché potrebbe essere stato chiuso con click fuori
 }
 
 function toggleSidebar(force) {
@@ -472,7 +487,6 @@ function toggleSidebar(force) {
   }
 }
 
-// Chiudi modali cliccando fuori
 document.getElementById('modal-overlay').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
@@ -480,7 +494,6 @@ document.getElementById('formazione-modal').addEventListener('click', function(e
   if (e.target === this) closeFormazioneModal();
 });
 
-// Chiudi sidebar su resize se diventa desktop
 window.addEventListener('resize', function() {
   if (window.innerWidth > 768 && sidebarOpen) {
     toggleSidebar(false);

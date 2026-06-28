@@ -27,6 +27,9 @@ body {
   min-height: 100vh;
 }
 
+/* ══════════════════════════════════════
+   TOP BAR
+══════════════════════════════════════ */
 .top-bar {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -51,34 +54,7 @@ body {
 }
 .logo span { color: var(--accent1); font-weight: 900; }
 
-.fanta-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  flex: 1;
-  overflow-x: auto;
-  padding-bottom: 4px;
-}
-
-.fanta-btn {
-  background: #1e1e2e;
-  color: #ccc;
-  border: none;
-  border-radius: 30px;
-  padding: 7px 16px;
-  font-family: 'Inter', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.2s ease;
-}
-.fanta-btn:hover, .fanta-btn.active {
-  background: var(--accent1);
-  color: #fff;
-  transform: translateY(-1px);
-}
+.fanta-nav { display: none; }
 
 .hamburger {
   display: none;
@@ -90,12 +66,18 @@ body {
   margin-left: auto;
 }
 
+/* ══════════════════════════════════════
+   LAYOUT
+══════════════════════════════════════ */
 .layout {
   display: flex;
   margin-top: var(--topbar-h);
   min-height: calc(100vh - var(--topbar-h));
 }
 
+/* ══════════════════════════════════════
+   SIDEBAR
+══════════════════════════════════════ */
 .sidebar {
   position: fixed;
   top: var(--topbar-h);
@@ -131,9 +113,10 @@ body {
   font-weight: 500;
   transition: all 0.15s;
   border-left: 3px solid transparent;
+  cursor: pointer;
 }
-
-.sidebar ul li a:hover, .sidebar ul li a.active {
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
   background: var(--sidebar-hover);
   color: #fff;
   border-left-color: var(--accent1);
@@ -170,6 +153,36 @@ body {
   transform: translateX(4px);
 }
 
+/* Fantallenatori list */
+.fantallenatori-list { list-style: none; padding: 0; margin: 0; }
+.fantallenatori-list li { margin: 0; }
+.fantallenatori-list li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  color: var(--sidebar-text);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.15s;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+}
+.fantallenatori-list li a:hover {
+  background: var(--sidebar-hover);
+  color: #fff;
+  border-left-color: var(--accent2);
+}
+.fantallenatori-list li a.active {
+  background: var(--sidebar-hover);
+  color: #fff;
+  border-left-color: var(--accent1);
+}
+
+/* ══════════════════════════════════════
+   CONTENT
+══════════════════════════════════════ */
 .content {
   margin-left: var(--sidebar-w);
   flex: 1;
@@ -179,6 +192,9 @@ body {
 
 .hidden { display: none !important; }
 
+/* ══════════════════════════════════════
+   HOME / HERO
+══════════════════════════════════════ */
 .hero-card {
   background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 100%);
   color: #fff;
@@ -200,6 +216,9 @@ body {
   font-weight: 500;
 }
 
+/* ══════════════════════════════════════
+   DASHBOARD GRID
+══════════════════════════════════════ */
 .dashboard-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -220,11 +239,14 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
-.nation-card .flag-big { margin-bottom: 12px; display:flex; justify-content:center; }
-.nation-card .flag-big img { width:56px; height:42px; object-fit:cover; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+.nation-card .flag-big { margin-bottom: 12px; display: flex; justify-content: center; }
+.nation-card .flag-big img { width: 56px; height: 42px; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
 .nation-card .nome { font-size: 0.9rem; font-weight: 800; color: var(--text); font-family: 'Montserrat', sans-serif; }
 .nation-card .fanta { font-size: 0.7rem; color: var(--text-light); margin-top: 6px; font-weight: 600; }
 
+/* ══════════════════════════════════════
+   VIEW HEADER
+══════════════════════════════════════ */
 .view-header {
   display: flex;
   align-items: center;
@@ -254,29 +276,22 @@ body {
 }
 .btn-back:hover { background: var(--accent1); }
 
-/* Calendario Fanta - 3 card per riga */
+/* ══════════════════════════════════════
+   CALENDARIO FANTA
+══════════════════════════════════════ */
 .calendario-grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-
 @media (max-width: 1100px) {
-  .calendario-grid-3 {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .calendario-grid-3 { grid-template-columns: repeat(2, 1fr); }
 }
-
 @media (max-width: 768px) {
-  .calendario-grid-3 {
-    grid-template-columns: 1fr;
-  }
+  .calendario-grid-3 { grid-template-columns: 1fr; }
 }
 
-.giornata-block {
-  margin-bottom: 0;
-  break-inside: avoid;
-}
+.giornata-block { margin-bottom: 0; break-inside: avoid; }
 
 .giornata-label {
   font-family: 'Montserrat', sans-serif;
@@ -340,17 +355,18 @@ body {
   font-weight: 600;
   gap: 6px;
 }
-.match-fanta span { 
+.match-fanta span {
   background: #f0f2f8;
   border-radius: 20px;
   padding: 3px 10px;
   font-size: 0.65rem;
 }
 
-/* Calendario Reale */
-.reale-giornata {
-  margin-bottom: 30px;
-}
+/* ══════════════════════════════════════
+   CALENDARIO REALE - GIORNATE
+══════════════════════════════════════ */
+.reale-giornata { margin-bottom: 30px; }
+
 .reale-giornata-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -362,6 +378,15 @@ body {
   border-radius: 30px;
   margin-bottom: 15px;
 }
+
+/* Titolo sedicesimi — gradiente speciale */
+.reale-giornata-title--knockout {
+  background: linear-gradient(135deg, #1a1a2e 0%, #e63946 100%);
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  padding: 8px 24px;
+}
+
 .reale-match-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -374,6 +399,18 @@ body {
   gap: 12px;
   box-shadow: var(--card-shadow);
 }
+
+/* Card generica fase knockout */
+.reale-match-card--knockout {
+  border-left: 4px solid #607d8b;
+}
+
+/* Card con una nostra squadra — evidenziata */
+.reale-match-card--fanta {
+  border-left: 4px solid var(--accent1);
+  background: linear-gradient(to right, #fff5f5, #ffffff);
+}
+
 .reale-match-info {
   display: flex;
   align-items: center;
@@ -403,7 +440,29 @@ body {
   color: var(--accent1);
 }
 
-/* Classifiche */
+/* Orario partita */
+.reale-match-ora {
+  font-size: 0.7rem;
+  color: var(--accent2);
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+/* Badge "Nostra squadra" */
+.reale-fanta-badge {
+  display: inline-block;
+  background: var(--accent1);
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+/* ══════════════════════════════════════
+   CLASSIFICHE
+══════════════════════════════════════ */
 .classifica-table {
   background: var(--white);
   border-radius: var(--radius);
@@ -428,16 +487,15 @@ body {
   border-bottom: 1px solid #eee;
   font-weight: 500;
 }
-.classifica-table tr:hover {
-  background: #f5f5f5;
-}
+.classifica-table tr:hover { background: #f5f5f5; }
 .posizione-1 { background: #fff8e1; font-weight: 800; }
 .posizione-2, .posizione-3 { background: #f5f5f5; }
 
-/* Eliminazione */
-.elim-section {
-  margin-bottom: 32px;
-}
+/* ══════════════════════════════════════
+   FASE ELIMINAZIONE
+══════════════════════════════════════ */
+.elim-section { margin-bottom: 32px; }
+
 .elim-label {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -450,11 +508,13 @@ body {
   border-radius: 30px;
   margin-bottom: 18px;
 }
+
 .elim-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 14px;
 }
+
 .elim-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -463,6 +523,7 @@ body {
   border-left: 4px solid #bbb;
 }
 .elim-card.tbd { opacity: 0.6; }
+
 .elim-match {
   display: flex;
   align-items: center;
@@ -488,14 +549,16 @@ body {
   letter-spacing: 3px;
   margin: 6px 0;
 }
+
 .team-qualified { color: #2e7d32; background: #e8f5e9; border-radius: 20px; padding: 2px 10px; }
 .team-eliminated { color: #c62828; background: #ffebee; border-radius: 20px; padding: 2px 10px; text-decoration: line-through; }
 .team-tbd { color: #888; }
 
-/* Modal Formazione */
-.formazione-box {
-  max-width: 600px;
-}
+/* ══════════════════════════════════════
+   MODAL FORMAZIONE
+══════════════════════════════════════ */
+.formazione-box { max-width: 600px; }
+
 .formazione-header {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -535,6 +598,10 @@ body {
   color: var(--text);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
+
+/* ══════════════════════════════════════
+   MODAL OVERLAY (base)
+══════════════════════════════════════ */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -546,181 +613,21 @@ body {
   padding: 20px;
 }
 .modal-overlay.hidden { display: none !important; }
-.modal-box {
-  background: var(--white);
-  border-radius: var(--radius);
-  padding: 28px;
-  max-width: 500px;
-  width: 100%;
-  position: relative;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-  max-height: 85vh;
-  overflow-y: auto;
-}
-.modal-close-btn {
-  position: absolute;
-  top: 12px; right: 14px;
-  background: none;
-  border: none;
-  font-size: 1.3rem;
-  cursor: pointer;
-  color: var(--text-light);
-}
-.modal-close-btn:hover { color: var(--accent1); }
 
-@media (max-width: 768px) {
-  :root { --sidebar-w: 0px; }
-  .sidebar {
-    transform: translateX(-260px);
-    width: 260px;
-    transition: transform 0.3s ease;
-  }
-  .sidebar.open {
-    transform: translateX(0);
-    --sidebar-w: 260px;
-  }
-  .content { margin-left: 0; padding: 20px 16px; }
-  .hamburger { display: block; }
-  .fanta-nav { display: none; }
-  .hero-title { font-size: 1.6rem; }
-  .dashboard-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
-  .view-header h2 { font-size: 1.2rem; }
-}
-
-
-/* AGGIUNGI QUESTE NUOVE REGOLE CSS */
-
-/* Fantallenatori nella sidebar */
-.fantallenatori-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.fantallenatori-list li {
-  margin: 0;
-}
-
-.fantallenatori-list li a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 20px;
-  color: var(--sidebar-text);
-  text-decoration: none;
-  font-size: 0.85rem;
-  font-weight: 500;
-  transition: all 0.15s;
-  border-left: 3px solid transparent;
-  cursor: pointer;
-}
-
-.fantallenatori-list li a:hover {
-  background: var(--sidebar-hover);
-  color: #fff;
-  border-left-color: var(--accent2);
-}
-
-.fantallenatori-list li a.active {
-  background: var(--sidebar-hover);
-  color: #fff;
-  border-left-color: var(--accent1);
-}
-
-/* Modal migliorato per i fantallenatori */
+/* ══════════════════════════════════════
+   MODAL BOX (fantallenatori)
+══════════════════════════════════════ */
 .modal-box {
   background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
   border-radius: 24px;
   padding: 0;
-  max-width: 480px;
+  max-width: 500px;
   width: 100%;
   position: relative;
   box-shadow: 0 25px 50px -12px rgba(0,0,0,0.35);
   overflow: hidden;
-}
-
-.modal-header {
-  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4a 100%);
-  padding: 24px 28px;
-  text-align: center;
-  position: relative;
-}
-
-.modal-header .modal-nome {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: -0.5px;
-  margin: 0;
-}
-
-.modal-header .modal-anni {
-  display: inline-block;
-  background: var(--accent1);
-  color: #fff;
-  border-radius: 40px;
-  padding: 5px 18px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  margin-top: 10px;
-  letter-spacing: 0.5px;
-}
-
-.modal-body {
-  padding: 24px 28px 32px;
-}
-
-.modal-section {
-  margin-bottom: 24px;
-}
-
-.modal-section-title {
-  font-size: 0.7rem;
-  font-weight: 800;
-  letter-spacing: 1.5px;
-  color: #888;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.modal-section-title span {
-  font-size: 1rem;
-}
-
-.modal-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.modal-tag {
-  background: #f0f2f8;
-  border-radius: 30px;
-  padding: 6px 16px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--accent2);
-  transition: all 0.2s;
-}
-
-.modal-tag.torneo {
-  background: linear-gradient(135deg, #fff8e1, #fff3e0);
-  color: #e65100;
-}
-
-.modal-tag.nazione {
-  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
-  color: #2e7d32;
-  font-weight: 700;
-}
-
-.modal-tag.stagione {
-  background: linear-gradient(135deg, #e3f2fd, #bbdef5);
-  color: #1565c0;
+  max-height: 85vh;
+  overflow-y: auto;
 }
 
 .modal-close-btn {
@@ -739,31 +646,84 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
+  z-index: 10;
 }
-
 .modal-close-btn:hover {
   background: var(--accent1);
   color: #fff;
   transform: scale(1.05);
 }
 
-/* Avatar per fantallenatori */
-.modal-avatar {
-  width: 70px;
-  height: 70px;
-  background: linear-gradient(135deg, var(--accent1), #ff6b6b);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: -35px auto 0;
+.modal-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4a 100%);
+  padding: 24px 28px;
+  text-align: center;
   position: relative;
-  z-index: 10;
-  box-shadow: 0 8px 20px rgba(230,57,70,0.3);
+}
+.modal-header .modal-nome {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+.modal-header .modal-anni {
+  display: inline-block;
+  background: var(--accent1);
+  color: #fff;
+  border-radius: 40px;
+  padding: 5px 18px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
 }
 
-.modal-avatar span {
-  font-size: 2.5rem;
+.modal-body { padding: 24px 28px 32px; }
+
+.modal-section { margin-bottom: 24px; }
+
+.modal-section-title {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.modal-section-title span { font-size: 1rem; }
+
+.modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.modal-tag {
+  background: #f0f2f8;
+  border-radius: 30px;
+  padding: 6px 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent2);
+  transition: all 0.2s;
+}
+.modal-tag.torneo {
+  background: linear-gradient(135deg, #fff8e1, #fff3e0);
+  color: #e65100;
+}
+.modal-tag.nazione {
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  color: #2e7d32;
+  font-weight: 700;
+}
+.modal-tag.stagione {
+  background: linear-gradient(135deg, #e3f2fd, #bbdef5);
+  color: #1565c0;
 }
 
 .stats-grid {
@@ -774,18 +734,13 @@ body {
   padding-top: 20px;
   border-top: 1px solid #eee;
 }
-
-.stat-item {
-  text-align: center;
-}
-
+.stat-item { text-align: center; }
 .stat-value {
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--accent1);
   font-family: 'Montserrat', sans-serif;
 }
-
 .stat-label {
   font-size: 0.65rem;
   color: #888;
@@ -793,31 +748,36 @@ body {
   font-weight: 600;
 }
 
-/* Rimuovi fanta-nav dalla topbar */
-.fanta-nav {
-  display: none;
-}
-
-/* Ottimizzazioni mobile */
+/* ══════════════════════════════════════
+   RESPONSIVE MOBILE
+══════════════════════════════════════ */
 @media (max-width: 768px) {
+  :root { --sidebar-w: 0px; }
+
+  .sidebar {
+    transform: translateX(-260px);
+    width: 260px;
+    transition: transform 0.3s ease;
+  }
+  .sidebar.open {
+    transform: translateX(0);
+    --sidebar-w: 260px;
+  }
+
+  .content { margin-left: 0; padding: 20px 16px; }
+  .hamburger { display: block; }
+  .hero-title { font-size: 1.6rem; }
+  .dashboard-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  .view-header h2 { font-size: 1.2rem; }
+
   .modal-box {
     margin: 20px;
     max-width: calc(100% - 40px);
   }
-  
-  .modal-header .modal-nome {
-    font-size: 1.5rem;
-  }
-  
-  .modal-body {
-    padding: 20px;
-  }
-  
-  .stats-grid {
-    gap: 8px;
-  }
-  
-  .stat-value {
-    font-size: 1.2rem;
-  }
+  .modal-header .modal-nome { font-size: 1.5rem; }
+  .modal-body { padding: 20px; }
+  .stats-grid { gap: 8px; }
+  .stat-value { font-size: 1.2rem; }
+
+  .reale-match-info { flex-direction: column; align-items: flex-start; gap: 4px; }
 }
