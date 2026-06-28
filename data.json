@@ -19,7 +19,7 @@
       "pareggi": 1,
       "sconfitte": 0,
       "gf": 6,
-      "gs": 1
+      "gs": 3
     },
     {
       "posizione": 3,
@@ -53,13 +53,13 @@
     },
     {
       "posizione": 6,
-      "fantallenatore": "Nicola Marano",
-      "punti": 3,
+      "fantallenatore": "Mattia Beltrame",
+      "punti": 4,
       "vittorie": 1,
-      "pareggi": 0,
-      "sconfitte": 2,
-      "gf": 10,
-      "gs": 9
+      "pareggi": 1,
+      "sconfitte": 1,
+      "gf": 8,
+      "gs": 8
     },
     {
       "posizione": 7,
@@ -73,26 +73,36 @@
     },
     {
       "posizione": 8,
+      "fantallenatore": "Nicola Marano",
+      "punti": 3,
+      "vittorie": 1,
+      "pareggi": 0,
+      "sconfitte": 2,
+      "gf": 10,
+      "gs": 9
+    },
+    {
+      "posizione": 9,
       "fantallenatore": "Denis Mascherin",
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
-      "sconfitte": 0,
-      "gf": 4,
-      "gs": 3
+      "sconfitte": 2,
+      "gf": 6,
+      "gs": 6
     },
     {
-      "posizione": 9,
+      "posizione": 10,
       "fantallenatore": "Cristian Tartaro",
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
       "sconfitte": 2,
-      "gf": 3,
+      "gf": 5,
       "gs": 8
     },
     {
-      "posizione": 10,
+      "posizione": 11,
       "fantallenatore": "Alex Beltrame",
       "punti": 3,
       "vittorie": 1,
@@ -102,17 +112,6 @@
       "gs": 15
     },
     
-    
-    {
-      "posizione": 11,
-      "fantallenatore": "Mattia Beltrame",
-      "punti": 1,
-      "vittorie": 0,
-      "pareggi": 1,
-      "sconfitte": 1,
-      "gf": 5,
-      "gs": 6
-    },
     {
       "posizione": 12,
       "fantallenatore": "Andrea Campagnolo",
@@ -207,10 +206,10 @@
       "gruppo": "K",
       "squadra": "PORTOGALLO",
       "iso": "pt",
-      "punti": 4,
-      "g": 2,
+      "punti": 5,
+      "g": 3,
       "v": 1,
-      "n": 1,
+      "n": 2,
       "p": 0,
       "gf": 6,
       "gs": 1,
@@ -233,14 +232,14 @@
       "gruppo": "J",
       "squadra": "ARGENTINA",
       "iso": "ar",
-      "punti": 6,
-      "g": 2,
-      "v": 2,
+      "punti": 9,
+      "g": 3,
+      "v": 3,
       "n": 0,
       "p": 0,
-      "gf": 5,
-      "gs": 0,
-      "dr": 5
+      "gf": 8,
+      "gs": 1,
+      "dr": 7
     },
     {
       "gruppo": "I",
@@ -259,14 +258,14 @@
       "gruppo": "L",
       "squadra": "INGHILTERRA",
       "iso": "gb-eng",
-      "punti": 4,
-      "g": 2,
-      "v": 1,
+      "punti": 7,
+      "g": 3,
+      "v": 2,
       "n": 1,
       "p": 0,
-      "gf": 4,
+      "gf": 6,
       "gs": 2,
-      "dr": 2
+      "dr": 4
     },
     {
       "gruppo": "L",
@@ -986,7 +985,7 @@
         "fanta_casa": "Aidan Conti",
         "fanta_trasferta": "Cristian Tartaro",
         "gol_casa": 4,
-        "gol_trasferta": 0,
+        "gol_trasferta": 2,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1025,8 +1024,8 @@
         "trasferta": "INGHILTERRA",
         "fanta_casa": "Mattia Beltrame",
         "fanta_trasferta": "Denis Mascherin",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 3,
+        "gol_trasferta": 2,
         "formazione_casa": {
           "modulo": "4-3-3",
           "titolari": [
@@ -1513,8 +1512,8 @@
         "iso_casa": "pa",
         "trasferta": "INGHILTERRA",
         "iso_trasferta": "gb-eng",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 2,
         "gruppo": "L",
         "sede": "East Rutherford, NJ"
       },
@@ -1524,8 +1523,8 @@
         "iso_casa": "hr",
         "trasferta": "GHANA",
         "iso_trasferta": "gh",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 1,
         "gruppo": "L",
         "sede": "Philadelphia"
       },
@@ -1535,8 +1534,8 @@
         "iso_casa": "co",
         "trasferta": "PORTOGALLO",
         "iso_trasferta": "pt",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 0,
         "gruppo": "K",
         "sede": "Miami Gardens, FL"
       },
@@ -1546,8 +1545,8 @@
         "iso_casa": "jo",
         "trasferta": "ARGENTINA",
         "iso_trasferta": "ar",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 1,
+        "gol_trasferta": 3,
         "gruppo": "J",
         "sede": "Arlington, TX"
       }
@@ -1568,9 +1567,9 @@
       {
         "id": "S2",
         "casa": "INGHILTERRA",
-        "trasferta": "PORTOGALLO",
+        "trasferta": "BELGIO",
         "iso_casa": "gb-eng",
-        "iso_trasferta": "pt",
+        "iso_trasferta": "be",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
@@ -1578,9 +1577,9 @@
       {
         "id": "S3",
         "casa": "SPAGNA",
-        "trasferta": "GERMANIA",
+        "trasferta": "ARGENTINA",
         "iso_casa": "es",
-        "iso_trasferta": "de",
+        "iso_trasferta": "ar",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
@@ -1588,9 +1587,9 @@
       {
         "id": "S4",
         "casa": "FRANCIA",
-        "trasferta": "BELGIO",
+        "trasferta": "GERMANIA",
         "iso_casa": "fr",
-        "iso_trasferta": "be",
+        "iso_trasferta": "de",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
@@ -1607,9 +1606,9 @@
       },
       {
         "id": "S6",
-        "casa": "ARGENTINA",
+        "casa": "PORTOGALLO",
         "trasferta": "CROAZIA",
-        "iso_casa": "ar",
+        "iso_casa": "pt",
         "iso_trasferta": "hr",
         "gol_casa": null,
         "gol_trasferta": null,
