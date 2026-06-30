@@ -247,7 +247,7 @@
       { "id": "S1", "casa": "OLANDA", "trasferta": "MAROCCO", "iso_casa": "nl", "iso_trasferta": "ma", "gol_casa": 1, "gol_trasferta": 1, "vincitore": "MAROCCO" },
       { "id": "S2", "casa": "INGHILTERRA", "trasferta": "BELGIO", "iso_casa": "gb-eng", "iso_trasferta": "be", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
       { "id": "S3", "casa": "SPAGNA", "trasferta": "ARGENTINA", "iso_casa": "es", "iso_trasferta": "ar", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
-      { "id": "S4", "casa": "FRANCIA", "trasferta": "GERMANIA", "iso_casa": "fr", "iso_trasferta": "de", "gol_casa": 0, "gol_trasferta": 1, "vincitore": null },
+      { "id": "S4", "casa": "FRANCIA", "trasferta": "GERMANIA", "iso_casa": "fr", "iso_trasferta": "de", "gol_casa": 0, "gol_trasferta": 1, "vincitore": "FRANCIA" },
       { "id": "S5", "casa": "BRASILE", "trasferta": "NORVEGIA", "iso_casa": "br", "iso_trasferta": "no", "gol_casa": 2, "gol_trasferta": 0, "vincitore": null },
       { "id": "S6", "casa": "PORTOGALLO", "trasferta": "CROAZIA", "iso_casa": "pt", "iso_trasferta": "hr", "gol_casa": null, "gol_trasferta": null, "vincitore": null }
     ],
