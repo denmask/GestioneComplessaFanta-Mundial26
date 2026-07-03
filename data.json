@@ -6,26 +6,26 @@
     { "posizione": 4, "fantallenatore": "Kevin Sandri", "punti": 7, "vittorie": 2, "pareggi": 1, "sconfitte": 1, "gf": 13, "gs": 9 },
     { "posizione": 5, "fantallenatore": "Federico Burello", "punti": 6, "vittorie": 1, "pareggi": 3, "sconfitte": 0, "gf": 9, "gs": 7 },
     { "posizione": 6, "fantallenatore": "Lorenzo Moro", "punti": 6, "vittorie": 2, "pareggi": 0, "sconfitte": 2, "gf": 9, "gs": 5 },
-    { "posizione": 7, "fantallenatore": "Mattia Beltrame", "punti": 4, "vittorie": 1, "pareggi": 1, "sconfitte": 1, "gf": 8, "gs": 8 },
-    { "posizione": 8, "fantallenatore": "Nicola Marano", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 2, "gf": 10, "gs": 9 },
-    { "posizione": 9, "fantallenatore": "Denis Mascherin", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 3, "gf": 8, "gs": 9 },
-    { "posizione": 10, "fantallenatore": "Cristian Tartaro", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 2, "gf": 5, "gs": 8 },
-    { "posizione": 11, "fantallenatore": "Alex Beltrame", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 2, "gf": 5, "gs": 15 },
-    { "posizione": 12, "fantallenatore": "Andrea Campagnolo", "punti": 1, "vittorie": 0, "pareggi": 1, "sconfitte": 2, "gf": 4, "gs": 8 }
+    { "posizione": 7, "fantallenatore": "Alex Beltrame", "punti": 6, "vittorie": 2, "pareggi": 0, "sconfitte": 2, "gf": 7, "gs": 16 },
+    { "posizione": 8, "fantallenatore": "Mattia Beltrame", "punti": 4, "vittorie": 1, "pareggi": 1, "sconfitte": 1, "gf": 8, "gs": 8 },
+    { "posizione": 9, "fantallenatore": "Andrea Campagnolo", "punti": 4, "vittorie": 1, "pareggi": 1, "sconfitte": 2, "gf": 7, "gs": 8 },
+    { "posizione": 10, "fantallenatore": "Denis Mascherin", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 3, "gf": 8, "gs": 9 },
+    { "posizione": 11, "fantallenatore": "Nicola Marano", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 2, "gf": 10, "gs": 9 },
+    { "posizione": 12, "fantallenatore": "Cristian Tartaro", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 2, "gf": 6, "gs": 10 }
   ],
   "classifica_reale": [
     { "gruppo": "I", "squadra": "FRANCIA", "iso": "fr", "punti": 12, "g": 4, "v": 4, "n": 0, "p": 0, "gf": 13, "gs": 2, "dr": 11 },
+    { "gruppo": "H", "squadra": "SPAGNA", "iso": "es", "punti": 10, "g": 4, "v": 3, "n": 1, "p": 0, "gf": 8, "gs": 0, "dr": 8 },
     { "gruppo": "L", "squadra": "INGHILTERRA", "iso": "gb-eng", "punti": 10, "g": 4, "v": 3, "n": 1, "p": 0, "gf": 8, "gs": 3, "dr": 5 },
     { "gruppo": "J", "squadra": "ARGENTINA", "iso": "ar", "punti": 9, "g": 3, "v": 3, "n": 0, "p": 0, "gf": 8, "gs": 1, "dr": 7 },
     { "gruppo": "I", "squadra": "NORVEGIA", "iso": "no", "punti": 9, "g": 4, "v": 3, "n": 0, "p": 1, "gf": 10, "gs": 8, "dr": 2 },
     { "gruppo": "C", "squadra": "BRASILE", "iso": "br", "punti": 8, "g": 4, "v": 2, "n": 2, "p": 0, "gf": 9, "gs": 2, "dr": 7 },
+    { "gruppo": "K", "squadra": "PORTOGALLO", "iso": "pt", "punti": 8, "g": 4, "v": 2, "n": 2, "p": 0, "gf": 8, "gs": 2, "dr": 6 },
     { "gruppo": "G", "squadra": "BELGIO", "iso": "be", "punti": 8, "g": 4, "v": 2, "n": 2, "p": 0, "gf": 9, "gs": 4, "dr": 5 },
     { "gruppo": "C", "squadra": "MAROCCO", "iso": "ma", "punti": 8, "g": 4, "v": 2, "n": 2, "p": 0, "gf": 7, "gs": 4, "dr": 3 },
-    { "gruppo": "H", "squadra": "SPAGNA", "iso": "es", "punti": 7, "g": 3, "v": 2, "n": 1, "p": 0, "gf": 5, "gs": 0, "dr": 5 },
     { "gruppo": "F", "squadra": "OLANDA", "iso": "nl", "punti": 7, "g": 4, "v": 2, "n": 1, "p": 1, "gf": 11, "gs": 5, "dr": 6 },
-    { "gruppo": "L", "squadra": "CROAZIA", "iso": "hr", "punti": 6, "g": 3, "v": 2, "n": 0, "p": 1, "gf": 5, "gs": 5, "dr": 0 },
     { "gruppo": "E", "squadra": "GERMANIA", "iso": "de", "punti": 6, "g": 4, "v": 2, "n": 0, "p": 2, "gf": 11, "gs": 5, "dr": 6 },
-    { "gruppo": "K", "squadra": "PORTOGALLO", "iso": "pt", "punti": 5, "g": 3, "v": 1, "n": 2, "p": 0, "gf": 6, "gs": 1, "dr": 5 }
+    { "gruppo": "L", "squadra": "CROAZIA", "iso": "hr", "punti": 6, "g": 4, "v": 2, "n": 0, "p": 2, "gf": 6, "gs": 7, "dr": -1 }
   ],
   "fantallenatori": [
     { "id": "alex", "nome": "Alex Beltrame", "anni": 2, "stagioni": ["24/25", "25/26"], "tornei": ["Mondiale 26"], "nazionali": ["PORTOGALLO"] },
@@ -237,8 +237,8 @@
       { "data": "30 Giu", "ora": "23:00", "casa": "FRANCIA", "iso_casa": "fr", "trasferta": "SVEZIA", "iso_trasferta": "se", "gol_casa": 3, "gol_trasferta": 0, "stadio": "MetLife Stadium", "sede": "East Rutherford" },
       { "data": "01 Lug", "ora": "18:00", "casa": "INGHILTERRA", "iso_casa": "gb-eng", "trasferta": "REP.DEM.CONGO", "iso_trasferta": "cd", "gol_casa": 2, "gol_trasferta": 1, "stadio": "Mercedes-Benz Stadium", "sede": "Atlanta" },
       { "data": "01 Lug", "ora": "22:00", "casa": "BELGIO", "iso_casa": "be", "trasferta": "SENEGAL", "iso_trasferta": "sn", "gol_casa": 3, "gol_trasferta": 2, "stadio": "Lumen Field", "sede": "Seattle" },
-      { "data": "02 Lug", "ora": "21:00", "casa": "SPAGNA", "iso_casa": "es", "trasferta": "AUSTRIA", "iso_trasferta": "at", "gol_casa": null, "gol_trasferta": null, "stadio": "SoFi Stadium", "sede": "Inglewood" },
-      { "data": "03 Lug", "ora": "01:00", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "CROAZIA", "iso_trasferta": "hr", "gol_casa": null, "gol_trasferta": null, "stadio": "BMO Field", "sede": "Toronto" },
+      { "data": "02 Lug", "ora": "21:00", "casa": "SPAGNA", "iso_casa": "es", "trasferta": "AUSTRIA", "iso_trasferta": "at", "gol_casa": 3, "gol_trasferta": 0, "stadio": "SoFi Stadium", "sede": "Inglewood" },
+      { "data": "03 Lug", "ora": "01:00", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "CROAZIA", "iso_trasferta": "hr", "gol_casa": 2, "gol_trasferta": 1, "stadio": "BMO Field", "sede": "Toronto" },
       { "data": "04 Lug", "ora": "00:00", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "CAPO VERDE", "iso_trasferta": "cv", "gol_casa": null, "gol_trasferta": null, "stadio": "Hard Rock Stadium", "sede": "Miami" }
     ]
   },
@@ -246,16 +246,16 @@
     "sedicesimi": [
       { "id": "S1", "casa": "OLANDA", "trasferta": "MAROCCO", "iso_casa": "nl", "iso_trasferta": "ma", "gol_casa": 1, "gol_trasferta": 1, "vincitore": "MAROCCO" },
       { "id": "S2", "casa": "INGHILTERRA", "trasferta": "BELGIO", "iso_casa": "gb-eng", "iso_trasferta": "be", "gol_casa": 2, "gol_trasferta": 3, "vincitore": null },
-      { "id": "S3", "casa": "SPAGNA", "trasferta": "ARGENTINA", "iso_casa": "es", "iso_trasferta": "ar", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "S3", "casa": "SPAGNA", "trasferta": "ARGENTINA", "iso_casa": "es", "iso_trasferta": "ar", "gol_casa": 3, "gol_trasferta": 0, "vincitore": null },
       { "id": "S4", "casa": "FRANCIA", "trasferta": "GERMANIA", "iso_casa": "fr", "iso_trasferta": "de", "gol_casa": 3, "gol_trasferta": 1, "vincitore": "FRANCIA" },
       { "id": "S5", "casa": "BRASILE", "trasferta": "NORVEGIA", "iso_casa": "br", "iso_trasferta": "no", "gol_casa": 2, "gol_trasferta": 2, "vincitore": null },
-      { "id": "S6", "casa": "PORTOGALLO", "trasferta": "CROAZIA", "iso_casa": "pt", "iso_trasferta": "hr", "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+      { "id": "S6", "casa": "PORTOGALLO", "trasferta": "CROAZIA", "iso_casa": "pt", "iso_trasferta": "hr", "gol_casa": 2, "gol_trasferta": 1, "vincitore": "PORTOGALLO" }
     ],
     "ottavi": [
       { "id": "O1", "casa": "MAROCCO", "trasferta": "BELGIO", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
       { "id": "O2", "casa": "BRASILE", "trasferta": "NORVEGIA", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
       { "id": "O3", "casa": "PORTOGALLO", "trasferta": "SPAGNA", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
-      { "id": "O4", "casa": "ARGENTINA", "trasferta": "CROAZIA", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
+      { "id": "O4", "casa": "ARGENTINA", "trasferta": "CROAZIA", "gol_casa": 3, "gol_trasferta": 0, "vincitore": "ARGENTINA" },
       { "id": "O5", "casa": "GERMANIA", "trasferta": "FRANCIA", "gol_casa": 0, "gol_trasferta": 3, "vincitore": "FRANCIA" },
       { "id": "O6", "casa": "OLANDA", "trasferta": "INGHILTERRA", "gol_casa": 0, "gol_trasferta": 3, "vincitore": "INGHILTERRA" }
     ],
