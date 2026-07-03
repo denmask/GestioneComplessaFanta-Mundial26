@@ -240,6 +240,15 @@
       { "data": "02 Lug", "ora": "21:00", "casa": "SPAGNA", "iso_casa": "es", "trasferta": "AUSTRIA", "iso_trasferta": "at", "gol_casa": 3, "gol_trasferta": 0, "stadio": "SoFi Stadium", "sede": "Inglewood" },
       { "data": "03 Lug", "ora": "01:00", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "CROAZIA", "iso_trasferta": "hr", "gol_casa": 2, "gol_trasferta": 1, "stadio": "BMO Field", "sede": "Toronto" },
       { "data": "04 Lug", "ora": "00:00", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "CAPO VERDE", "iso_trasferta": "cv", "gol_casa": null, "gol_trasferta": null, "stadio": "Hard Rock Stadium", "sede": "Miami" }
+    ],
+    "ottavi": [
+      { "data": "04 Lug", "ora": "19:00", "casa": "CANADA", "iso_casa": "ca", "trasferta": "MAROCCO", "iso_trasferta": "ma", "gol_casa": null, "gol_trasferta": null, "stadio": "Houston Stadium", "sede": "Houston" },
+      { "data": "04 Lug", "ora": "23:00", "casa": "PARAGUAY", "iso_casa": "py", "trasferta": "FRANCIA", "iso_trasferta": "fr", "gol_casa": null, "gol_trasferta": null, "stadio": "Philadelfia Stadium", "sede": "Filadelfia" },
+      { "data": "05 Lug", "ora": "22:00", "casa": "BRASILE", "iso_casa": "br", "trasferta": "NORVEGIA", "iso_trasferta": "no", "gol_casa": null, "gol_trasferta": null, "stadio": "New York New Jersey Stadium", "sede": "East Rutherford" },
+      { "data": "06 Lug", "ora": "02:00", "casa": "MESSICO", "iso_casa": "mx", "trasferta": "INGHILTERRA", "iso_trasferta": "gb-eng", "gol_casa": null, "gol_trasferta": null, "stadio": "Mexico City Stadium", "sede": "Città del Messico" },
+      { "data": "06 Lug", "ora": "21:00", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "SPAGNA", "iso_trasferta": "es", "gol_casa": null, "gol_trasferta": null, "stadio": "Dallas Stadium", "sede": "Arlington" },
+      { "data": "07 Lug", "ora": "02:00", "casa": "STATI UNITI", "iso_casa": "us", "trasferta": "BELGIO", "iso_trasferta": "be", "gol_casa": null, "gol_trasferta": null, "stadio": "Seattle Field", "sede": "Seattle" },
+      { "data": "07 Lug", "ora": "18:00", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "AUSTRALIA/EGITTO", "iso_trasferta": null, "gol_casa": null, "gol_trasferta": null, "stadio": "Atlanta Stadium", "sede": "Atlanta" }
     ]
   },
   "fase_eliminazione": {
