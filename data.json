@@ -41,7 +41,7 @@
     { "id": "kevins", "nome": "Kevin Sandri", "anni": 4, "stagioni": ["21/22", "22/23", "23/24", "24/25"], "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"], "nazionali": ["FRANCIA"] },
     { "id": "cristian", "nome": "Cristian Tartaro", "anni": 3, "stagioni": ["23/24", "24/25", "25/26"], "tornei": ["Euro 24", "Mondiale 26"], "nazionali": ["CROAZIA"] },
     { "id": "andrea", "nome": "Andrea Campagnolo", "anni": 3, "stagioni": ["22/23", "23/24", "24/25"], "tornei": ["Mondiale 26"], "nazionali": ["SPAGNA"] }
-  ],
+  ], 
   "nazionali": [
     { "id": "argentina", "nome": "ARGENTINA", "iso": "ar", "fantallenatore": "Mattia Beltrame" },
     { "id": "belgio", "nome": "BELGIO", "iso": "be", "fantallenatore": "Lorenzo Moro" },
