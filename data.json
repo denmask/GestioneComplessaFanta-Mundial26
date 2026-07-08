@@ -1,8 +1,8 @@
 {
   "classifica_fanta": [
     { "posizione": 1, "fantallenatore": "Kevin Sandri", "punti": 10, "vittorie": 3, "pareggi": 1, "sconfitte": 1, "gf": 16, "gs": 9 },
-    { "posizione": 2, "fantallenatore": "Valentina Pozzi", "punti": 10, "vittorie": 3, "pareggi": 1, "sconfitte": 0, "gf": 10, "gs": 5 },
-    { "posizione": 3, "fantallenatore": "Kevin DB", "punti": 10, "vittorie": 3, "pareggi": 1, "sconfitte": 1, "gf": 11, "gs": 9 },
+    { "posizione": 2, "fantallenatore": "Kevin DB", "punti": 10, "vittorie": 3, "pareggi": 1, "sconfitte": 1, "gf": 11, "gs": 9 },
+    { "posizione": 3, "fantallenatore": "Valentina Pozzi", "punti": 10, "vittorie": 3, "pareggi": 1, "sconfitte": 0, "gf": 10, "gs": 5 },
     { "posizione": 4, "fantallenatore": "Lorenzo Moro", "punti": 9, "vittorie": 3, "pareggi": 0, "sconfitte": 2, "gf": 13, "gs": 8 },
     { "posizione": 5, "fantallenatore": "Mattia Beltrame", "punti": 8, "vittorie": 2, "pareggi": 2, "sconfitte": 1, "gf": 14, "gs": 11 },
     { "posizione": 6, "fantallenatore": "Aidan Conti", "punti": 8, "vittorie": 2, "pareggi": 2, "sconfitte": 1, "gf": 10, "gs": 8 },
@@ -16,9 +16,9 @@
   ],
   "classifica_reale": [
     { "gruppo": "I", "squadra": "FRANCIA", "iso": "fr", "punti": 15, "g": 5, "v": 5, "n": 0, "p": 0, "gf": 14, "gs": 2, "dr": 12 },
+    { "gruppo": "J", "squadra": "ARGENTINA", "iso": "ar", "punti": 15, "g": 5, "v": 5, "n": 0, "p": 0, "gf": 14, "gs": 5, "dr": 9 },
     { "gruppo": "H", "squadra": "SPAGNA", "iso": "es", "punti": 13, "g": 5, "v": 4, "n": 1, "p": 0, "gf": 9, "gs": 0, "dr": 9 },
     { "gruppo": "L", "squadra": "INGHILTERRA", "iso": "gb-eng", "punti": 13, "g": 5, "v": 4, "n": 1, "p": 0, "gf": 11, "gs": 5, "dr": 6 },
-    { "gruppo": "J", "squadra": "ARGENTINA", "iso": "ar", "punti": 12, "g": 4, "v": 4, "n": 0, "p": 0, "gf": 11, "gs": 3, "dr": 8 },
     { "gruppo": "I", "squadra": "NORVEGIA", "iso": "no", "punti": 12, "g": 5, "v": 4, "n": 0, "p": 1, "gf": 12, "gs": 9, "dr": 3 },
     { "gruppo": "C", "squadra": "MAROCCO", "iso": "ma", "punti": 11, "g": 5, "v": 3, "n": 2, "p": 0, "gf": 10, "gs": 4, "dr": 6 },
     { "gruppo": "G", "squadra": "BELGIO", "iso": "be", "punti": 11, "g": 5, "v": 3, "n": 2, "p": 0, "gf": 13, "gs": 5, "dr": 8 },
@@ -249,7 +249,7 @@
       { "data": "06 Lug", "ora": "02:00", "casa": "MESSICO", "iso_casa": "mx", "trasferta": "INGHILTERRA", "iso_trasferta": "gb-eng", "gol_casa": 2, "gol_trasferta": 3, "stadio": "Mexico City Stadium", "sede": "Città del Messico" },
       { "data": "06 Lug", "ora": "21:00", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "SPAGNA", "iso_trasferta": "es", "gol_casa": 0, "gol_trasferta": 1, "stadio": "Dallas Stadium", "sede": "Arlington" },
       { "data": "07 Lug", "ora": "02:00", "casa": "STATI UNITI", "iso_casa": "us", "trasferta": "BELGIO", "iso_trasferta": "be", "gol_casa": 1, "gol_trasferta": 4, "stadio": "Seattle Field", "sede": "Seattle" },
-      { "data": "07 Lug", "ora": "18:00", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "EGITTO", "iso_trasferta": null, "gol_casa": null, "gol_trasferta": null, "stadio": "Atlanta Stadium", "sede": "Atlanta" }
+      { "data": "07 Lug", "ora": "18:00", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "EGITTO", "iso_trasferta": "eg", "gol_casa": 3, "gol_trasferta": 2, "stadio": "Atlanta Stadium", "sede": "Atlanta" }
     ]
   },
   "fase_eliminazione": {
@@ -273,7 +273,7 @@
       { "id": "Q1", "casa": "FRANCIA", "trasferta": "MAROCCO", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
       { "id": "Q2", "casa": "SPAGNA", "trasferta": "BELGIO", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
       { "id": "Q3", "casa": "NORVEGIA", "trasferta": "INGHILTERRA", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
-      { "id": "Q4", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+      { "id": "Q4", "casa": "ARGENTINA", "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
     ],
     "semifinali": [
       { "id": "SF1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
