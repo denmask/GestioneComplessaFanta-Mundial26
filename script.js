@@ -314,6 +314,76 @@ function showCalendarioReale() {
 
     content.appendChild(section);
   }
+
+  // ── QUARTI DI FINALE ──
+  const quarti = DATA.calendario_reale.quarti;
+  if (quarti && quarti.length > 0) {
+    const section = document.createElement('div');
+    section.className = 'reale-giornata';
+
+    const title = document.createElement('div');
+    title.className = 'reale-giornata-title reale-giornata-title--knockout';
+    title.innerHTML = '⚔️ Quarti di Finale';
+    section.appendChild(title);
+
+    quarti.forEach(p => {
+      const flagCasa = p.iso_casa ? flagImg(p.iso_casa, 20) : '';
+      const flagTrasf = p.iso_trasferta ? flagImg(p.iso_trasferta, 20) : '';
+      const score = (p.gol_casa !== null && p.gol_trasferta !== null) ? `${p.gol_casa} - ${p.gol_trasferta}` : '? - ?';
+
+      const hasNostra = nostreSquadre.has(p.casa) || nostreSquadre.has(p.trasferta);
+
+      const card = document.createElement('div');
+      card.className = 'reale-match-card reale-match-card--knockout' + (hasNostra ? ' reale-match-card--fanta' : '');
+      card.innerHTML = `
+        <div class="reale-match-info">
+          <div class="reale-match-data">${p.data} <span class="reale-match-ora">⏰ ${p.ora}</span></div>
+          <div class="reale-match-teams">${flagCasa} <strong>${p.casa}</strong> vs <strong>${p.trasferta}</strong> ${flagTrasf}</div>
+          <div class="reale-match-sede">📍 ${p.stadio}, ${p.sede}</div>
+          ${hasNostra ? '<div class="reale-fanta-badge">⭐ Nostra squadra</div>' : ''}
+        </div>
+        <div class="reale-match-score">${score}</div>
+      `;
+      section.appendChild(card);
+    });
+
+    content.appendChild(section);
+  }
+
+  // ── SEMIFINALI ──
+  const semifinali = DATA.calendario_reale.semifinali;
+  if (semifinali && semifinali.length > 0) {
+    const section = document.createElement('div');
+    section.className = 'reale-giornata';
+
+    const title = document.createElement('div');
+    title.className = 'reale-giornata-title reale-giornata-title--knockout';
+    title.innerHTML = '⚔️ Semifinali';
+    section.appendChild(title);
+
+    semifinali.forEach(p => {
+      const flagCasa = p.iso_casa ? flagImg(p.iso_casa, 20) : '';
+      const flagTrasf = p.iso_trasferta ? flagImg(p.iso_trasferta, 20) : '';
+      const score = (p.gol_casa !== null && p.gol_trasferta !== null) ? `${p.gol_casa} - ${p.gol_trasferta}` : '? - ?';
+
+      const hasNostra = nostreSquadre.has(p.casa) || nostreSquadre.has(p.trasferta);
+
+      const card = document.createElement('div');
+      card.className = 'reale-match-card reale-match-card--knockout' + (hasNostra ? ' reale-match-card--fanta' : '');
+      card.innerHTML = `
+        <div class="reale-match-info">
+          <div class="reale-match-data">${p.data} <span class="reale-match-ora">⏰ ${p.ora}</span></div>
+          <div class="reale-match-teams">${flagCasa} <strong>${p.casa}</strong> vs <strong>${p.trasferta}</strong> ${flagTrasf}</div>
+          <div class="reale-match-sede">📍 ${p.stadio}, ${p.sede}</div>
+          ${hasNostra ? '<div class="reale-fanta-badge">⭐ Nostra squadra</div>' : ''}
+        </div>
+        <div class="reale-match-score">${score}</div>
+      `;
+      section.appendChild(card);
+    });
+
+    content.appendChild(section);
+  }
 }
 
 function showClassificaFanta() {

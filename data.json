@@ -1,289 +1,2124 @@
 {
   "classifica_fanta": [
-    { "posizione": 1, "fantallenatore": "Kevin Sandri", "punti": 10, "vittorie": 3, "pareggi": 1, "sconfitte": 1, "gf": 16, "gs": 9 },
-    { "posizione": 2, "fantallenatore": "Kevin DB", "punti": 10, "vittorie": 3, "pareggi": 1, "sconfitte": 1, "gf": 11, "gs": 9 },
-    { "posizione": 3, "fantallenatore": "Valentina Pozzi", "punti": 10, "vittorie": 3, "pareggi": 1, "sconfitte": 0, "gf": 10, "gs": 5 },
-    { "posizione": 4, "fantallenatore": "Lorenzo Moro", "punti": 9, "vittorie": 3, "pareggi": 0, "sconfitte": 2, "gf": 13, "gs": 8 },
-    { "posizione": 5, "fantallenatore": "Mattia Beltrame", "punti": 8, "vittorie": 2, "pareggi": 2, "sconfitte": 1, "gf": 14, "gs": 11 },
-    { "posizione": 6, "fantallenatore": "Aidan Conti", "punti": 8, "vittorie": 2, "pareggi": 2, "sconfitte": 1, "gf": 10, "gs": 8 },
-    { "posizione": 7, "fantallenatore": "Denis Mascherin", "punti": 6, "vittorie": 2, "pareggi": 0, "sconfitte": 3, "gf": 11, "gs": 9 },
-    { "posizione": 8, "fantallenatore": "Federico Burello", "punti": 6, "vittorie": 1, "pareggi": 3, "sconfitte": 1, "gf": 10, "gs": 9 },
-    { "posizione": 9, "fantallenatore": "Alex Beltrame", "punti": 6, "vittorie": 2, "pareggi": 0, "sconfitte": 2, "gf": 7, "gs": 16 },
-    { "posizione": 10, "fantallenatore": "Andrea Campagnolo", "punti": 5, "vittorie": 1, "pareggi": 2, "sconfitte": 2, "gf": 8, "gs": 11 },
-    { "posizione": 11, "fantallenatore": "Nicola Marano", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 2, "gf": 11, "gs": 12 },
-    { "posizione": 12, "fantallenatore": "Cristian Tartaro", "punti": 3, "vittorie": 1, "pareggi": 0, "sconfitte": 2, "gf": 6, "gs": 10 }
-    
+    {
+      "posizione": 1,
+      "fantallenatore": "Kevin Sandri",
+      "punti": 10,
+      "vittorie": 3,
+      "pareggi": 1,
+      "sconfitte": 1,
+      "gf": 16,
+      "gs": 9
+    },
+    {
+      "posizione": 2,
+      "fantallenatore": "Kevin DB",
+      "punti": 10,
+      "vittorie": 3,
+      "pareggi": 1,
+      "sconfitte": 1,
+      "gf": 11,
+      "gs": 9
+    },
+    {
+      "posizione": 3,
+      "fantallenatore": "Valentina Pozzi",
+      "punti": 10,
+      "vittorie": 3,
+      "pareggi": 1,
+      "sconfitte": 0,
+      "gf": 10,
+      "gs": 5
+    },
+    {
+      "posizione": 4,
+      "fantallenatore": "Lorenzo Moro",
+      "punti": 9,
+      "vittorie": 3,
+      "pareggi": 0,
+      "sconfitte": 2,
+      "gf": 13,
+      "gs": 8
+    },
+    {
+      "posizione": 5,
+      "fantallenatore": "Mattia Beltrame",
+      "punti": 8,
+      "vittorie": 2,
+      "pareggi": 2,
+      "sconfitte": 1,
+      "gf": 14,
+      "gs": 11
+    },
+    {
+      "posizione": 6,
+      "fantallenatore": "Aidan Conti",
+      "punti": 8,
+      "vittorie": 2,
+      "pareggi": 2,
+      "sconfitte": 1,
+      "gf": 10,
+      "gs": 8
+    },
+    {
+      "posizione": 7,
+      "fantallenatore": "Denis Mascherin",
+      "punti": 6,
+      "vittorie": 2,
+      "pareggi": 0,
+      "sconfitte": 3,
+      "gf": 11,
+      "gs": 9
+    },
+    {
+      "posizione": 8,
+      "fantallenatore": "Federico Burello",
+      "punti": 6,
+      "vittorie": 1,
+      "pareggi": 3,
+      "sconfitte": 1,
+      "gf": 10,
+      "gs": 9
+    },
+    {
+      "posizione": 9,
+      "fantallenatore": "Alex Beltrame",
+      "punti": 6,
+      "vittorie": 2,
+      "pareggi": 0,
+      "sconfitte": 2,
+      "gf": 7,
+      "gs": 16
+    },
+    {
+      "posizione": 10,
+      "fantallenatore": "Andrea Campagnolo",
+      "punti": 5,
+      "vittorie": 1,
+      "pareggi": 2,
+      "sconfitte": 2,
+      "gf": 8,
+      "gs": 11
+    },
+    {
+      "posizione": 11,
+      "fantallenatore": "Nicola Marano",
+      "punti": 3,
+      "vittorie": 1,
+      "pareggi": 0,
+      "sconfitte": 2,
+      "gf": 11,
+      "gs": 12
+    },
+    {
+      "posizione": 12,
+      "fantallenatore": "Cristian Tartaro",
+      "punti": 3,
+      "vittorie": 1,
+      "pareggi": 0,
+      "sconfitte": 2,
+      "gf": 6,
+      "gs": 10
+    }
   ],
   "classifica_reale": [
-    { "gruppo": "I", "squadra": "FRANCIA", "iso": "fr", "punti": 15, "g": 5, "v": 5, "n": 0, "p": 0, "gf": 14, "gs": 2, "dr": 12 },
-    { "gruppo": "J", "squadra": "ARGENTINA", "iso": "ar", "punti": 15, "g": 5, "v": 5, "n": 0, "p": 0, "gf": 14, "gs": 5, "dr": 9 },
-    { "gruppo": "H", "squadra": "SPAGNA", "iso": "es", "punti": 13, "g": 5, "v": 4, "n": 1, "p": 0, "gf": 9, "gs": 0, "dr": 9 },
-    { "gruppo": "L", "squadra": "INGHILTERRA", "iso": "gb-eng", "punti": 13, "g": 5, "v": 4, "n": 1, "p": 0, "gf": 11, "gs": 5, "dr": 6 },
-    { "gruppo": "I", "squadra": "NORVEGIA", "iso": "no", "punti": 12, "g": 5, "v": 4, "n": 0, "p": 1, "gf": 12, "gs": 9, "dr": 3 },
-    { "gruppo": "C", "squadra": "MAROCCO", "iso": "ma", "punti": 11, "g": 5, "v": 3, "n": 2, "p": 0, "gf": 10, "gs": 4, "dr": 6 },
-    { "gruppo": "G", "squadra": "BELGIO", "iso": "be", "punti": 11, "g": 5, "v": 3, "n": 2, "p": 0, "gf": 13, "gs": 5, "dr": 8 },
-    { "gruppo": "C", "squadra": "BRASILE", "iso": "br", "punti": 8, "g": 4, "v": 2, "n": 2, "p": 0, "gf": 9, "gs": 2, "dr": 7 },
-    { "gruppo": "K", "squadra": "PORTOGALLO", "iso": "pt", "punti": 8, "g": 4, "v": 2, "n": 2, "p": 0, "gf": 8, "gs": 2, "dr": 6 },
-    { "gruppo": "F", "squadra": "OLANDA", "iso": "nl", "punti": 7, "g": 4, "v": 2, "n": 1, "p": 1, "gf": 11, "gs": 5, "dr": 6 },
-    { "gruppo": "E", "squadra": "GERMANIA", "iso": "de", "punti": 6, "g": 4, "v": 2, "n": 0, "p": 2, "gf": 11, "gs": 5, "dr": 6 },
-    { "gruppo": "L", "squadra": "CROAZIA", "iso": "hr", "punti": 6, "g": 4, "v": 2, "n": 0, "p": 2, "gf": 6, "gs": 7, "dr": -1 }
+    {
+      "gruppo": "I",
+      "squadra": "FRANCIA",
+      "iso": "fr",
+      "punti": 15,
+      "g": 5,
+      "v": 5,
+      "n": 0,
+      "p": 0,
+      "gf": 14,
+      "gs": 2,
+      "dr": 12
+    },
+    {
+      "gruppo": "J",
+      "squadra": "ARGENTINA",
+      "iso": "ar",
+      "punti": 15,
+      "g": 5,
+      "v": 5,
+      "n": 0,
+      "p": 0,
+      "gf": 14,
+      "gs": 5,
+      "dr": 9
+    },
+    {
+      "gruppo": "H",
+      "squadra": "SPAGNA",
+      "iso": "es",
+      "punti": 13,
+      "g": 5,
+      "v": 4,
+      "n": 1,
+      "p": 0,
+      "gf": 9,
+      "gs": 0,
+      "dr": 9
+    },
+    {
+      "gruppo": "L",
+      "squadra": "INGHILTERRA",
+      "iso": "gb-eng",
+      "punti": 13,
+      "g": 5,
+      "v": 4,
+      "n": 1,
+      "p": 0,
+      "gf": 11,
+      "gs": 5,
+      "dr": 6
+    },
+    {
+      "gruppo": "I",
+      "squadra": "NORVEGIA",
+      "iso": "no",
+      "punti": 12,
+      "g": 5,
+      "v": 4,
+      "n": 0,
+      "p": 1,
+      "gf": 12,
+      "gs": 9,
+      "dr": 3
+    },
+    {
+      "gruppo": "C",
+      "squadra": "MAROCCO",
+      "iso": "ma",
+      "punti": 11,
+      "g": 5,
+      "v": 3,
+      "n": 2,
+      "p": 0,
+      "gf": 10,
+      "gs": 4,
+      "dr": 6
+    },
+    {
+      "gruppo": "G",
+      "squadra": "BELGIO",
+      "iso": "be",
+      "punti": 11,
+      "g": 5,
+      "v": 3,
+      "n": 2,
+      "p": 0,
+      "gf": 13,
+      "gs": 5,
+      "dr": 8
+    },
+    {
+      "gruppo": "C",
+      "squadra": "BRASILE",
+      "iso": "br",
+      "punti": 8,
+      "g": 4,
+      "v": 2,
+      "n": 2,
+      "p": 0,
+      "gf": 9,
+      "gs": 2,
+      "dr": 7
+    },
+    {
+      "gruppo": "K",
+      "squadra": "PORTOGALLO",
+      "iso": "pt",
+      "punti": 8,
+      "g": 4,
+      "v": 2,
+      "n": 2,
+      "p": 0,
+      "gf": 8,
+      "gs": 2,
+      "dr": 6
+    },
+    {
+      "gruppo": "F",
+      "squadra": "OLANDA",
+      "iso": "nl",
+      "punti": 7,
+      "g": 4,
+      "v": 2,
+      "n": 1,
+      "p": 1,
+      "gf": 11,
+      "gs": 5,
+      "dr": 6
+    },
+    {
+      "gruppo": "E",
+      "squadra": "GERMANIA",
+      "iso": "de",
+      "punti": 6,
+      "g": 4,
+      "v": 2,
+      "n": 0,
+      "p": 2,
+      "gf": 11,
+      "gs": 5,
+      "dr": 6
+    },
+    {
+      "gruppo": "L",
+      "squadra": "CROAZIA",
+      "iso": "hr",
+      "punti": 6,
+      "g": 4,
+      "v": 2,
+      "n": 0,
+      "p": 2,
+      "gf": 6,
+      "gs": 7,
+      "dr": -1
+    }
   ],
   "fantallenatori": [
-    { "id": "alex", "nome": "Alex Beltrame", "anni": 2, "stagioni": ["24/25", "25/26"], "tornei": ["Mondiale 26"], "nazionali": ["PORTOGALLO"] },
-    { "id": "mattia", "nome": "Mattia Beltrame", "anni": 5, "stagioni": ["21/22", "22/23", "23/24", "24/25", "25/26"], "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"], "nazionali": ["ARGENTINA"] },
-    { "id": "fede", "nome": "Federico Burello", "anni": 3, "stagioni": ["23/24", "24/25", "25/26"], "tornei": ["Euro 24", "Mondiale 26"], "nazionali": ["BRASILE"] },
-    { "id": "aidan", "nome": "Aidan Conti", "anni": 1, "stagioni": ["26/27"], "tornei": ["Mondiale 26"], "nazionali": ["MAROCCO"] },
-    { "id": "kdb", "nome": "Kevin DB", "anni": 3, "stagioni": ["23/24", "24/25", "25/26"], "tornei": ["Euro 24", "Mondiale 26"], "nazionali": ["NORVEGIA"] },
-    { "id": "lorenzo", "nome": "Lorenzo Moro", "anni": 1, "stagioni": ["25/26"], "tornei": ["Mondiale 26"], "nazionali": ["BELGIO"] },
-    { "id": "denis", "nome": "Denis Mascherin", "anni": 5, "stagioni": ["21/22", "22/23", "23/24", "24/25", "25/26"], "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"], "nazionali": ["INGHILTERRA"] },
-    { "id": "nicola", "nome": "Nicola Marano", "anni": 1, "stagioni": ["25/26"], "tornei": ["Mondiale 26"], "nazionali": ["GERMANIA"] },
-    { "id": "valentina", "nome": "Valentina Pozzi", "anni": 1, "stagioni": ["25/26"], "tornei": ["Mondiale 26"], "nazionali": ["OLANDA"] },
-    { "id": "kevins", "nome": "Kevin Sandri", "anni": 4, "stagioni": ["21/22", "22/23", "23/24", "24/25"], "tornei": ["Mondiale 22", "Euro 24", "Mondiale 26"], "nazionali": ["FRANCIA"] },
-    { "id": "cristian", "nome": "Cristian Tartaro", "anni": 3, "stagioni": ["23/24", "24/25", "25/26"], "tornei": ["Euro 24", "Mondiale 26"], "nazionali": ["CROAZIA"] },
-    { "id": "andrea", "nome": "Andrea Campagnolo", "anni": 3, "stagioni": ["22/23", "23/24", "24/25"], "tornei": ["Mondiale 26"], "nazionali": ["SPAGNA"] }
-  ], 
+    {
+      "id": "alex",
+      "nome": "Alex Beltrame",
+      "anni": 2,
+      "stagioni": [
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "PORTOGALLO"
+      ]
+    },
+    {
+      "id": "mattia",
+      "nome": "Mattia Beltrame",
+      "anni": 5,
+      "stagioni": [
+        "21/22",
+        "22/23",
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 22",
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "ARGENTINA"
+      ]
+    },
+    {
+      "id": "fede",
+      "nome": "Federico Burello",
+      "anni": 3,
+      "stagioni": [
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "BRASILE"
+      ]
+    },
+    {
+      "id": "aidan",
+      "nome": "Aidan Conti",
+      "anni": 1,
+      "stagioni": [
+        "26/27"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "MAROCCO"
+      ]
+    },
+    {
+      "id": "kdb",
+      "nome": "Kevin DB",
+      "anni": 3,
+      "stagioni": [
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "NORVEGIA"
+      ]
+    },
+    {
+      "id": "lorenzo",
+      "nome": "Lorenzo Moro",
+      "anni": 1,
+      "stagioni": [
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "BELGIO"
+      ]
+    },
+    {
+      "id": "denis",
+      "nome": "Denis Mascherin",
+      "anni": 5,
+      "stagioni": [
+        "21/22",
+        "22/23",
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 22",
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "INGHILTERRA"
+      ]
+    },
+    {
+      "id": "nicola",
+      "nome": "Nicola Marano",
+      "anni": 1,
+      "stagioni": [
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "GERMANIA"
+      ]
+    },
+    {
+      "id": "valentina",
+      "nome": "Valentina Pozzi",
+      "anni": 1,
+      "stagioni": [
+        "25/26"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "OLANDA"
+      ]
+    },
+    {
+      "id": "kevins",
+      "nome": "Kevin Sandri",
+      "anni": 4,
+      "stagioni": [
+        "21/22",
+        "22/23",
+        "23/24",
+        "24/25"
+      ],
+      "tornei": [
+        "Mondiale 22",
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "FRANCIA"
+      ]
+    },
+    {
+      "id": "cristian",
+      "nome": "Cristian Tartaro",
+      "anni": 3,
+      "stagioni": [
+        "23/24",
+        "24/25",
+        "25/26"
+      ],
+      "tornei": [
+        "Euro 24",
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "CROAZIA"
+      ]
+    },
+    {
+      "id": "andrea",
+      "nome": "Andrea Campagnolo",
+      "anni": 3,
+      "stagioni": [
+        "22/23",
+        "23/24",
+        "24/25"
+      ],
+      "tornei": [
+        "Mondiale 26"
+      ],
+      "nazionali": [
+        "SPAGNA"
+      ]
+    }
+  ],
   "nazionali": [
-    { "id": "argentina", "nome": "ARGENTINA", "iso": "ar", "fantallenatore": "Mattia Beltrame" },
-    { "id": "belgio", "nome": "BELGIO", "iso": "be", "fantallenatore": "Lorenzo Moro" },
-    { "id": "brasile", "nome": "BRASILE", "iso": "br", "fantallenatore": "Federico Burello" },
-    { "id": "croazia", "nome": "CROAZIA", "iso": "hr", "fantallenatore": "Cristian Tartaro" },
-    { "id": "inghilterra", "nome": "INGHILTERRA", "iso": "gb-eng", "fantallenatore": "Denis Mascherin" },
-    { "id": "francia", "nome": "FRANCIA", "iso": "fr", "fantallenatore": "Kevin Sandri" },
-    { "id": "germania", "nome": "GERMANIA", "iso": "de", "fantallenatore": "Nicola Marano" },
-    { "id": "marocco", "nome": "MAROCCO", "iso": "ma", "fantallenatore": "Aidan Conti" },
-    { "id": "norvegia", "nome": "NORVEGIA", "iso": "no", "fantallenatore": "Kevin DB" },
-    { "id": "olanda", "nome": "OLANDA", "iso": "nl", "fantallenatore": "Valentina Pozzi" },
-    { "id": "portogallo", "nome": "PORTOGALLO", "iso": "pt", "fantallenatore": "Alex Beltrame" },
-    { "id": "spagna", "nome": "SPAGNA", "iso": "es", "fantallenatore": "Andrea Campagnolo" }
+    {
+      "id": "argentina",
+      "nome": "ARGENTINA",
+      "iso": "ar",
+      "fantallenatore": "Mattia Beltrame"
+    },
+    {
+      "id": "belgio",
+      "nome": "BELGIO",
+      "iso": "be",
+      "fantallenatore": "Lorenzo Moro"
+    },
+    {
+      "id": "brasile",
+      "nome": "BRASILE",
+      "iso": "br",
+      "fantallenatore": "Federico Burello"
+    },
+    {
+      "id": "croazia",
+      "nome": "CROAZIA",
+      "iso": "hr",
+      "fantallenatore": "Cristian Tartaro"
+    },
+    {
+      "id": "inghilterra",
+      "nome": "INGHILTERRA",
+      "iso": "gb-eng",
+      "fantallenatore": "Denis Mascherin"
+    },
+    {
+      "id": "francia",
+      "nome": "FRANCIA",
+      "iso": "fr",
+      "fantallenatore": "Kevin Sandri"
+    },
+    {
+      "id": "germania",
+      "nome": "GERMANIA",
+      "iso": "de",
+      "fantallenatore": "Nicola Marano"
+    },
+    {
+      "id": "marocco",
+      "nome": "MAROCCO",
+      "iso": "ma",
+      "fantallenatore": "Aidan Conti"
+    },
+    {
+      "id": "norvegia",
+      "nome": "NORVEGIA",
+      "iso": "no",
+      "fantallenatore": "Kevin DB"
+    },
+    {
+      "id": "olanda",
+      "nome": "OLANDA",
+      "iso": "nl",
+      "fantallenatore": "Valentina Pozzi"
+    },
+    {
+      "id": "portogallo",
+      "nome": "PORTOGALLO",
+      "iso": "pt",
+      "fantallenatore": "Alex Beltrame"
+    },
+    {
+      "id": "spagna",
+      "nome": "SPAGNA",
+      "iso": "es",
+      "fantallenatore": "Andrea Campagnolo"
+    }
   ],
   "calendario_fanta": {
     "prima_giornata": [
       {
-        "casa": "BRASILE", "trasferta": "MAROCCO",
-        "fanta_casa": "Federico Burello", "fanta_trasferta": "Aidan Conti",
-        "gol_casa": 1, "gol_trasferta": 1,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Alisson","Danilo","Gabriel M.","Marquinhos","Paqueta","Casemiro","Guimaraes.","Rayan","Raphinha","Vinicius Junior","Endrick"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Bounou","Hakimi","Diop","Mazraoui","Riad","El Aynaoui","Ounahi","Amrabat","Brahim Diaz","Rahimi","El Kaabi"] }
+        "casa": "BRASILE",
+        "trasferta": "MAROCCO",
+        "fanta_casa": "Federico Burello",
+        "fanta_trasferta": "Aidan Conti",
+        "gol_casa": 1,
+        "gol_trasferta": 1,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Alisson",
+            "Danilo",
+            "Gabriel M.",
+            "Marquinhos",
+            "Paqueta",
+            "Casemiro",
+            "Guimaraes.",
+            "Rayan",
+            "Raphinha",
+            "Vinicius Junior",
+            "Endrick"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Bounou",
+            "Hakimi",
+            "Diop",
+            "Mazraoui",
+            "Riad",
+            "El Aynaoui",
+            "Ounahi",
+            "Amrabat",
+            "Brahim Diaz",
+            "Rahimi",
+            "El Kaabi"
+          ]
+        }
       },
       {
-        "casa": "GERMANIA", "trasferta": "PORTOGALLO",
-        "fanta_casa": "Nicola Marano", "fanta_trasferta": "Alex Beltrame",
-        "gol_casa": 7, "gol_trasferta": 1,
-        "formazione_casa": { "modulo": "4-2-3-1", "titolari": ["Neuer","Kimmich","Rudiger","Tah","Brown","Pavlovic A.","Nmecha","Woltemade","Musiala","Havertz","Wirtz"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Diogo Costa","Ruben Dias","Goncalo Inacio","Nuno Mendes","Cancelo","Vitinha","Bruno Fernandes","Bernardo Silva","Ronaldo C.","Trincao","Joao Felix"] }
+        "casa": "GERMANIA",
+        "trasferta": "PORTOGALLO",
+        "fanta_casa": "Nicola Marano",
+        "fanta_trasferta": "Alex Beltrame",
+        "gol_casa": 7,
+        "gol_trasferta": 1,
+        "formazione_casa": {
+          "modulo": "4-2-3-1",
+          "titolari": [
+            "Neuer",
+            "Kimmich",
+            "Rudiger",
+            "Tah",
+            "Brown",
+            "Pavlovic A.",
+            "Nmecha",
+            "Woltemade",
+            "Musiala",
+            "Havertz",
+            "Wirtz"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Diogo Costa",
+            "Ruben Dias",
+            "Goncalo Inacio",
+            "Nuno Mendes",
+            "Cancelo",
+            "Vitinha",
+            "Bruno Fernandes",
+            "Bernardo Silva",
+            "Ronaldo C.",
+            "Trincao",
+            "Joao Felix"
+          ]
+        }
       },
       {
-        "casa": "OLANDA", "trasferta": "BELGIO",
-        "fanta_casa": "Valentina Pozzi", "fanta_trasferta": "Lorenzo Moro",
-        "gol_casa": 2, "gol_trasferta": 1,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Verbruggen","Akè","Dumfries","Van dijk","Reijnders","de jong","Gravenberch","Koopmeiners","Depay","Gakpo","Malen"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Courtois","Castagne","De Cuyper","Debast","De bruyne","Onana Am.","Tielemans","Doku","Lukaku","Fernandez Pardo","Lukebakio"] }
+        "casa": "OLANDA",
+        "trasferta": "BELGIO",
+        "fanta_casa": "Valentina Pozzi",
+        "fanta_trasferta": "Lorenzo Moro",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Verbruggen",
+            "Akè",
+            "Dumfries",
+            "Van dijk",
+            "Reijnders",
+            "de jong",
+            "Gravenberch",
+            "Koopmeiners",
+            "Depay",
+            "Gakpo",
+            "Malen"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Courtois",
+            "Castagne",
+            "De Cuyper",
+            "Debast",
+            "De bruyne",
+            "Onana Am.",
+            "Tielemans",
+            "Doku",
+            "Lukaku",
+            "Fernandez Pardo",
+            "Lukebakio"
+          ]
+        }
       },
       {
-        "casa": "SPAGNA", "trasferta": "NORVEGIA",
-        "fanta_casa": "Andrea Campagnolo", "fanta_trasferta": "Kevin DB",
-        "gol_casa": 0, "gol_trasferta": 3,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Unai simon","Cubarsi","Laporte","Cucurella","Porro","Zubimendi","Pedri","Nico Williams","Yamal","Olmo","Ferran Torres"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Nyland","Ayer","Ostigard","Wolfe","Ryerson","Odegaard","Berg","Berge","Nusa","Haaland","Sorloth"] }
+        "casa": "SPAGNA",
+        "trasferta": "NORVEGIA",
+        "fanta_casa": "Andrea Campagnolo",
+        "fanta_trasferta": "Kevin DB",
+        "gol_casa": 0,
+        "gol_trasferta": 3,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Unai simon",
+            "Cubarsi",
+            "Laporte",
+            "Cucurella",
+            "Porro",
+            "Zubimendi",
+            "Pedri",
+            "Nico Williams",
+            "Yamal",
+            "Olmo",
+            "Ferran Torres"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Nyland",
+            "Ayer",
+            "Ostigard",
+            "Wolfe",
+            "Ryerson",
+            "Odegaard",
+            "Berg",
+            "Berge",
+            "Nusa",
+            "Haaland",
+            "Sorloth"
+          ]
+        }
       },
       {
-        "casa": "INGHILTERRA", "trasferta": "CROAZIA",
-        "fanta_casa": "Denis Mascherin", "fanta_trasferta": "Cristian Tartaro",
-        "gol_casa": 4, "gol_trasferta": 2,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Pickford","James","Stones","Guehi","O'Reilly","Bellingham","Rice","Saka","Mainoo","Gordon","Kane"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Livakovic","Vuskosic","Stanisic","Gvardiol","Modric","Sutalo","Pasalic","Sucic","Kovacic","Perisic","Matanovic"] }
+        "casa": "INGHILTERRA",
+        "trasferta": "CROAZIA",
+        "fanta_casa": "Denis Mascherin",
+        "fanta_trasferta": "Cristian Tartaro",
+        "gol_casa": 4,
+        "gol_trasferta": 2,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Pickford",
+            "James",
+            "Stones",
+            "Guehi",
+            "O'Reilly",
+            "Bellingham",
+            "Rice",
+            "Saka",
+            "Mainoo",
+            "Gordon",
+            "Kane"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Livakovic",
+            "Vuskosic",
+            "Stanisic",
+            "Gvardiol",
+            "Modric",
+            "Sutalo",
+            "Pasalic",
+            "Sucic",
+            "Kovacic",
+            "Perisic",
+            "Matanovic"
+          ]
+        }
       },
       {
-        "casa": "ARGENTINA", "trasferta": "FRANCIA",
-        "fanta_casa": "Mattia Beltrame", "fanta_trasferta": "Kevin Sandri",
-        "gol_casa": 3, "gol_trasferta": 3,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Martinez E.","Molina","Romero","Martinez Li","Tagliafico","De paul","Mac allister","Enzo Fernandez","Lautaro Martinez","Julian Alvarez","Messi"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Maignan","Kounde","saliba","Upamecano","Hernandez T","Kantè","Rabiot","Tchouameni","Dembele","Mbappe","Olise"] }
+        "casa": "ARGENTINA",
+        "trasferta": "FRANCIA",
+        "fanta_casa": "Mattia Beltrame",
+        "fanta_trasferta": "Kevin Sandri",
+        "gol_casa": 3,
+        "gol_trasferta": 3,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Martinez E.",
+            "Molina",
+            "Romero",
+            "Martinez Li",
+            "Tagliafico",
+            "De paul",
+            "Mac allister",
+            "Enzo Fernandez",
+            "Lautaro Martinez",
+            "Julian Alvarez",
+            "Messi"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Maignan",
+            "Kounde",
+            "saliba",
+            "Upamecano",
+            "Hernandez T",
+            "Kantè",
+            "Rabiot",
+            "Tchouameni",
+            "Dembele",
+            "Mbappe",
+            "Olise"
+          ]
+        }
       }
     ],
     "seconda_giornata": [
       {
-        "casa": "BRASILE", "trasferta": "SPAGNA",
-        "fanta_casa": "Federico Burello", "fanta_trasferta": "Andrea Campagnolo",
-        "gol_casa": 3, "gol_trasferta": 3,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Ederson","Bremer","Ibanez","Marquinhos","Danilo","Casemiro","Martinelli G.","Fabinho","Raphinha","Vinicius Junior","Rodrygo"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Unai simon","Cubarsi","Laporte","Cucurella","Merino","Zubimendi","Rodri","Gavi","Yamal","Olmo","Oyarzabal"] }
+        "casa": "BRASILE",
+        "trasferta": "SPAGNA",
+        "fanta_casa": "Federico Burello",
+        "fanta_trasferta": "Andrea Campagnolo",
+        "gol_casa": 3,
+        "gol_trasferta": 3,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Ederson",
+            "Bremer",
+            "Ibanez",
+            "Marquinhos",
+            "Danilo",
+            "Casemiro",
+            "Martinelli G.",
+            "Fabinho",
+            "Raphinha",
+            "Vinicius Junior",
+            "Rodrygo"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Unai simon",
+            "Cubarsi",
+            "Laporte",
+            "Cucurella",
+            "Merino",
+            "Zubimendi",
+            "Rodri",
+            "Gavi",
+            "Yamal",
+            "Olmo",
+            "Oyarzabal"
+          ]
+        }
       },
       {
-        "casa": "INGHILTERRA", "trasferta": "MAROCCO",
-        "fanta_casa": "Denis Mascherin", "fanta_trasferta": "Aidan Conti",
-        "gol_casa": 0, "gol_trasferta": 1,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Pickford","Alexander-arnold","Stones","Maguire","O'Reilly","Bellingham","Rice","Saka","Foden","Rashford","Kane"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Bounou","Hakimi","Aguerd","Mazraoui","Masina","El Aynaoui","Saibari","Ezzalzouli","Brahim Diaz","El Khannouss","El Kaabi"] }
+        "casa": "INGHILTERRA",
+        "trasferta": "MAROCCO",
+        "fanta_casa": "Denis Mascherin",
+        "fanta_trasferta": "Aidan Conti",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Pickford",
+            "Alexander-arnold",
+            "Stones",
+            "Maguire",
+            "O'Reilly",
+            "Bellingham",
+            "Rice",
+            "Saka",
+            "Foden",
+            "Rashford",
+            "Kane"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Bounou",
+            "Hakimi",
+            "Aguerd",
+            "Mazraoui",
+            "Masina",
+            "El Aynaoui",
+            "Saibari",
+            "Ezzalzouli",
+            "Brahim Diaz",
+            "El Khannouss",
+            "El Kaabi"
+          ]
+        }
       },
       {
-        "casa": "GERMANIA", "trasferta": "OLANDA",
-        "fanta_casa": "Nicola Marano", "fanta_trasferta": "Valentina Pozzi",
-        "gol_casa": 2, "gol_trasferta": 5,
-        "formazione_casa": { "modulo": "4-2-3-1", "titolari": ["Neuer","Kimmich","Rudiger","Tah","Anton","Kimmich","Goretka","Sane","Musiala","Havertz","Wirtz"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Verbruggen","De Ligt","Dumfries","Van dijk","Reijnders","de jong","Simons","Malen","Depay","Gakpo","Lang"] }
+        "casa": "GERMANIA",
+        "trasferta": "OLANDA",
+        "fanta_casa": "Nicola Marano",
+        "fanta_trasferta": "Valentina Pozzi",
+        "gol_casa": 2,
+        "gol_trasferta": 5,
+        "formazione_casa": {
+          "modulo": "4-2-3-1",
+          "titolari": [
+            "Neuer",
+            "Kimmich",
+            "Rudiger",
+            "Tah",
+            "Anton",
+            "Kimmich",
+            "Goretka",
+            "Sane",
+            "Musiala",
+            "Havertz",
+            "Wirtz"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Verbruggen",
+            "De Ligt",
+            "Dumfries",
+            "Van dijk",
+            "Reijnders",
+            "de jong",
+            "Simons",
+            "Malen",
+            "Depay",
+            "Gakpo",
+            "Lang"
+          ]
+        }
       },
       {
-        "casa": "BELGIO", "trasferta": "CROAZIA",
-        "fanta_casa": "Lorenzo Moro", "fanta_trasferta": "Cristian Tartaro",
-        "gol_casa": 0, "gol_trasferta": 1,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Lammens","Castagne","De Cuyper","De Winter","Witsel","Saelemakers","Tielemans","Doku","De bruyne","De Ketelaere","Lukebakio"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Livakovic","Pongracic","Stanisic","Gvardiol","Modric","Baturina","Pasalic","Vlasic","Brozovic","Kramaric","Budimir"] }
+        "casa": "BELGIO",
+        "trasferta": "CROAZIA",
+        "fanta_casa": "Lorenzo Moro",
+        "fanta_trasferta": "Cristian Tartaro",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Lammens",
+            "Castagne",
+            "De Cuyper",
+            "De Winter",
+            "Witsel",
+            "Saelemakers",
+            "Tielemans",
+            "Doku",
+            "De bruyne",
+            "De Ketelaere",
+            "Lukebakio"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Livakovic",
+            "Pongracic",
+            "Stanisic",
+            "Gvardiol",
+            "Modric",
+            "Baturina",
+            "Pasalic",
+            "Vlasic",
+            "Brozovic",
+            "Kramaric",
+            "Budimir"
+          ]
+        }
       },
       {
-        "casa": "NORVEGIA", "trasferta": "ARGENTINA",
-        "fanta_casa": "Kevin DB", "fanta_trasferta": "Mattia Beltrame",
-        "gol_casa": 3, "gol_trasferta": 2,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Nyland","Ayer","Heggem","Wolfe","Ryerson","Thorstvedt","Berg","Berge","Nusa","Haaland","Sorloth"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Musso","Molina","Martinez Quarta","Otamendi","Tagliafico","De paul","Mac allister","Enzo Fernandez","Lautaro Martinez","Julian Alvarez","Messi"] }
+        "casa": "NORVEGIA",
+        "trasferta": "ARGENTINA",
+        "fanta_casa": "Kevin DB",
+        "fanta_trasferta": "Mattia Beltrame",
+        "gol_casa": 3,
+        "gol_trasferta": 2,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Nyland",
+            "Ayer",
+            "Heggem",
+            "Wolfe",
+            "Ryerson",
+            "Thorstvedt",
+            "Berg",
+            "Berge",
+            "Nusa",
+            "Haaland",
+            "Sorloth"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Musso",
+            "Molina",
+            "Martinez Quarta",
+            "Otamendi",
+            "Tagliafico",
+            "De paul",
+            "Mac allister",
+            "Enzo Fernandez",
+            "Lautaro Martinez",
+            "Julian Alvarez",
+            "Messi"
+          ]
+        }
       },
       {
-        "casa": "FRANCIA", "trasferta": "PORTOGALLO",
-        "fanta_casa": "Kevin Sandri", "fanta_trasferta": "Alex Beltrame",
-        "gol_casa": 3, "gol_trasferta": 4,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Maignan","Kounde","saliba","Upamecano","Digne","Kantè","Olise","Cherki","Dembele","Mbappe","Douè"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Diogo Costa","Ruben Dias","Goncalo Inacio","Diogo Dalot","Joao Neves","Vitinha","Ruben Neves","Bernardo Silva","Ronaldo C.","Leao","Joao Felix"] }
+        "casa": "FRANCIA",
+        "trasferta": "PORTOGALLO",
+        "fanta_casa": "Kevin Sandri",
+        "fanta_trasferta": "Alex Beltrame",
+        "gol_casa": 3,
+        "gol_trasferta": 4,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Maignan",
+            "Kounde",
+            "saliba",
+            "Upamecano",
+            "Digne",
+            "Kantè",
+            "Olise",
+            "Cherki",
+            "Dembele",
+            "Mbappe",
+            "Douè"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Diogo Costa",
+            "Ruben Dias",
+            "Goncalo Inacio",
+            "Diogo Dalot",
+            "Joao Neves",
+            "Vitinha",
+            "Ruben Neves",
+            "Bernardo Silva",
+            "Ronaldo C.",
+            "Leao",
+            "Joao Felix"
+          ]
+        }
       }
     ],
     "terza_giornata": [
       {
-        "casa": "GERMANIA", "trasferta": "BRASILE",
-        "fanta_casa": "Nicola Marano", "fanta_trasferta": "Federico Burello",
-        "gol_casa": 1, "gol_trasferta": 3,
-        "formazione_casa": { "modulo": "4-2-3-1", "titolari": ["Neuer","Kimmich","Rudiger","Tah","Anton","Kimmich","Goretka","Sane","Musiala","Havertz","Wirtz"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Ederson","Bremer","Ibanez","Marquinhos","Danilo","Casemiro","Martinelli G.","Fabinho","Raphinha","Vinicius Junior","Rodrygo"] }
+        "casa": "GERMANIA",
+        "trasferta": "BRASILE",
+        "fanta_casa": "Nicola Marano",
+        "fanta_trasferta": "Federico Burello",
+        "gol_casa": 1,
+        "gol_trasferta": 3,
+        "formazione_casa": {
+          "modulo": "4-2-3-1",
+          "titolari": [
+            "Neuer",
+            "Kimmich",
+            "Rudiger",
+            "Tah",
+            "Anton",
+            "Kimmich",
+            "Goretka",
+            "Sane",
+            "Musiala",
+            "Havertz",
+            "Wirtz"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Ederson",
+            "Bremer",
+            "Ibanez",
+            "Marquinhos",
+            "Danilo",
+            "Casemiro",
+            "Martinelli G.",
+            "Fabinho",
+            "Raphinha",
+            "Vinicius Junior",
+            "Rodrygo"
+          ]
+        }
       },
       {
-        "casa": "MAROCCO", "trasferta": "CROAZIA",
-        "fanta_casa": "Aidan Conti", "fanta_trasferta": "Cristian Tartaro",
-        "gol_casa": 4, "gol_trasferta": 2,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Bounou","Hakimi","Aguerd","Mazraoui","Masina","El Aynaoui","Saibari","Ezzalzouli","Brahim Diaz","El Khannouss","El Kaabi"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Livakovic","Pongracic","Stanisic","Gvardiol","Modric","Baturina","Pasalic","Vlasic","Brozovic","Kramaric","Budimir"] }
+        "casa": "MAROCCO",
+        "trasferta": "CROAZIA",
+        "fanta_casa": "Aidan Conti",
+        "fanta_trasferta": "Cristian Tartaro",
+        "gol_casa": 4,
+        "gol_trasferta": 2,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Bounou",
+            "Hakimi",
+            "Aguerd",
+            "Mazraoui",
+            "Masina",
+            "El Aynaoui",
+            "Saibari",
+            "Ezzalzouli",
+            "Brahim Diaz",
+            "El Khannouss",
+            "El Kaabi"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Livakovic",
+            "Pongracic",
+            "Stanisic",
+            "Gvardiol",
+            "Modric",
+            "Baturina",
+            "Pasalic",
+            "Vlasic",
+            "Brozovic",
+            "Kramaric",
+            "Budimir"
+          ]
+        }
       },
       {
-        "casa": "ARGENTINA", "trasferta": "INGHILTERRA",
-        "fanta_casa": "Mattia Beltrame", "fanta_trasferta": "Denis Mascherin",
-        "gol_casa": 3, "gol_trasferta": 2,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Musso","Molina","Martinez Quarta","Otamendi","Tagliafico","De paul","Mac allister","Enzo Fernandez","Lautaro Martinez","Julian Alvarez","Messi"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Pickford","Alexander-arnold","Stones","Maguire","O'Reilly","Bellingham","Rice","Saka","Foden","Rashford","Kane"] }
+        "casa": "ARGENTINA",
+        "trasferta": "INGHILTERRA",
+        "fanta_casa": "Mattia Beltrame",
+        "fanta_trasferta": "Denis Mascherin",
+        "gol_casa": 3,
+        "gol_trasferta": 2,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Musso",
+            "Molina",
+            "Martinez Quarta",
+            "Otamendi",
+            "Tagliafico",
+            "De paul",
+            "Mac allister",
+            "Enzo Fernandez",
+            "Lautaro Martinez",
+            "Julian Alvarez",
+            "Messi"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Pickford",
+            "Alexander-arnold",
+            "Stones",
+            "Maguire",
+            "O'Reilly",
+            "Bellingham",
+            "Rice",
+            "Saka",
+            "Foden",
+            "Rashford",
+            "Kane"
+          ]
+        }
       },
       {
-        "casa": "OLANDA", "trasferta": "SPAGNA",
-        "fanta_casa": "Valentina Pozzi", "fanta_trasferta": "Andrea Campagnolo",
-        "gol_casa": 2, "gol_trasferta": 1,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Verbruggen","De Ligt","Dumfries","Van dijk","Reijnders","de jong","Simons","Malen","Depay","Gakpo","Lang"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Unai simon","Cubarsi","Laporte","Cucurella","Merino","Zubimendi","Rodri","Gavi","Yamal","Olmo","Oyarzabal"] }
+        "casa": "OLANDA",
+        "trasferta": "SPAGNA",
+        "fanta_casa": "Valentina Pozzi",
+        "fanta_trasferta": "Andrea Campagnolo",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Verbruggen",
+            "De Ligt",
+            "Dumfries",
+            "Van dijk",
+            "Reijnders",
+            "de jong",
+            "Simons",
+            "Malen",
+            "Depay",
+            "Gakpo",
+            "Lang"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Unai simon",
+            "Cubarsi",
+            "Laporte",
+            "Cucurella",
+            "Merino",
+            "Zubimendi",
+            "Rodri",
+            "Gavi",
+            "Yamal",
+            "Olmo",
+            "Oyarzabal"
+          ]
+        }
       },
       {
-        "casa": "NORVEGIA", "trasferta": "FRANCIA",
-        "fanta_casa": "Kevin DB", "fanta_trasferta": "Kevin Sandri",
-        "gol_casa": 1, "gol_trasferta": 4,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Nyland","Ayer","Heggem","Wolfe","Ryerson","Thorstvedt","Berg","Berge","Nusa","Haaland","Sorloth"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Maignan","Kounde","saliba","Upamecano","Digne","Kantè","Olise","Cherki","Dembele","Mbappe","Douè"] }
+        "casa": "NORVEGIA",
+        "trasferta": "FRANCIA",
+        "fanta_casa": "Kevin DB",
+        "fanta_trasferta": "Kevin Sandri",
+        "gol_casa": 1,
+        "gol_trasferta": 4,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Nyland",
+            "Ayer",
+            "Heggem",
+            "Wolfe",
+            "Ryerson",
+            "Thorstvedt",
+            "Berg",
+            "Berge",
+            "Nusa",
+            "Haaland",
+            "Sorloth"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Maignan",
+            "Kounde",
+            "saliba",
+            "Upamecano",
+            "Digne",
+            "Kantè",
+            "Olise",
+            "Cherki",
+            "Dembele",
+            "Mbappe",
+            "Douè"
+          ]
+        }
       },
       {
-        "casa": "PORTOGALLO", "trasferta": "BELGIO",
-        "fanta_casa": "Alex Beltrame", "fanta_trasferta": "Lorenzo Moro",
-        "gol_casa": 0, "gol_trasferta": 5,
-        "formazione_casa": { "modulo": "4-3-3", "titolari": ["Diogo Costa","Ruben Dias","Goncalo Inacio","Diogo Dalot","Joao Neves","Vitinha","Ruben Neves","Bernardo Silva","Ronaldo C.","Leao","Joao Felix"] },
-        "formazione_trasferta": { "modulo": "4-3-3", "titolari": ["Lammens","Castagne","De Cuyper","De Winter","Witsel","Saelemakers","Tielemans","Doku","De bruyne","De Ketelaere","Lukebakio"] }
+        "casa": "PORTOGALLO",
+        "trasferta": "BELGIO",
+        "fanta_casa": "Alex Beltrame",
+        "fanta_trasferta": "Lorenzo Moro",
+        "gol_casa": 0,
+        "gol_trasferta": 5,
+        "formazione_casa": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Diogo Costa",
+            "Ruben Dias",
+            "Goncalo Inacio",
+            "Diogo Dalot",
+            "Joao Neves",
+            "Vitinha",
+            "Ruben Neves",
+            "Bernardo Silva",
+            "Ronaldo C.",
+            "Leao",
+            "Joao Felix"
+          ]
+        },
+        "formazione_trasferta": {
+          "modulo": "4-3-3",
+          "titolari": [
+            "Lammens",
+            "Castagne",
+            "De Cuyper",
+            "De Winter",
+            "Witsel",
+            "Saelemakers",
+            "Tielemans",
+            "Doku",
+            "De bruyne",
+            "De Ketelaere",
+            "Lukebakio"
+          ]
+        }
       }
     ]
   },
   "calendario_reale": {
     "giornata_1": [
-      { "data": "13 Giu", "casa": "BRASILE", "iso_casa": "br", "trasferta": "MAROCCO", "iso_trasferta": "ma", "gol_casa": 1, "gol_trasferta": 1, "gruppo": "C", "sede": "East Rutherford, NJ" },
-      { "data": "14 Giu", "casa": "GERMANIA", "iso_casa": "de", "trasferta": "CURACAO", "iso_trasferta": "cw", "gol_casa": 7, "gol_trasferta": 1, "gruppo": "E", "sede": "Houston" },
-      { "data": "14 Giu", "casa": "OLANDA", "iso_casa": "nl", "trasferta": "GIAPPONE", "iso_trasferta": "jp", "gol_casa": 2, "gol_trasferta": 2, "gruppo": "F", "sede": "Arlington, TX" },
-      { "data": "15 Giu", "casa": "SPAGNA", "iso_casa": "es", "trasferta": "CAPO VERDE", "iso_trasferta": "cv", "gol_casa": 0, "gol_trasferta": 0, "gruppo": "H", "sede": "Atlanta" },
-      { "data": "15 Giu", "casa": "BELGIO", "iso_casa": "be", "trasferta": "EGITTO", "iso_trasferta": "eg", "gol_casa": 1, "gol_trasferta": 1, "gruppo": "G", "sede": "Seattle" },
-      { "data": "16 Giu", "casa": "FRANCIA", "iso_casa": "fr", "trasferta": "SENEGAL", "iso_trasferta": "sn", "gol_casa": 3, "gol_trasferta": 1, "gruppo": "I", "sede": "East Rutherford, NJ" },
-      { "data": "16 Giu", "casa": "IRAQ", "iso_casa": "iq", "trasferta": "NORVEGIA", "iso_trasferta": "no", "gol_casa": 1, "gol_trasferta": 4, "gruppo": "I", "sede": "Foxborough, MA" },
-      { "data": "16 Giu", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "ALGERIA", "iso_trasferta": "dz", "gol_casa": 3, "gol_trasferta": 1, "gruppo": "J", "sede": "Kansas City, MO" },
-      { "data": "17 Giu", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "REP.DEM.CONGO", "iso_trasferta": "cd", "gol_casa": 1, "gol_trasferta": 1, "gruppo": "K", "sede": "Houston" },
-      { "data": "17 Giu", "casa": "INGHILTERRA", "iso_casa": "gb-eng", "trasferta": "CROAZIA", "iso_trasferta": "hr", "gol_casa": 4, "gol_trasferta": 2, "gruppo": "L", "sede": "Arlington, TX" }
+      {
+        "data": "13 Giu",
+        "casa": "BRASILE",
+        "iso_casa": "br",
+        "trasferta": "MAROCCO",
+        "iso_trasferta": "ma",
+        "gol_casa": 1,
+        "gol_trasferta": 1,
+        "gruppo": "C",
+        "sede": "East Rutherford, NJ"
+      },
+      {
+        "data": "14 Giu",
+        "casa": "GERMANIA",
+        "iso_casa": "de",
+        "trasferta": "CURACAO",
+        "iso_trasferta": "cw",
+        "gol_casa": 7,
+        "gol_trasferta": 1,
+        "gruppo": "E",
+        "sede": "Houston"
+      },
+      {
+        "data": "14 Giu",
+        "casa": "OLANDA",
+        "iso_casa": "nl",
+        "trasferta": "GIAPPONE",
+        "iso_trasferta": "jp",
+        "gol_casa": 2,
+        "gol_trasferta": 2,
+        "gruppo": "F",
+        "sede": "Arlington, TX"
+      },
+      {
+        "data": "15 Giu",
+        "casa": "SPAGNA",
+        "iso_casa": "es",
+        "trasferta": "CAPO VERDE",
+        "iso_trasferta": "cv",
+        "gol_casa": 0,
+        "gol_trasferta": 0,
+        "gruppo": "H",
+        "sede": "Atlanta"
+      },
+      {
+        "data": "15 Giu",
+        "casa": "BELGIO",
+        "iso_casa": "be",
+        "trasferta": "EGITTO",
+        "iso_trasferta": "eg",
+        "gol_casa": 1,
+        "gol_trasferta": 1,
+        "gruppo": "G",
+        "sede": "Seattle"
+      },
+      {
+        "data": "16 Giu",
+        "casa": "FRANCIA",
+        "iso_casa": "fr",
+        "trasferta": "SENEGAL",
+        "iso_trasferta": "sn",
+        "gol_casa": 3,
+        "gol_trasferta": 1,
+        "gruppo": "I",
+        "sede": "East Rutherford, NJ"
+      },
+      {
+        "data": "16 Giu",
+        "casa": "IRAQ",
+        "iso_casa": "iq",
+        "trasferta": "NORVEGIA",
+        "iso_trasferta": "no",
+        "gol_casa": 1,
+        "gol_trasferta": 4,
+        "gruppo": "I",
+        "sede": "Foxborough, MA"
+      },
+      {
+        "data": "16 Giu",
+        "casa": "ARGENTINA",
+        "iso_casa": "ar",
+        "trasferta": "ALGERIA",
+        "iso_trasferta": "dz",
+        "gol_casa": 3,
+        "gol_trasferta": 1,
+        "gruppo": "J",
+        "sede": "Kansas City, MO"
+      },
+      {
+        "data": "17 Giu",
+        "casa": "PORTOGALLO",
+        "iso_casa": "pt",
+        "trasferta": "REP.DEM.CONGO",
+        "iso_trasferta": "cd",
+        "gol_casa": 1,
+        "gol_trasferta": 1,
+        "gruppo": "K",
+        "sede": "Houston"
+      },
+      {
+        "data": "17 Giu",
+        "casa": "INGHILTERRA",
+        "iso_casa": "gb-eng",
+        "trasferta": "CROAZIA",
+        "iso_trasferta": "hr",
+        "gol_casa": 4,
+        "gol_trasferta": 2,
+        "gruppo": "L",
+        "sede": "Arlington, TX"
+      }
     ],
     "giornata_2": [
-      { "data": "19 Giu", "casa": "SCOZIA", "iso_casa": "gb-sct", "trasferta": "MAROCCO", "iso_trasferta": "ma", "gol_casa": 0, "gol_trasferta": 1, "gruppo": "C", "sede": "Foxborough, MA" },
-      { "data": "19 Giu", "casa": "BRASILE", "iso_casa": "br", "trasferta": "HAITI", "iso_trasferta": "ht", "gol_casa": 3, "gol_trasferta": 0, "gruppo": "C", "sede": "Philadelphia" },
-      { "data": "20 Giu", "casa": "GERMANIA", "iso_casa": "de", "trasferta": "COSTA D'AVORIO", "iso_trasferta": "ci", "gol_casa": 2, "gol_trasferta": 1, "gruppo": "E", "sede": "Toronto" },
-      { "data": "20 Giu", "casa": "OLANDA", "iso_casa": "nl", "trasferta": "SVEZIA", "iso_trasferta": "se", "gol_casa": 5, "gol_trasferta": 1, "gruppo": "F", "sede": "Houston" },
-      { "data": "21 Giu", "casa": "SPAGNA", "iso_casa": "es", "trasferta": "ARABIA SAUDITA", "iso_trasferta": "sa", "gol_casa": 4, "gol_trasferta": 0, "gruppo": "H", "sede": "Atlanta" },
-      { "data": "21 Giu", "casa": "BELGIO", "iso_casa": "be", "trasferta": "IRAN", "iso_trasferta": "ir", "gol_casa": 0, "gol_trasferta": 0, "gruppo": "G", "sede": "Inglewood, CA" },
-      { "data": "22 Giu", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "AUSTRIA", "iso_trasferta": "at", "gol_casa": 2, "gol_trasferta": 0, "gruppo": "J", "sede": "Arlington, TX" },
-      { "data": "22 Giu", "casa": "FRANCIA", "iso_casa": "fr", "trasferta": "IRAQ", "iso_trasferta": "iq", "gol_casa": 3, "gol_trasferta": 0, "gruppo": "I", "sede": "Philadelphia" },
-      { "data": "22 Giu", "casa": "NORVEGIA", "iso_casa": "no", "trasferta": "SENEGAL", "iso_trasferta": "sn", "gol_casa": 3, "gol_trasferta": 2, "gruppo": "I", "sede": "East Rutherford, NJ" },
-      { "data": "23 Giu", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "UZBEKISTAN", "iso_trasferta": "uz", "gol_casa": 5, "gol_trasferta": 0, "gruppo": "K", "sede": "Houston" },
-      { "data": "23 Giu", "casa": "INGHILTERRA", "iso_casa": "gb-eng", "trasferta": "GHANA", "iso_trasferta": "gh", "gol_casa": 0, "gol_trasferta": 0, "gruppo": "L", "sede": "Foxborough, MA" },
-      { "data": "23 Giu", "casa": "PANAMA", "iso_casa": "pa", "trasferta": "CROAZIA", "iso_trasferta": "hr", "gol_casa": 0, "gol_trasferta": 1, "gruppo": "L", "sede": "Toronto" }
+      {
+        "data": "19 Giu",
+        "casa": "SCOZIA",
+        "iso_casa": "gb-sct",
+        "trasferta": "MAROCCO",
+        "iso_trasferta": "ma",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
+        "gruppo": "C",
+        "sede": "Foxborough, MA"
+      },
+      {
+        "data": "19 Giu",
+        "casa": "BRASILE",
+        "iso_casa": "br",
+        "trasferta": "HAITI",
+        "iso_trasferta": "ht",
+        "gol_casa": 3,
+        "gol_trasferta": 0,
+        "gruppo": "C",
+        "sede": "Philadelphia"
+      },
+      {
+        "data": "20 Giu",
+        "casa": "GERMANIA",
+        "iso_casa": "de",
+        "trasferta": "COSTA D'AVORIO",
+        "iso_trasferta": "ci",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "gruppo": "E",
+        "sede": "Toronto"
+      },
+      {
+        "data": "20 Giu",
+        "casa": "OLANDA",
+        "iso_casa": "nl",
+        "trasferta": "SVEZIA",
+        "iso_trasferta": "se",
+        "gol_casa": 5,
+        "gol_trasferta": 1,
+        "gruppo": "F",
+        "sede": "Houston"
+      },
+      {
+        "data": "21 Giu",
+        "casa": "SPAGNA",
+        "iso_casa": "es",
+        "trasferta": "ARABIA SAUDITA",
+        "iso_trasferta": "sa",
+        "gol_casa": 4,
+        "gol_trasferta": 0,
+        "gruppo": "H",
+        "sede": "Atlanta"
+      },
+      {
+        "data": "21 Giu",
+        "casa": "BELGIO",
+        "iso_casa": "be",
+        "trasferta": "IRAN",
+        "iso_trasferta": "ir",
+        "gol_casa": 0,
+        "gol_trasferta": 0,
+        "gruppo": "G",
+        "sede": "Inglewood, CA"
+      },
+      {
+        "data": "22 Giu",
+        "casa": "ARGENTINA",
+        "iso_casa": "ar",
+        "trasferta": "AUSTRIA",
+        "iso_trasferta": "at",
+        "gol_casa": 2,
+        "gol_trasferta": 0,
+        "gruppo": "J",
+        "sede": "Arlington, TX"
+      },
+      {
+        "data": "22 Giu",
+        "casa": "FRANCIA",
+        "iso_casa": "fr",
+        "trasferta": "IRAQ",
+        "iso_trasferta": "iq",
+        "gol_casa": 3,
+        "gol_trasferta": 0,
+        "gruppo": "I",
+        "sede": "Philadelphia"
+      },
+      {
+        "data": "22 Giu",
+        "casa": "NORVEGIA",
+        "iso_casa": "no",
+        "trasferta": "SENEGAL",
+        "iso_trasferta": "sn",
+        "gol_casa": 3,
+        "gol_trasferta": 2,
+        "gruppo": "I",
+        "sede": "East Rutherford, NJ"
+      },
+      {
+        "data": "23 Giu",
+        "casa": "PORTOGALLO",
+        "iso_casa": "pt",
+        "trasferta": "UZBEKISTAN",
+        "iso_trasferta": "uz",
+        "gol_casa": 5,
+        "gol_trasferta": 0,
+        "gruppo": "K",
+        "sede": "Houston"
+      },
+      {
+        "data": "23 Giu",
+        "casa": "INGHILTERRA",
+        "iso_casa": "gb-eng",
+        "trasferta": "GHANA",
+        "iso_trasferta": "gh",
+        "gol_casa": 0,
+        "gol_trasferta": 0,
+        "gruppo": "L",
+        "sede": "Foxborough, MA"
+      },
+      {
+        "data": "23 Giu",
+        "casa": "PANAMA",
+        "iso_casa": "pa",
+        "trasferta": "CROAZIA",
+        "iso_trasferta": "hr",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
+        "gruppo": "L",
+        "sede": "Toronto"
+      }
     ],
     "giornata_3": [
-      { "data": "24 Giu", "casa": "SCOZIA", "iso_casa": "gb-sct", "trasferta": "BRASILE", "iso_trasferta": "br", "gol_casa": 0, "gol_trasferta": 3, "gruppo": "C", "sede": "Miami Gardens, FL" },
-      { "data": "24 Giu", "casa": "MAROCCO", "iso_casa": "ma", "trasferta": "HAITI", "iso_trasferta": "ht", "gol_casa": 4, "gol_trasferta": 2, "gruppo": "C", "sede": "Atlanta" },
-      { "data": "25 Giu", "casa": "ECUADOR", "iso_casa": "ec", "trasferta": "GERMANIA", "iso_trasferta": "de", "gol_casa": 2, "gol_trasferta": 1, "gruppo": "E", "sede": "East Rutherford, NJ" },
-      { "data": "26 Giu", "casa": "TUNISIA", "iso_casa": "tn", "trasferta": "OLANDA", "iso_trasferta": "nl", "gol_casa": 1, "gol_trasferta": 3, "gruppo": "F", "sede": "Kansas City, MO" },
-      { "data": "26 Giu", "casa": "NORVEGIA", "iso_casa": "no", "trasferta": "FRANCIA", "iso_trasferta": "fr", "gol_casa": 1, "gol_trasferta": 4, "gruppo": "I", "sede": "Foxborough, MA" },
-      { "data": "27 Giu", "casa": "URUGUAY", "iso_casa": "uy", "trasferta": "SPAGNA", "iso_trasferta": "es", "gol_casa": 0, "gol_trasferta": 1, "gruppo": "H", "sede": "Zapopan, Mexico" },
-      { "data": "27 Giu", "casa": "NUOVA ZELANDA", "iso_casa": "nz", "trasferta": "BELGIO", "iso_trasferta": "be", "gol_casa": 1, "gol_trasferta": 5, "gruppo": "G", "sede": "Vancouver, Canada" },
-      { "data": "27 Giu", "casa": "PANAMA", "iso_casa": "pa", "trasferta": "INGHILTERRA", "iso_trasferta": "gb-eng", "gol_casa": 0, "gol_trasferta": 2, "gruppo": "L", "sede": "East Rutherford, NJ" },
-      { "data": "27 Giu", "casa": "CROAZIA", "iso_casa": "hr", "trasferta": "GHANA", "iso_trasferta": "gh", "gol_casa": 2, "gol_trasferta": 1, "gruppo": "L", "sede": "Philadelphia" },
-      { "data": "28 Giu", "casa": "COLOMBIA", "iso_casa": "co", "trasferta": "PORTOGALLO", "iso_trasferta": "pt", "gol_casa": 0, "gol_trasferta": 0, "gruppo": "K", "sede": "Miami Gardens, FL" },
-      { "data": "28 Giu", "casa": "GIORDANIA", "iso_casa": "jo", "trasferta": "ARGENTINA", "iso_trasferta": "ar", "gol_casa": 1, "gol_trasferta": 3, "gruppo": "J", "sede": "Arlington, TX" }
+      {
+        "data": "24 Giu",
+        "casa": "SCOZIA",
+        "iso_casa": "gb-sct",
+        "trasferta": "BRASILE",
+        "iso_trasferta": "br",
+        "gol_casa": 0,
+        "gol_trasferta": 3,
+        "gruppo": "C",
+        "sede": "Miami Gardens, FL"
+      },
+      {
+        "data": "24 Giu",
+        "casa": "MAROCCO",
+        "iso_casa": "ma",
+        "trasferta": "HAITI",
+        "iso_trasferta": "ht",
+        "gol_casa": 4,
+        "gol_trasferta": 2,
+        "gruppo": "C",
+        "sede": "Atlanta"
+      },
+      {
+        "data": "25 Giu",
+        "casa": "ECUADOR",
+        "iso_casa": "ec",
+        "trasferta": "GERMANIA",
+        "iso_trasferta": "de",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "gruppo": "E",
+        "sede": "East Rutherford, NJ"
+      },
+      {
+        "data": "26 Giu",
+        "casa": "TUNISIA",
+        "iso_casa": "tn",
+        "trasferta": "OLANDA",
+        "iso_trasferta": "nl",
+        "gol_casa": 1,
+        "gol_trasferta": 3,
+        "gruppo": "F",
+        "sede": "Kansas City, MO"
+      },
+      {
+        "data": "26 Giu",
+        "casa": "NORVEGIA",
+        "iso_casa": "no",
+        "trasferta": "FRANCIA",
+        "iso_trasferta": "fr",
+        "gol_casa": 1,
+        "gol_trasferta": 4,
+        "gruppo": "I",
+        "sede": "Foxborough, MA"
+      },
+      {
+        "data": "27 Giu",
+        "casa": "URUGUAY",
+        "iso_casa": "uy",
+        "trasferta": "SPAGNA",
+        "iso_trasferta": "es",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
+        "gruppo": "H",
+        "sede": "Zapopan, Mexico"
+      },
+      {
+        "data": "27 Giu",
+        "casa": "NUOVA ZELANDA",
+        "iso_casa": "nz",
+        "trasferta": "BELGIO",
+        "iso_trasferta": "be",
+        "gol_casa": 1,
+        "gol_trasferta": 5,
+        "gruppo": "G",
+        "sede": "Vancouver, Canada"
+      },
+      {
+        "data": "27 Giu",
+        "casa": "PANAMA",
+        "iso_casa": "pa",
+        "trasferta": "INGHILTERRA",
+        "iso_trasferta": "gb-eng",
+        "gol_casa": 0,
+        "gol_trasferta": 2,
+        "gruppo": "L",
+        "sede": "East Rutherford, NJ"
+      },
+      {
+        "data": "27 Giu",
+        "casa": "CROAZIA",
+        "iso_casa": "hr",
+        "trasferta": "GHANA",
+        "iso_trasferta": "gh",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "gruppo": "L",
+        "sede": "Philadelphia"
+      },
+      {
+        "data": "28 Giu",
+        "casa": "COLOMBIA",
+        "iso_casa": "co",
+        "trasferta": "PORTOGALLO",
+        "iso_trasferta": "pt",
+        "gol_casa": 0,
+        "gol_trasferta": 0,
+        "gruppo": "K",
+        "sede": "Miami Gardens, FL"
+      },
+      {
+        "data": "28 Giu",
+        "casa": "GIORDANIA",
+        "iso_casa": "jo",
+        "trasferta": "ARGENTINA",
+        "iso_trasferta": "ar",
+        "gol_casa": 1,
+        "gol_trasferta": 3,
+        "gruppo": "J",
+        "sede": "Arlington, TX"
+      }
     ],
     "sedicesimi": [
-      { "data": "29 Giu", "ora": "19:00", "casa": "BRASILE", "iso_casa": "br", "trasferta": "GIAPPONE", "iso_trasferta": "jp", "gol_casa": 2, "gol_trasferta": 1, "stadio": "NRG Stadium", "sede": "Houston" },
-      { "data": "29 Giu", "ora": "22:30", "casa": "GERMANIA", "iso_casa": "de", "trasferta": "PARAGUAY", "iso_trasferta": "py", "gol_casa": 4, "gol_trasferta": 5, "stadio": "Gillette Stadium", "sede": "Foxborough" },
-      { "data": "30 Giu", "ora": "03:00", "casa": "OLANDA", "iso_casa": "nl", "trasferta": "MAROCCO", "iso_trasferta": "ma", "gol_casa": 3, "gol_trasferta": 4, "stadio": "Estadio BBVA", "sede": "Guadalupe" },
-      { "data": "30 Giu", "ora": "19:00", "casa": "COSTA D'AVORIO", "iso_casa": "ci", "trasferta": "NORVEGIA", "iso_trasferta": "no", "gol_casa": 1, "gol_trasferta": 2, "stadio": "AT&T Stadium", "sede": "Arlington" },
-      { "data": "30 Giu", "ora": "23:00", "casa": "FRANCIA", "iso_casa": "fr", "trasferta": "SVEZIA", "iso_trasferta": "se", "gol_casa": 3, "gol_trasferta": 0, "stadio": "MetLife Stadium", "sede": "East Rutherford" },
-      { "data": "01 Lug", "ora": "18:00", "casa": "INGHILTERRA", "iso_casa": "gb-eng", "trasferta": "REP.DEM.CONGO", "iso_trasferta": "cd", "gol_casa": 2, "gol_trasferta": 1, "stadio": "Mercedes-Benz Stadium", "sede": "Atlanta" },
-      { "data": "01 Lug", "ora": "22:00", "casa": "BELGIO", "iso_casa": "be", "trasferta": "SENEGAL", "iso_trasferta": "sn", "gol_casa": 3, "gol_trasferta": 2, "stadio": "Lumen Field", "sede": "Seattle" },
-      { "data": "02 Lug", "ora": "21:00", "casa": "SPAGNA", "iso_casa": "es", "trasferta": "AUSTRIA", "iso_trasferta": "at", "gol_casa": 3, "gol_trasferta": 0, "stadio": "SoFi Stadium", "sede": "Inglewood" },
-      { "data": "03 Lug", "ora": "01:00", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "CROAZIA", "iso_trasferta": "hr", "gol_casa": 2, "gol_trasferta": 1, "stadio": "BMO Field", "sede": "Toronto" },
-      { "data": "04 Lug", "ora": "00:00", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "CAPO VERDE", "iso_trasferta": "cv", "gol_casa": 3, "gol_trasferta": 2, "stadio": "Hard Rock Stadium", "sede": "Miami" }
+      {
+        "data": "29 Giu",
+        "ora": "19:00",
+        "casa": "BRASILE",
+        "iso_casa": "br",
+        "trasferta": "GIAPPONE",
+        "iso_trasferta": "jp",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "stadio": "NRG Stadium",
+        "sede": "Houston"
+      },
+      {
+        "data": "29 Giu",
+        "ora": "22:30",
+        "casa": "GERMANIA",
+        "iso_casa": "de",
+        "trasferta": "PARAGUAY",
+        "iso_trasferta": "py",
+        "gol_casa": 4,
+        "gol_trasferta": 5,
+        "stadio": "Gillette Stadium",
+        "sede": "Foxborough"
+      },
+      {
+        "data": "30 Giu",
+        "ora": "03:00",
+        "casa": "OLANDA",
+        "iso_casa": "nl",
+        "trasferta": "MAROCCO",
+        "iso_trasferta": "ma",
+        "gol_casa": 3,
+        "gol_trasferta": 4,
+        "stadio": "Estadio BBVA",
+        "sede": "Guadalupe"
+      },
+      {
+        "data": "30 Giu",
+        "ora": "19:00",
+        "casa": "COSTA D'AVORIO",
+        "iso_casa": "ci",
+        "trasferta": "NORVEGIA",
+        "iso_trasferta": "no",
+        "gol_casa": 1,
+        "gol_trasferta": 2,
+        "stadio": "AT&T Stadium",
+        "sede": "Arlington"
+      },
+      {
+        "data": "30 Giu",
+        "ora": "23:00",
+        "casa": "FRANCIA",
+        "iso_casa": "fr",
+        "trasferta": "SVEZIA",
+        "iso_trasferta": "se",
+        "gol_casa": 3,
+        "gol_trasferta": 0,
+        "stadio": "MetLife Stadium",
+        "sede": "East Rutherford"
+      },
+      {
+        "data": "01 Lug",
+        "ora": "18:00",
+        "casa": "INGHILTERRA",
+        "iso_casa": "gb-eng",
+        "trasferta": "REP.DEM.CONGO",
+        "iso_trasferta": "cd",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "stadio": "Mercedes-Benz Stadium",
+        "sede": "Atlanta"
+      },
+      {
+        "data": "01 Lug",
+        "ora": "22:00",
+        "casa": "BELGIO",
+        "iso_casa": "be",
+        "trasferta": "SENEGAL",
+        "iso_trasferta": "sn",
+        "gol_casa": 3,
+        "gol_trasferta": 2,
+        "stadio": "Lumen Field",
+        "sede": "Seattle"
+      },
+      {
+        "data": "02 Lug",
+        "ora": "21:00",
+        "casa": "SPAGNA",
+        "iso_casa": "es",
+        "trasferta": "AUSTRIA",
+        "iso_trasferta": "at",
+        "gol_casa": 3,
+        "gol_trasferta": 0,
+        "stadio": "SoFi Stadium",
+        "sede": "Inglewood"
+      },
+      {
+        "data": "03 Lug",
+        "ora": "01:00",
+        "casa": "PORTOGALLO",
+        "iso_casa": "pt",
+        "trasferta": "CROAZIA",
+        "iso_trasferta": "hr",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "stadio": "BMO Field",
+        "sede": "Toronto"
+      },
+      {
+        "data": "04 Lug",
+        "ora": "00:00",
+        "casa": "ARGENTINA",
+        "iso_casa": "ar",
+        "trasferta": "CAPO VERDE",
+        "iso_trasferta": "cv",
+        "gol_casa": 3,
+        "gol_trasferta": 2,
+        "stadio": "Hard Rock Stadium",
+        "sede": "Miami"
+      }
     ],
     "ottavi": [
-      { "data": "04 Lug", "ora": "19:00", "casa": "CANADA", "iso_casa": "ca", "trasferta": "MAROCCO", "iso_trasferta": "ma", "gol_casa": 0, "gol_trasferta": 3, "stadio": "Houston Stadium", "sede": "Houston" },
-      { "data": "04 Lug", "ora": "23:00", "casa": "PARAGUAY", "iso_casa": "py", "trasferta": "FRANCIA", "iso_trasferta": "fr", "gol_casa": 0, "gol_trasferta": 1, "stadio": "Philadelfia Stadium", "sede": "Filadelfia" },
-      { "data": "05 Lug", "ora": "22:00", "casa": "BRASILE", "iso_casa": "br", "trasferta": "NORVEGIA", "iso_trasferta": "no", "gol_casa": 1, "gol_trasferta": 2, "stadio": "New York New Jersey Stadium", "sede": "East Rutherford" },
-      { "data": "06 Lug", "ora": "02:00", "casa": "MESSICO", "iso_casa": "mx", "trasferta": "INGHILTERRA", "iso_trasferta": "gb-eng", "gol_casa": 2, "gol_trasferta": 3, "stadio": "Mexico City Stadium", "sede": "Città del Messico" },
-      { "data": "06 Lug", "ora": "21:00", "casa": "PORTOGALLO", "iso_casa": "pt", "trasferta": "SPAGNA", "iso_trasferta": "es", "gol_casa": 0, "gol_trasferta": 1, "stadio": "Dallas Stadium", "sede": "Arlington" },
-      { "data": "07 Lug", "ora": "02:00", "casa": "STATI UNITI", "iso_casa": "us", "trasferta": "BELGIO", "iso_trasferta": "be", "gol_casa": 1, "gol_trasferta": 4, "stadio": "Seattle Field", "sede": "Seattle" },
-      { "data": "07 Lug", "ora": "18:00", "casa": "ARGENTINA", "iso_casa": "ar", "trasferta": "EGITTO", "iso_trasferta": "eg", "gol_casa": 3, "gol_trasferta": 2, "stadio": "Atlanta Stadium", "sede": "Atlanta" }
+      {
+        "data": "04 Lug",
+        "ora": "19:00",
+        "casa": "CANADA",
+        "iso_casa": "ca",
+        "trasferta": "MAROCCO",
+        "iso_trasferta": "ma",
+        "gol_casa": 0,
+        "gol_trasferta": 3,
+        "stadio": "Houston Stadium",
+        "sede": "Houston"
+      },
+      {
+        "data": "04 Lug",
+        "ora": "23:00",
+        "casa": "PARAGUAY",
+        "iso_casa": "py",
+        "trasferta": "FRANCIA",
+        "iso_trasferta": "fr",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
+        "stadio": "Philadelfia Stadium",
+        "sede": "Filadelfia"
+      },
+      {
+        "data": "05 Lug",
+        "ora": "22:00",
+        "casa": "BRASILE",
+        "iso_casa": "br",
+        "trasferta": "NORVEGIA",
+        "iso_trasferta": "no",
+        "gol_casa": 1,
+        "gol_trasferta": 2,
+        "stadio": "New York New Jersey Stadium",
+        "sede": "East Rutherford"
+      },
+      {
+        "data": "06 Lug",
+        "ora": "02:00",
+        "casa": "MESSICO",
+        "iso_casa": "mx",
+        "trasferta": "INGHILTERRA",
+        "iso_trasferta": "gb-eng",
+        "gol_casa": 2,
+        "gol_trasferta": 3,
+        "stadio": "Mexico City Stadium",
+        "sede": "Città del Messico"
+      },
+      {
+        "data": "06 Lug",
+        "ora": "21:00",
+        "casa": "PORTOGALLO",
+        "iso_casa": "pt",
+        "trasferta": "SPAGNA",
+        "iso_trasferta": "es",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
+        "stadio": "Dallas Stadium",
+        "sede": "Arlington"
+      },
+      {
+        "data": "07 Lug",
+        "ora": "02:00",
+        "casa": "STATI UNITI",
+        "iso_casa": "us",
+        "trasferta": "BELGIO",
+        "iso_trasferta": "be",
+        "gol_casa": 1,
+        "gol_trasferta": 4,
+        "stadio": "Seattle Field",
+        "sede": "Seattle"
+      },
+      {
+        "data": "07 Lug",
+        "ora": "18:00",
+        "casa": "ARGENTINA",
+        "iso_casa": "ar",
+        "trasferta": "EGITTO",
+        "iso_trasferta": "eg",
+        "gol_casa": 3,
+        "gol_trasferta": 2,
+        "stadio": "Atlanta Stadium",
+        "sede": "Atlanta"
+      }
+    ],
+    "quarti": [
+      {
+        "data": "09 Lug",
+        "ora": "22:00",
+        "casa": "FRANCIA",
+        "iso_casa": "fr",
+        "trasferta": "MAROCCO",
+        "iso_trasferta": "ma",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "stadio": "Boston Stadium",
+        "sede": "Boston"
+      },
+      {
+        "data": "10 Lug",
+        "ora": "21:00",
+        "casa": "SPAGNA",
+        "iso_casa": "es",
+        "trasferta": "BELGIO",
+        "iso_trasferta": "be",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "stadio": "Los Angeles Stadium",
+        "sede": "Los Angeles"
+      },
+      {
+        "data": "11 Lug",
+        "ora": "23:00",
+        "casa": "NORVEGIA",
+        "iso_casa": "no",
+        "trasferta": "INGHILTERRA",
+        "iso_trasferta": "gb-eng",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "stadio": "Hard Rock Stadium",
+        "sede": "Miami"
+      },
+      {
+        "data": "12 Lug",
+        "ora": "03:00",
+        "casa": "ARGENTINA",
+        "iso_casa": "ar",
+        "trasferta": "SVIZZERA",
+        "iso_trasferta": "ch",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "stadio": "Kansas City Stadium",
+        "sede": "Kansas City"
+      }
+    ],
+    "semifinali": [
+      {
+        "data": "14 Lug",
+        "ora": "19:00",
+        "casa": "VINC. FRANCIA-MAROCCO",
+        "iso_casa": null,
+        "trasferta": "VINC. SPAGNA-BELGIO",
+        "iso_trasferta": null,
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "stadio": "Dallas Stadium",
+        "sede": "Arlington"
+      },
+      {
+        "data": "15 Lug",
+        "ora": "19:00",
+        "casa": "VINC. NORVEGIA-INGHILTERRA",
+        "iso_casa": null,
+        "trasferta": "VINC. ARGENTINA-SVIZZERA",
+        "iso_trasferta": null,
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "stadio": "Atlanta Stadium",
+        "sede": "Atlanta"
+      }
     ]
   },
   "fase_eliminazione": {
     "sedicesimi": [
-      { "id": "S1", "casa": "OLANDA", "trasferta": "MAROCCO", "iso_casa": "nl", "iso_trasferta": "ma", "gol_casa": 1, "gol_trasferta": 1, "vincitore": "MAROCCO" },
-      { "id": "S2", "casa": "INGHILTERRA", "trasferta": "BELGIO", "iso_casa": "gb-eng", "iso_trasferta": "be", "gol_casa": 2, "gol_trasferta": 3, "vincitore": null },
-      { "id": "S3", "casa": "SPAGNA", "trasferta": "ARGENTINA", "iso_casa": "es", "iso_trasferta": "ar", "gol_casa": 3, "gol_trasferta": 3, "vincitore": null },
-      { "id": "S4", "casa": "FRANCIA", "trasferta": "GERMANIA", "iso_casa": "fr", "iso_trasferta": "de", "gol_casa": 3, "gol_trasferta": 1, "vincitore": "FRANCIA" },
-      { "id": "S5", "casa": "BRASILE", "trasferta": "NORVEGIA", "iso_casa": "br", "iso_trasferta": "no", "gol_casa": 2, "gol_trasferta": 2, "vincitore": null },
-      { "id": "S6", "casa": "PORTOGALLO", "trasferta": "CROAZIA", "iso_casa": "pt", "iso_trasferta": "hr", "gol_casa": 2, "gol_trasferta": 1, "vincitore": "PORTOGALLO" }
+      {
+        "id": "S1",
+        "casa": "OLANDA",
+        "trasferta": "MAROCCO",
+        "iso_casa": "nl",
+        "iso_trasferta": "ma",
+        "gol_casa": 1,
+        "gol_trasferta": 1,
+        "vincitore": "MAROCCO"
+      },
+      {
+        "id": "S2",
+        "casa": "INGHILTERRA",
+        "trasferta": "BELGIO",
+        "iso_casa": "gb-eng",
+        "iso_trasferta": "be",
+        "gol_casa": 2,
+        "gol_trasferta": 3,
+        "vincitore": null
+      },
+      {
+        "id": "S3",
+        "casa": "SPAGNA",
+        "trasferta": "ARGENTINA",
+        "iso_casa": "es",
+        "iso_trasferta": "ar",
+        "gol_casa": 3,
+        "gol_trasferta": 3,
+        "vincitore": null
+      },
+      {
+        "id": "S4",
+        "casa": "FRANCIA",
+        "trasferta": "GERMANIA",
+        "iso_casa": "fr",
+        "iso_trasferta": "de",
+        "gol_casa": 3,
+        "gol_trasferta": 1,
+        "vincitore": "FRANCIA"
+      },
+      {
+        "id": "S5",
+        "casa": "BRASILE",
+        "trasferta": "NORVEGIA",
+        "iso_casa": "br",
+        "iso_trasferta": "no",
+        "gol_casa": 2,
+        "gol_trasferta": 2,
+        "vincitore": null
+      },
+      {
+        "id": "S6",
+        "casa": "PORTOGALLO",
+        "trasferta": "CROAZIA",
+        "iso_casa": "pt",
+        "iso_trasferta": "hr",
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "vincitore": "PORTOGALLO"
+      }
     ],
     "ottavi": [
-      { "id": "O1", "casa": "MAROCCO", "trasferta": "BELGIO", "gol_casa": 3, "gol_trasferta": 4, "vincitore": null },
-      { "id": "O2", "casa": "BRASILE", "trasferta": "NORVEGIA", "gol_casa": 1, "gol_trasferta": 2, "vincitore": "NORVEGIA" },
-      { "id": "O3", "casa": "PORTOGALLO", "trasferta": "SPAGNA", "gol_casa": 0, "gol_trasferta": 1, "vincitore": "SPAGNA" },
-      { "id": "O4", "casa": "ARGENTINA", "trasferta": "CROAZIA", "gol_casa": 3, "gol_trasferta": 0, "vincitore": "ARGENTINA" },
-      { "id": "O5", "casa": "GERMANIA", "trasferta": "FRANCIA", "gol_casa": 0, "gol_trasferta": 3, "vincitore": "FRANCIA" },
-      { "id": "O6", "casa": "OLANDA", "trasferta": "INGHILTERRA", "gol_casa": 0, "gol_trasferta": 3, "vincitore": "INGHILTERRA" }
+      {
+        "id": "O1",
+        "casa": "MAROCCO",
+        "trasferta": "BELGIO",
+        "gol_casa": 3,
+        "gol_trasferta": 4,
+        "vincitore": null
+      },
+      {
+        "id": "O2",
+        "casa": "BRASILE",
+        "trasferta": "NORVEGIA",
+        "gol_casa": 1,
+        "gol_trasferta": 2,
+        "vincitore": "NORVEGIA"
+      },
+      {
+        "id": "O3",
+        "casa": "PORTOGALLO",
+        "trasferta": "SPAGNA",
+        "gol_casa": 0,
+        "gol_trasferta": 1,
+        "vincitore": "SPAGNA"
+      },
+      {
+        "id": "O4",
+        "casa": "ARGENTINA",
+        "trasferta": "CROAZIA",
+        "gol_casa": 3,
+        "gol_trasferta": 0,
+        "vincitore": "ARGENTINA"
+      },
+      {
+        "id": "O5",
+        "casa": "GERMANIA",
+        "trasferta": "FRANCIA",
+        "gol_casa": 0,
+        "gol_trasferta": 3,
+        "vincitore": "FRANCIA"
+      },
+      {
+        "id": "O6",
+        "casa": "OLANDA",
+        "trasferta": "INGHILTERRA",
+        "gol_casa": 0,
+        "gol_trasferta": 3,
+        "vincitore": "INGHILTERRA"
+      }
     ],
     "quarti": [
-      { "id": "Q1", "casa": "FRANCIA", "trasferta": "MAROCCO", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
-      { "id": "Q2", "casa": "SPAGNA", "trasferta": "BELGIO", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
-      { "id": "Q3", "casa": "NORVEGIA", "trasferta": "INGHILTERRA", "gol_casa": null, "gol_trasferta": null, "vincitore": null },
-      { "id": "Q4", "casa": "ARGENTINA", "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+      {
+        "id": "Q1",
+        "casa": "FRANCIA",
+        "trasferta": "MAROCCO",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "Q2",
+        "casa": "SPAGNA",
+        "trasferta": "BELGIO",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "Q3",
+        "casa": "NORVEGIA",
+        "trasferta": "INGHILTERRA",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "Q4",
+        "casa": "ARGENTINA",
+        "trasferta": null,
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      }
     ],
     "semifinali": [
-      { "id": "SF1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null },
-      { "id": "SF2", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+      {
+        "id": "SF1",
+        "casa": null,
+        "trasferta": null,
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      },
+      {
+        "id": "SF2",
+        "casa": null,
+        "trasferta": null,
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      }
     ],
     "finale": [
-      { "id": "F1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+      {
+        "id": "F1",
+        "casa": null,
+        "trasferta": null,
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      }
     ],
     "terzo_posto": [
-      { "id": "T1", "casa": null, "trasferta": null, "gol_casa": null, "gol_trasferta": null, "vincitore": null }
+      {
+        "id": "T1",
+        "casa": null,
+        "trasferta": null,
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "vincitore": null
+      }
     ]
   }
 }
