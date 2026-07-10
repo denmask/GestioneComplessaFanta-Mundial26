@@ -3,11 +3,11 @@
     {
       "posizione": 1,
       "fantallenatore": "Kevin Sandri",
-      "punti": 10,
-      "vittorie": 3,
+      "punti": 13,
+      "vittorie": 4,
       "pareggi": 1,
       "sconfitte": 1,
-      "gf": 16,
+      "gf": 18,
       "gs": 9
     },
     {
@@ -126,14 +126,14 @@
       "gruppo": "I",
       "squadra": "FRANCIA",
       "iso": "fr",
-      "punti": 15,
-      "g": 5,
-      "v": 5,
+      "punti": 18,
+      "g": 6,
+      "v": 6,
       "n": 0,
       "p": 0,
-      "gf": 14,
+      "gf": 16,
       "gs": 2,
-      "dr": 12
+      "dr": 14
     },
     {
       "gruppo": "J",
@@ -195,10 +195,10 @@
       "g": 5,
       "v": 3,
       "n": 2,
-      "p": 0,
+      "p": 1,
       "gf": 10,
-      "gs": 4,
-      "dr": 6
+      "gs": 6,
+      "dr": 4
     },
     {
       "gruppo": "G",
@@ -1866,8 +1866,8 @@
         "iso_casa": "fr",
         "trasferta": "MAROCCO",
         "iso_trasferta": "ma",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 0,
         "stadio": "Boston Stadium",
         "sede": "Boston"
       },
@@ -1912,8 +1912,8 @@
       {
         "data": "14 Lug",
         "ora": "19:00",
-        "casa": "VINC. FRANCIA-MAROCCO",
-        "iso_casa": null,
+        "casa": "FRANCIA",
+        "iso_casa": "fr",
         "trasferta": "VINC. SPAGNA-BELGIO",
         "iso_trasferta": null,
         "gol_casa": null,
@@ -2053,8 +2053,8 @@
         "id": "Q1",
         "casa": "FRANCIA",
         "trasferta": "MAROCCO",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 0,
         "vincitore": null
       },
       {
@@ -2085,7 +2085,7 @@
     "semifinali": [
       {
         "id": "SF1",
-        "casa": null,
+        "casa": "FRANCIA",
         "trasferta": null,
         "gol_casa": null,
         "gol_trasferta": null,
