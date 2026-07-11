@@ -42,6 +42,16 @@
     },
     {
       "posizione": 5,
+      "fantallenatore": "Andrea Campagnolo",
+      "punti": 8,
+      "vittorie": 2,
+      "pareggi": 2,
+      "sconfitte": 2,
+      "gf": 10,
+      "gs": 12
+    },
+    {
+      "posizione": 6,
       "fantallenatore": "Mattia Beltrame",
       "punti": 8,
       "vittorie": 2,
@@ -51,7 +61,7 @@
       "gs": 11
     },
     {
-      "posizione": 6,
+      "posizione": 7,
       "fantallenatore": "Aidan Conti",
       "punti": 8,
       "vittorie": 2,
@@ -61,7 +71,7 @@
       "gs": 8
     },
     {
-      "posizione": 7,
+      "posizione": 8,
       "fantallenatore": "Denis Mascherin",
       "punti": 6,
       "vittorie": 2,
@@ -71,7 +81,7 @@
       "gs": 9
     },
     {
-      "posizione": 8,
+      "posizione": 9,
       "fantallenatore": "Federico Burello",
       "punti": 6,
       "vittorie": 1,
@@ -81,7 +91,7 @@
       "gs": 9
     },
     {
-      "posizione": 9,
+      "posizione": 10,
       "fantallenatore": "Alex Beltrame",
       "punti": 6,
       "vittorie": 2,
@@ -90,16 +100,7 @@
       "gf": 7,
       "gs": 16
     },
-    {
-      "posizione": 10,
-      "fantallenatore": "Andrea Campagnolo",
-      "punti": 5,
-      "vittorie": 1,
-      "pareggi": 2,
-      "sconfitte": 2,
-      "gf": 8,
-      "gs": 11
-    },
+    
     {
       "posizione": 11,
       "fantallenatore": "Nicola Marano",
@@ -136,6 +137,19 @@
       "dr": 14
     },
     {
+      "gruppo": "H",
+      "squadra": "SPAGNA",
+      "iso": "es",
+      "punti": 16,
+      "g": 6,
+      "v": 5,
+      "n": 1,
+      "p": 0,
+      "gf": 11,
+      "gs": 1,
+      "dr": 10
+    },
+    {
       "gruppo": "J",
       "squadra": "ARGENTINA",
       "iso": "ar",
@@ -148,19 +162,7 @@
       "gs": 5,
       "dr": 9
     },
-    {
-      "gruppo": "H",
-      "squadra": "SPAGNA",
-      "iso": "es",
-      "punti": 13,
-      "g": 5,
-      "v": 4,
-      "n": 1,
-      "p": 0,
-      "gf": 9,
-      "gs": 0,
-      "dr": 9
-    },
+    
     {
       "gruppo": "L",
       "squadra": "INGHILTERRA",
@@ -205,13 +207,13 @@
       "squadra": "BELGIO",
       "iso": "be",
       "punti": 11,
-      "g": 5,
+      "g": 6,
       "v": 3,
       "n": 2,
-      "p": 0,
-      "gf": 13,
-      "gs": 5,
-      "dr": 8
+      "p": 1,
+      "gf": 14,
+      "gs": 7,
+      "dr": 7
     },
     {
       "gruppo": "C",
@@ -1878,8 +1880,8 @@
         "iso_casa": "es",
         "trasferta": "BELGIO",
         "iso_trasferta": "be",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 2,
+        "gol_trasferta": 1,
         "stadio": "Los Angeles Stadium",
         "sede": "Los Angeles"
       },
@@ -1914,8 +1916,8 @@
         "ora": "19:00",
         "casa": "FRANCIA",
         "iso_casa": "fr",
-        "trasferta": "VINC. SPAGNA-BELGIO",
-        "iso_trasferta": null,
+        "trasferta": "SPAGNA",
+        "iso_trasferta": "es",
         "gol_casa": null,
         "gol_trasferta": null,
         "stadio": "Dallas Stadium",
@@ -2055,15 +2057,15 @@
         "trasferta": "MAROCCO",
         "gol_casa": 2,
         "gol_trasferta": 0,
-        "vincitore": null
+        "vincitore": "FRANCIA"
       },
       {
         "id": "Q2",
         "casa": "SPAGNA",
         "trasferta": "BELGIO",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
+        "gol_casa": 2,
+        "gol_trasferta": 1,
+        "vincitore": "SPAGNA"
       },
       {
         "id": "Q3",
@@ -2086,7 +2088,7 @@
       {
         "id": "SF1",
         "casa": "FRANCIA",
-        "trasferta": null,
+        "trasferta": "SPAGNA",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
