@@ -12,16 +12,26 @@
     },
     {
       "posizione": 2,
+      "fantallenatore": "Mattia Beltrame",
+      "punti": 11,
+      "vittorie": 3,
+      "pareggi": 2,
+      "sconfitte": 1,
+      "gf": 17,
+      "gs": 11
+    },
+    {
+      "posizione": 3,
       "fantallenatore": "Kevin DB",
       "punti": 10,
       "vittorie": 3,
       "pareggi": 1,
-      "sconfitte": 1,
-      "gf": 11,
-      "gs": 9
+      "sconfitte": 2,
+      "gf": 12,
+      "gs": 10
     },
     {
-      "posizione": 3,
+      "posizione": 4,
       "fantallenatore": "Valentina Pozzi",
       "punti": 10,
       "vittorie": 3,
@@ -31,17 +41,38 @@
       "gs": 5
     },
     {
-      "posizione": 4,
+      "posizione": 5,
       "fantallenatore": "Lorenzo Moro",
       "punti": 9,
       "vittorie": 3,
       "pareggi": 0,
-      "sconfitte": 2,
-      "gf": 13,
-      "gs": 8
+      "sconfitte": 3,
+      "gf": 14,
+      "gs": 10
     },
     {
-      "posizione": 5,
+      "posizione": 6,
+      "fantallenatore": "Denis Mascherin",
+      "punti": 9,
+      "vittorie": 3,
+      "pareggi": 0,
+      "sconfitte": 3,
+      "gf": 13,
+      "gs": 10
+    },
+    
+    {
+      "posizione": 7,
+      "fantallenatore": "Aidan Conti",
+      "punti": 8,
+      "vittorie": 2,
+      "pareggi": 2,
+      "sconfitte": 2,
+      "gf": 10,
+      "gs": 10
+    },
+    {
+      "posizione": 8,
       "fantallenatore": "Andrea Campagnolo",
       "punti": 8,
       "vittorie": 2,
@@ -50,36 +81,7 @@
       "gf": 10,
       "gs": 12
     },
-    {
-      "posizione": 6,
-      "fantallenatore": "Mattia Beltrame",
-      "punti": 8,
-      "vittorie": 2,
-      "pareggi": 2,
-      "sconfitte": 1,
-      "gf": 14,
-      "gs": 11
-    },
-    {
-      "posizione": 7,
-      "fantallenatore": "Aidan Conti",
-      "punti": 8,
-      "vittorie": 2,
-      "pareggi": 2,
-      "sconfitte": 1,
-      "gf": 10,
-      "gs": 8
-    },
-    {
-      "posizione": 8,
-      "fantallenatore": "Denis Mascherin",
-      "punti": 6,
-      "vittorie": 2,
-      "pareggi": 0,
-      "sconfitte": 3,
-      "gf": 11,
-      "gs": 9
-    },
+    
     {
       "posizione": 9,
       "fantallenatore": "Federico Burello",
@@ -98,7 +100,7 @@
       "pareggi": 0,
       "sconfitte": 2,
       "gf": 7,
-      "gs": 16
+      "gs": 17
     },
     
     {
@@ -107,9 +109,9 @@
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
-      "sconfitte": 2,
+      "sconfitte": 4,
       "gf": 11,
-      "gs": 12
+      "gs": 15
     },
     {
       "posizione": 12,
@@ -117,9 +119,9 @@
       "punti": 3,
       "vittorie": 1,
       "pareggi": 0,
-      "sconfitte": 2,
+      "sconfitte": 4,
       "gf": 6,
-      "gs": 10
+      "gs": 13
     }
   ],
   "classifica_reale": [
@@ -153,48 +155,48 @@
       "gruppo": "J",
       "squadra": "ARGENTINA",
       "iso": "ar",
-      "punti": 15,
-      "g": 5,
-      "v": 5,
+      "punti": 18,
+      "g": 6,
+      "v": 6,
       "n": 0,
       "p": 0,
-      "gf": 14,
-      "gs": 5,
-      "dr": 9
+      "gf": 17,
+      "gs": 6,
+      "dr": 11
     },
-    
     {
       "gruppo": "L",
       "squadra": "INGHILTERRA",
       "iso": "gb-eng",
-      "punti": 13,
-      "g": 5,
-      "v": 4,
+      "punti": 16,
+      "g": 6,
+      "v": 5,
       "n": 1,
       "p": 0,
-      "gf": 11,
-      "gs": 5,
-      "dr": 6
+      "gf": 13,
+      "gs": 6,
+      "dr": 7
     },
+  
     {
       "gruppo": "I",
       "squadra": "NORVEGIA",
       "iso": "no",
       "punti": 12,
-      "g": 5,
+      "g": 6,
       "v": 4,
       "n": 0,
-      "p": 1,
-      "gf": 12,
-      "gs": 9,
-      "dr": 3
+      "p": 2,
+      "gf": 13,
+      "gs": 11,
+      "dr": 2
     },
     {
       "gruppo": "C",
       "squadra": "MAROCCO",
       "iso": "ma",
       "punti": 11,
-      "g": 5,
+      "g": 6,
       "v": 3,
       "n": 2,
       "p": 1,
@@ -220,26 +222,26 @@
       "squadra": "BRASILE",
       "iso": "br",
       "punti": 8,
-      "g": 4,
+      "g": 5,
       "v": 2,
       "n": 2,
-      "p": 0,
-      "gf": 9,
-      "gs": 2,
-      "dr": 7
+      "p": 1,
+      "gf": 10,
+      "gs": 4,
+      "dr": 6
     },
     {
       "gruppo": "K",
       "squadra": "PORTOGALLO",
       "iso": "pt",
       "punti": 8,
-      "g": 4,
+      "g": 5,
       "v": 2,
       "n": 2,
-      "p": 0,
+      "p": 1,
       "gf": 8,
-      "gs": 2,
-      "dr": 6
+      "gs": 3,
+      "dr": 5
     },
     {
       "gruppo": "F",
@@ -1892,8 +1894,8 @@
         "iso_casa": "no",
         "trasferta": "INGHILTERRA",
         "iso_trasferta": "gb-eng",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": "1",
+        "gol_trasferta": "2",
         "stadio": "Hard Rock Stadium",
         "sede": "Miami"
       },
@@ -1904,8 +1906,8 @@
         "iso_casa": "ar",
         "trasferta": "SVIZZERA",
         "iso_trasferta": "ch",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": "3",
+        "gol_trasferta": "1",
         "stadio": "Kansas City Stadium",
         "sede": "Kansas City"
       }
@@ -1925,11 +1927,11 @@
       },
       {
         "data": "15 Lug",
-        "ora": "19:00",
-        "casa": "VINC. NORVEGIA-INGHILTERRA",
-        "iso_casa": null,
-        "trasferta": "VINC. ARGENTINA-SVIZZERA",
-        "iso_trasferta": null,
+        "ora": "21:00",
+        "casa": "INGHILTERRA",
+        "iso_casa": "gb-eng",
+        "trasferta": "ARGENTINA",
+        "iso_trasferta": "ar",
         "gol_casa": null,
         "gol_trasferta": null,
         "stadio": "Atlanta Stadium",
@@ -2071,17 +2073,17 @@
         "id": "Q3",
         "casa": "NORVEGIA",
         "trasferta": "INGHILTERRA",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
+        "gol_casa": 1,
+        "gol_trasferta": 2,
+        "vincitore": "INGHILTERRA"
       },
       {
         "id": "Q4",
         "casa": "ARGENTINA",
         "trasferta": null,
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
+        "gol_casa": 3,
+        "gol_trasferta": 0,
+        "vincitore": "ARGENTINA"
       }
     ],
     "semifinali": [
@@ -2095,8 +2097,8 @@
       },
       {
         "id": "SF2",
-        "casa": null,
-        "trasferta": null,
+        "casa": "INGHILTERRA",
+        "trasferta": "ARGENTINA",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
