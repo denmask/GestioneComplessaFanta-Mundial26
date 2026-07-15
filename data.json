@@ -6,12 +6,22 @@
       "punti": 13,
       "vittorie": 4,
       "pareggi": 1,
-      "sconfitte": 1,
+      "sconfitte": 2,
       "gf": 18,
-      "gs": 9
+      "gs": 11
     },
     {
       "posizione": 2,
+      "fantallenatore": "Andrea Campagnolo",
+      "punti": 13,
+      "vittorie": 3,
+      "pareggi": 2,
+      "sconfitte": 2,
+      "gf": 12,
+      "gs": 12
+    },
+    {
+      "posizione": 3,
       "fantallenatore": "Mattia Beltrame",
       "punti": 11,
       "vittorie": 3,
@@ -21,7 +31,17 @@
       "gs": 11
     },
     {
-      "posizione": 3,
+      "posizione": 4,
+      "fantallenatore": "Denis Mascherin",
+      "punti": 10,
+      "vittorie": 3,
+      "pareggi": 0,
+      "sconfitte": 3,
+      "gf": 13,
+      "gs": 10
+    },
+    {
+      "posizione": 5,
       "fantallenatore": "Kevin DB",
       "punti": 10,
       "vittorie": 3,
@@ -31,7 +51,7 @@
       "gs": 10
     },
     {
-      "posizione": 4,
+      "posizione": 6,
       "fantallenatore": "Valentina Pozzi",
       "punti": 10,
       "vittorie": 3,
@@ -41,7 +61,7 @@
       "gs": 5
     },
     {
-      "posizione": 5,
+      "posizione": 7,
       "fantallenatore": "Lorenzo Moro",
       "punti": 9,
       "vittorie": 3,
@@ -51,18 +71,7 @@
       "gs": 10
     },
     {
-      "posizione": 6,
-      "fantallenatore": "Denis Mascherin",
-      "punti": 9,
-      "vittorie": 3,
-      "pareggi": 0,
-      "sconfitte": 3,
-      "gf": 13,
-      "gs": 10
-    },
-    
-    {
-      "posizione": 7,
+      "posizione": 8,
       "fantallenatore": "Aidan Conti",
       "punti": 8,
       "vittorie": 2,
@@ -70,16 +79,6 @@
       "sconfitte": 2,
       "gf": 10,
       "gs": 10
-    },
-    {
-      "posizione": 8,
-      "fantallenatore": "Andrea Campagnolo",
-      "punti": 8,
-      "vittorie": 2,
-      "pareggi": 2,
-      "sconfitte": 2,
-      "gf": 10,
-      "gs": 12
     },
     
     {
@@ -126,30 +125,30 @@
   ],
   "classifica_reale": [
     {
+      "gruppo": "H",
+      "squadra": "SPAGNA",
+      "iso": "es",
+      "punti": 19,
+      "g": 7,
+      "v": 6,
+      "n": 1,
+      "p": 0,
+      "gf": 13,
+      "gs": 1,
+      "dr": 12
+    },
+    {
       "gruppo": "I",
       "squadra": "FRANCIA",
       "iso": "fr",
       "punti": 18,
-      "g": 6,
+      "g": 7,
       "v": 6,
       "n": 0,
-      "p": 0,
+      "p": 1,
       "gf": 16,
-      "gs": 2,
-      "dr": 14
-    },
-    {
-      "gruppo": "H",
-      "squadra": "SPAGNA",
-      "iso": "es",
-      "punti": 16,
-      "g": 6,
-      "v": 5,
-      "n": 1,
-      "p": 0,
-      "gf": 11,
-      "gs": 1,
-      "dr": 10
+      "gs": 4,
+      "dr": 12
     },
     {
       "gruppo": "J",
@@ -1920,8 +1919,8 @@
         "iso_casa": "fr",
         "trasferta": "SPAGNA",
         "iso_trasferta": "es",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 0,
+        "gol_trasferta": 2,
         "stadio": "Dallas Stadium",
         "sede": "Arlington"
       },
@@ -2091,9 +2090,9 @@
         "id": "SF1",
         "casa": "FRANCIA",
         "trasferta": "SPAGNA",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
+        "gol_casa": 0,
+        "gol_trasferta": 2,
+        "vincitore": "SPAGNA"
       },
       {
         "id": "SF2",
@@ -2107,7 +2106,7 @@
     "finale": [
       {
         "id": "F1",
-        "casa": null,
+        "casa": "SPAGNA",
         "trasferta": null,
         "gol_casa": null,
         "gol_trasferta": null,
@@ -2117,7 +2116,7 @@
     "terzo_posto": [
       {
         "id": "T1",
-        "casa": null,
+        "casa": "FRANCIA",
         "trasferta": null,
         "gol_casa": null,
         "gol_trasferta": null,
