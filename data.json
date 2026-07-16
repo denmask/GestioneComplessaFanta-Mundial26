@@ -2,18 +2,18 @@
   "classifica_fanta": [
     {
       "posizione": 1,
-      "fantallenatore": "Kevin Sandri",
-      "punti": 13,
+      "fantallenatore": "Mattia Beltrame",
+      "punti": 14,
       "vittorie": 4,
-      "pareggi": 1,
-      "sconfitte": 2,
-      "gf": 18,
-      "gs": 11
+      "pareggi": 2,
+      "sconfitte": 1,
+      "gf": 19,
+      "gs": 12
     },
     {
       "posizione": 2,
       "fantallenatore": "Andrea Campagnolo",
-      "punti": 13,
+      "punti": 14,
       "vittorie": 3,
       "pareggi": 2,
       "sconfitte": 2,
@@ -22,23 +22,24 @@
     },
     {
       "posizione": 3,
-      "fantallenatore": "Mattia Beltrame",
-      "punti": 11,
-      "vittorie": 3,
-      "pareggi": 2,
-      "sconfitte": 1,
-      "gf": 17,
+      "fantallenatore": "Kevin Sandri",
+      "punti": 13,
+      "vittorie": 4,
+      "pareggi": 1,
+      "sconfitte": 2,
+      "gf": 18,
       "gs": 11
     },
+    
     {
       "posizione": 4,
       "fantallenatore": "Denis Mascherin",
       "punti": 10,
       "vittorie": 3,
       "pareggi": 0,
-      "sconfitte": 3,
-      "gf": 13,
-      "gs": 10
+      "sconfitte": 4,
+      "gf": 14,
+      "gs": 12
     },
     {
       "posizione": 5,
@@ -48,7 +49,7 @@
       "pareggi": 1,
       "sconfitte": 2,
       "gf": 12,
-      "gs": 10
+      "gs": 11
     },
     {
       "posizione": 6,
@@ -56,9 +57,9 @@
       "punti": 10,
       "vittorie": 3,
       "pareggi": 1,
-      "sconfitte": 0,
+      "sconfitte": 2,
       "gf": 10,
-      "gs": 5
+      "gs": 11
     },
     {
       "posizione": 7,
@@ -97,7 +98,7 @@
       "punti": 6,
       "vittorie": 2,
       "pareggi": 0,
-      "sconfitte": 2,
+      "sconfitte": 3,
       "gf": 7,
       "gs": 17
     },
@@ -125,6 +126,19 @@
   ],
   "classifica_reale": [
     {
+      "gruppo": "J",
+      "squadra": "ARGENTINA",
+      "iso": "ar",
+      "punti": 21,
+      "g": 7,
+      "v": 7,
+      "n": 0,
+      "p": 0,
+      "gf": 19,
+      "gs": 7,
+      "dr": 12
+    },
+    {
       "gruppo": "H",
       "squadra": "SPAGNA",
       "iso": "es",
@@ -150,31 +164,19 @@
       "gs": 4,
       "dr": 12
     },
-    {
-      "gruppo": "J",
-      "squadra": "ARGENTINA",
-      "iso": "ar",
-      "punti": 18,
-      "g": 6,
-      "v": 6,
-      "n": 0,
-      "p": 0,
-      "gf": 17,
-      "gs": 6,
-      "dr": 11
-    },
+    
     {
       "gruppo": "L",
       "squadra": "INGHILTERRA",
       "iso": "gb-eng",
       "punti": 16,
-      "g": 6,
+      "g": 7,
       "v": 5,
       "n": 1,
-      "p": 0,
-      "gf": 13,
-      "gs": 6,
-      "dr": 7
+      "p": 1,
+      "gf": 14,
+      "gs": 8,
+      "dr": 6
     },
   
     {
@@ -1931,8 +1933,8 @@
         "iso_casa": "gb-eng",
         "trasferta": "ARGENTINA",
         "iso_trasferta": "ar",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": 1,
+        "gol_trasferta": 2,
         "stadio": "Atlanta Stadium",
         "sede": "Atlanta"
       }
@@ -2098,16 +2100,16 @@
         "id": "SF2",
         "casa": "INGHILTERRA",
         "trasferta": "ARGENTINA",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
+        "gol_casa": 1,
+        "gol_trasferta": 2,
+        "vincitore": "ARGENTINA"
       }
     ],
     "finale": [
       {
         "id": "F1",
         "casa": "SPAGNA",
-        "trasferta": null,
+        "trasferta": "ARGENTINA",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
@@ -2117,7 +2119,7 @@
       {
         "id": "T1",
         "casa": "FRANCIA",
-        "trasferta": null,
+        "trasferta": "INGHILTERRA",
         "gol_casa": null,
         "gol_trasferta": null,
         "vincitore": null
