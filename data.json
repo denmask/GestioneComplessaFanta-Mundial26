@@ -1938,6 +1938,34 @@
         "stadio": "Atlanta Stadium",
         "sede": "Atlanta"
       }
+    ],
+    "finale_3_4": [
+      {
+        "data": "18 Lug",
+        "ora": "23:00",
+        "casa": "FRANCIA",
+        "iso_casa": "fr",
+        "trasferta": "INGHILTERRA",
+        "iso_trasferta": "gb-eng",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "stadio": "Miami Stadium",
+        "sede": "Miami"
+      }
+    ],
+    "finale": [
+      {
+        "data": "19 Lug",
+        "ora": "21:00",
+        "casa": "SPAGNA",
+        "iso_casa": "es",
+        "trasferta": "ARGENTINA",
+        "iso_trasferta": "ar",
+        "gol_casa": null,
+        "gol_trasferta": null,
+        "stadio": "New York New Jersey Stadium",
+        "sede": "New York, New Jersey"
+      }
     ]
   },
   "fase_eliminazione": {
