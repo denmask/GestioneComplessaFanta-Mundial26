@@ -2,45 +2,45 @@
   "classifica_fanta": [
     {
       "posizione": 1,
-      "fantallenatore": "Mattia Beltrame",
-      "punti": 14,
+      "fantallenatore": "Andrea Campagnolo",
+      "punti": 17,
       "vittorie": 4,
       "pareggi": 2,
-      "sconfitte": 1,
-      "gf": 19,
+      "sconfitte": 2,
+      "gf": 13,
       "gs": 12
     },
     {
       "posizione": 2,
-      "fantallenatore": "Andrea Campagnolo",
+      "fantallenatore": "Mattia Beltrame",
       "punti": 14,
-      "vittorie": 3,
+      "vittorie": 4,
       "pareggi": 2,
       "sconfitte": 2,
-      "gf": 12,
-      "gs": 12
+      "gf": 19,
+      "gs": 13
     },
     {
       "posizione": 3,
+      "fantallenatore": "Denis Mascherin",
+      "punti": 14,
+      "vittorie": 4,
+      "pareggi": 0,
+      "sconfitte": 4,
+      "gf": 20,
+      "gs": 16
+    },
+    {
+      "posizione": 4,
       "fantallenatore": "Kevin Sandri",
       "punti": 13,
       "vittorie": 4,
       "pareggi": 1,
-      "sconfitte": 2,
-      "gf": 18,
-      "gs": 11
+      "sconfitte": 3,
+      "gf": 22,
+      "gs": 17
     },
-    
-    {
-      "posizione": 4,
-      "fantallenatore": "Denis Mascherin",
-      "punti": 10,
-      "vittorie": 3,
-      "pareggi": 0,
-      "sconfitte": 4,
-      "gf": 14,
-      "gs": 12
-    },
+  
     {
       "posizione": 5,
       "fantallenatore": "Kevin DB",
@@ -126,30 +126,43 @@
   ],
   "classifica_reale": [
     {
+      "gruppo": "H",
+      "squadra": "SPAGNA",
+      "iso": "es",
+      "punti": 22,
+      "g": 8,
+      "v": 7,
+      "n": 1,
+      "p": 0,
+      "gf": 14,
+      "gs": 1,
+      "dr": 13
+    },
+    {
       "gruppo": "J",
       "squadra": "ARGENTINA",
       "iso": "ar",
       "punti": 21,
-      "g": 7,
+      "g": 8,
       "v": 7,
       "n": 0,
-      "p": 0,
+      "p": 1,
       "gf": 19,
-      "gs": 7,
-      "dr": 12
+      "gs": 8,
+      "dr": 11
     },
     {
-      "gruppo": "H",
-      "squadra": "SPAGNA",
-      "iso": "es",
+      "gruppo": "L",
+      "squadra": "INGHILTERRA",
+      "iso": "gb-eng",
       "punti": 19,
-      "g": 7,
+      "g": 8,
       "v": 6,
       "n": 1,
-      "p": 0,
-      "gf": 13,
-      "gs": 1,
-      "dr": 12
+      "p": 1,
+      "gf": 20,
+      "gs": 12,
+      "dr": 8
     },
     {
       "gruppo": "I",
@@ -165,20 +178,7 @@
       "dr": 12
     },
     
-    {
-      "gruppo": "L",
-      "squadra": "INGHILTERRA",
-      "iso": "gb-eng",
-      "punti": 16,
-      "g": 7,
-      "v": 5,
-      "n": 1,
-      "p": 1,
-      "gf": 14,
-      "gs": 8,
-      "dr": 6
-    },
-  
+    
     {
       "gruppo": "I",
       "squadra": "NORVEGIA",
@@ -1947,8 +1947,8 @@
         "iso_casa": "fr",
         "trasferta": "INGHILTERRA",
         "iso_trasferta": "gb-eng",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": "4",
+        "gol_trasferta": "6",
         "stadio": "Miami Stadium",
         "sede": "Miami"
       }
@@ -1961,8 +1961,8 @@
         "iso_casa": "es",
         "trasferta": "ARGENTINA",
         "iso_trasferta": "ar",
-        "gol_casa": null,
-        "gol_trasferta": null,
+        "gol_casa": "1",
+        "gol_trasferta": "0",
         "stadio": "New York New Jersey Stadium",
         "sede": "New York, New Jersey"
       }
@@ -2138,9 +2138,9 @@
         "id": "F1",
         "casa": "SPAGNA",
         "trasferta": "ARGENTINA",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
+        "gol_casa": "1",
+        "gol_trasferta": "0",
+        "vincitore": "SPAGNA"
       }
     ],
     "terzo_posto": [
@@ -2148,9 +2148,9 @@
         "id": "T1",
         "casa": "FRANCIA",
         "trasferta": "INGHILTERRA",
-        "gol_casa": null,
-        "gol_trasferta": null,
-        "vincitore": null
+        "gol_casa": "4",
+        "gol_trasferta": "6",
+        "vincitore": "INGHILTERRA"
       }
     ]
   }
